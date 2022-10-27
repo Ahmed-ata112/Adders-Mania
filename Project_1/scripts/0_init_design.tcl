@@ -18,7 +18,7 @@ set search_path    "${demo_rtl_dir}/** ${library_path} ${all_rtl_sub_directories
 ###########################TODO Update top Module parameters#####################
 set parameters 0
 set param_values { {N 8} }
-set top_module "simpleAdder"
+set top_module "fp_adder"
 set output_dir "${ekit_dir}/${top_module}"
 
 ###########################TODO RTL and Constraints paths ######################

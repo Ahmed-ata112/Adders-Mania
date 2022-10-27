@@ -25,8 +25,9 @@ module fp_adder(
 
 
     wire [4:0] num_leading_zeros;
+    // NOTE: i was sending the Mant_sum here which made a loop in the synthesis
     count_leading_zeros count_leading_zeros_instance(
-        .valueIn(Mant_sum[23:0]),
+        .valueIn(sum_signal[23:0]),
         .result(num_leading_zeros)
     );
 
@@ -53,12 +54,11 @@ module fp_adder(
         .S (sum_signal ),
         .carry(carry_Sum)
     );
-    integer i;
 
     always @(*) begin
         // append 1 to the mantissa
-        mant_A = {1'b1, A[22:0]};
-        mant_B = {1'b1, B[22:0]};
+        mant_A = {8'b0,1'b1, A[22:0]};
+        mant_B = {8'b0,1'b1, B[22:0]};
         // give default values to the sum
         Mant_sum = sum_signal;
 
@@ -78,20 +78,13 @@ module fp_adder(
 
 
 
-
-
-
-
-
-
         // addition or subtraction
         if(diff_signs == 1)
             begin
                 mant_A = -mant_A; // if different signs then we sub the mantissa
-                Mant_sum = sum_signal;
                 // normlization for sub
                 // shift all the leading zeros and the 1 to the right
-                Mant_sum = Mant_sum << num_leading_zeros +1;
+                Mant_sum = sum_signal << num_leading_zeros +1;
                 exp_Sum = exp_Sum - (num_leading_zeros+1);
             end
         else
