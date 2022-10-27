@@ -1676,4 +1676,170 @@ warning: inferred exception to break timing loop: 'set_false_path -through i_0/S
 warning: inferred exception to break timing loop: 'set_false_path -through i_0/Sum[2]'  [TA-115]
 warning: inferred exception to break timing loop: 'set_false_path -through i_0/Sum[2]'  [TA-115]
 info: set slack mode to optimize shift
-info: resetting
+info: resetting all path groups
+info: activated path group default @ <unc>ps
+info: suspended path group I2R @ <ill>ps
+info: activated path group I2O @ 941.5ps
+info: suspended path group R2O @ <ill>ps
+info: finished path group I2O @ 941.5ps
+info: finished path group default @ <unc>ps
+info: reactivating path groups
+info: reactivated path group default @ <unc>ps
+info: reactivated path group I2O @ 941.5ps
+info: finished path group I2O @ 941.5ps
+info: finished path group default @ <unc>ps
+info: set slack mode to normal
+info: done with all path groups
+info: restore all path groups
+info: starting area recovery on module fp_adder
+info: skipped 'fp_adder__genmod__0' [0] (1#1)
+info: area recovery done, total area reduction: 0.00squm (0.00%), slack: 941.5ps (0.0ps) (290 secs / 73.7%)
+done optimizing virtual at 00:06:49(cpu)/0:27:17(wall) 309MB(vsz)/625MB(peak)
+finished optimize at 00:06:49(cpu)/0:27:17(wall) 309MB(vsz)/625MB(peak)
+> write_design /mnt/hgfs/shared/reposheree/VLSI-Projects/Project_1/fp_adder/odb/2_virtual_opt.odb
+> report_timing
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: A[23]
+    (Clocked by vsysclk R)
+Endpoint: Sum[30]
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 4500.0
+    (Clock shift: 5000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 3558.5
+Slack: 941.5
+Logic depth: 18
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+A[23]                    {set_input_delay}        r      1.0      1.0      1.0                        1.8     14.3      3                                   
+i_0_0_477/A2->ZN         NAND2_X4*               rf     80.1     79.1     79.0      0.1    707.3      1.2     38.4      4              /PD_TOP        (1.10)
+i_0_0_475/B2->ZN         AOI21_X4                fr    119.2     39.1     39.1      0.0     15.3      0.6      8.5      2              /PD_TOP        (1.10)
+i_0_0_474/B2->ZN         AOI22_X4                rf    146.2     27.0     27.0      0.0     26.5      0.7      7.9      2              /PD_TOP        (1.10)
+i_0_0_471/B1->ZN         OAI22_X4                fr    191.9     45.7     45.7      0.0     13.9      0.7      8.5      2              /PD_TOP        (1.10)
+i_0_0_470/B2->ZN         AOI22_X4                rf    220.7     28.8     28.8      0.0     35.4      0.8      7.1      2              /PD_TOP        (1.10)
+i_0_0_469/C2->ZN         AOI222_X2               fr    340.4    119.7    119.7      0.0     13.5      0.7      8.5      2              /PD_TOP        (1.10)
+i_0_0_466/A->ZN          AOI21_X4                rf    361.2     20.8     20.8      0.0     70.4      0.3      4.5      1              /PD_TOP        (1.10)
+i_0_0_465/B2->ZN         AOI22_X4*               fr    471.5    110.3    110.3      0.0      7.8     11.7    167.1     32              /PD_TOP        (1.10)
+i_0_0_464/A->ZN          INV_X32                 rf    488.6     17.1     16.6      0.5     15.3     13.4    167.1     37              /PD_TOP        (1.10)
+i_0_0_457/B2->ZN         OAI22_X4                fr    542.1     53.5     53.0      0.5      8.4      1.0     12.1      3              /PD_TOP        (1.10)
+i_0_0_447/B->ZN          XNOR2_X2                rr    593.8     51.7     51.7      0.0     39.9      0.6      8.4      2              /PD_TOP        (1.10)
+i_0_0_446/B2->ZN         AOI22_X4                rf    <unc>     28.6     28.6      0.0     32.9      0.7      7.8      2              /PD_TOP        (1.10)
+i_0_0_444/B1->ZN         AOI22_X4                fr    <unc>     48.4     48.4      0.0     13.8      0.7      8.2      2              /PD_TOP        (1.10)
+i_0_0_443/B2->ZN         AOI22_X4                rf    <unc>     28.2     28.2      0.0     29.6      0.6      8.4      2              /PD_TOP        (1.10)
+i_0_0_440/A1->ZN         NAND2_X4                fr    <unc>     22.2     22.2      0.0     14.1      0.9     12.9      3              /PD_TOP        (1.10)
+i_0_0_437/B1->ZN         OAI21_X4                rf    <unc>     17.8     17.8      0.0     14.0      0.6      8.5      2              /PD_TOP        (1.10)
+i_0_0_436/A->ZN          OAI21_X4                fr    <unc>     20.6     20.6      0.0     11.1      0.3      3.4      1              /PD_TOP        (1.10)
+i_0_0_434/A->ZN          XNOR2_X2                rf    <unc>     19.9     19.9      0.0     17.4      1.8      5.2      1              /PD_TOP        (1.10)
+Sum[30]                                           f   3558.5      0.1               0.1     12.0                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O
+-------> Message [TA-115] suppressed 230 times
+> report_path_groups
+Report Path Groups: 
+-----+-------+------+---------+---------
+     | Path  |Weight|Critical |Worst    
+     | Group |      |Range(ps)|Slack(ps)
+-----+-------+------+---------+---------
+1    |default| 1.000|      0.0|<unc>    
+2    |I2R    | 1.000|      0.0|<ill>    
+3    |I2O    | 1.000|      0.0|    941.5
+4    |R2O    | 1.000|      0.0|<ill>    
+-----+-------+------+---------+---------
+> redirect -file /mnt/hgfs/shared/reposheree/VLSI-Projects/Project_1/fp_adder/logs/chip.log { create_chip   -bottom_clearance 30 -left_clearance 30 -right_clearance 30 -top_clearance 30 -utilization 60 }
+> create_blockage -name blk_top -type macro -left 0 -right 99.925000 -bottom 69.925 -top 99.925000
+info:    create placement blockage 'blk_top' (0.000000 69.925000) (99.925000 99.925000)  [FP-103]
+> create_blockage -name blk_bottom -type macro -left 0 -right 99.925000 -bottom 0 -top 30
+info:    create placement blockage 'blk_bottom' (0.000000 0.000000) (99.925000 30.000000)  [FP-103]
+> create_blockage -name blk_left -type macro -left 0 -right 30 -bottom 0 -top 99.925000
+info:    create placement blockage 'blk_left' (0.000000 0.000000) (30.000000 99.925000)  [FP-103]
+> create_blockage -name blk_right -type macro -left 69.925 -right 99.925000 -bottom 0 -top 99.925000
+info:    create placement blockage 'blk_right' (69.925000 0.000000) (99.925000 99.925000)  [FP-103]
+> optimize -place
+starting optimize at 00:09:04(cpu)/0:29:32(wall) 309MB(vsz)/625MB(peak)
+info:	 floorplan : total 0 movable macros and 0 fixed macros
+info:    creating tracks for 10 routing layers  [FP-148]
+info:    start floorplan stage 0  [FP-145]
+info:    end floorplan stage 0  [FP-145]
+info:    start floorplan stage 1  [FP-145]
+info:    end floorplan stage 1  [FP-145]
+info:    start rtl partition placement  [PLACE-114]
+info:    placement mode : raw  [PLACE-115]
+info: set slack mode to weight modified
+info: set slack mode to normal
+info: set slack mode to optimize shift
+info:    timing-driven placement : ON  [PLACE-116]
+info:    congestion-driven placement : ON  [PLACE-117]
+info:    placement movable objects : macros 0 , rtl partitions 1, cells 0  [PLACE-118]
+info:    start placement stage 0  [PLACE-111]
+info:    start placement tuning for timing  [PLACE-110]
+info:    currently estimated physical slack 941 ps  [PLACE-122]
+info:    end placement tuning for timing  [PLACE-110]
+info:    start placement tuning for timing  [PLACE-110]
+info:    currently estimated physical slack 941 ps  [PLACE-122]
+info:    end placement tuning for timing  [PLACE-110]
+info:    start placement tuning for timing  [PLACE-110]
+info:    currently estimated physical slack 941 ps  [PLACE-122]
+info:    end placement tuning for timing  [PLACE-110]
+info:    end placement stage 0  [PLACE-111]
+info: set slack mode to normal
+info:    cell density map (bin size 20 x 20 rows), maximum utilization: 64.50% average utilization: 57.87%  [PLACE-153]
+info:    0.00% bins with overflow, average overflow 0.00%  [PLACE-154]
+info:    P-D: 0.000% (0.000 ~ 0.000) 
+Total Wire Length =                 0.00
+Average Wire      =                 0.00
+Longest Wire      =                 0.00
+Shortest Wire     =                 0.00
+WNS               = 941.5ps
+warning: inferred exception to break timing loop: 'set_false_path -through i_0/Sum[0]'  [TA-115]
+info:	placing 96 unplaced IO Pins
+info:    start rtl partition placement  [PLACE-114]
+info:    placement mode : raw  [PLACE-115]
+info: set slack mode to weight modified
+info: set slack mode to normal
+info: set slack mode to optimize shift
+info:    timing-driven placement : ON  [PLACE-116]
+info:    congestion-driven placement : ON  [PLACE-117]
+info:    placement movable objects : macros 0 , rtl partitions 1, cells 0  [PLACE-118]
+info:    start placement stage 0  [PLACE-111]
+info:    end placement stage 0  [PLACE-111]
+info: set slack mode to normal
+info:    cell density map (bin size 20 x 20 rows), maximum utilization: 68.19% average utilization: 55.30%  [PLACE-153]
+info:    0.00% bins with overflow, average overflow 0.00%  [PLACE-154]
+info:    P-D: 0.000% (0.000 ~ 0.000) 
+Total Wire Length =              4971.96
+Average Wire      =                51.79
+Longest Wire      =                54.57
+Shortest Wire     =                48.94
+WNS               = 999.2ps
+info:    0 power/ground pre-route segments processed.  [PLACE-144]
+info:    0 routing blockages processed.  [PLACE-145]
+info: replaced @ 999.2ps
+done optimize placement at 00:09:04(cpu)/0:29:33(wall) 309MB(vsz)/657MB(peak)
+finished optimize at 00:09:04(cpu)/0:29:33(wall) 309MB(vsz)/657MB(peak)
+> write_design /mnt/hgfs/shared/reposheree/VLSI-Projects/Project_1/fp_adder/odb/2_placed_opt.odb
+
+-------------------------------------
+
+Synthesis, optimization complete
+
+-------------------------------------
+
+> source ./scripts/3_export_design.tcl
+> report_units
+Report SDC units: 
+-----+-----------+-----
+     |Unit       |Value
+-----+-----------+-----
+1    |Time       |ns   
+2    |Capacitance|ff   
+3    |Resistance |kohm 
+4    |Power      |nW   
+5    |Voltage    |V    
+6    |Current    |mA   
+-----+-----------+-----
