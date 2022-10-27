@@ -1,0 +1,23 @@
+#--------------------------------------------------------------------
+#         date     : Sun Oct 16 17:50:14 EET 2022
+#         ppid/pid : 8885/8895
+#         hostname : localhost.localdomain
+#         arch/os  : x86_64/Linux-3.10.0-1062.12.1.el7.x86_64 
+#         install  : /home/vlsi/Installation/Oasys/Oasys-RTL-2019.2.R1
+#         currdir  : /home/vlsi/Desktop/Lab3_2022
+#         logfile  : /home/vlsi/Desktop/Lab3_2022/oasys.log.03
+#         tmpdir   : /tmp/oasys.8885/
+#--------------------------------------------------------------------
+# Starting Interactive Session
+lmgrd
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/2_synthesize_optimize.tcl
+source ./scripts/3_export_design.tcl
+report_power
+report_area
+report_timing
+
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/2_synthesize_optimize.tcl

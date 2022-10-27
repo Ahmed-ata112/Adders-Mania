@@ -11,7 +11,7 @@ module fp_adder_tb;
         end\
         TestsCounter = TestsCounter+1;
 
-
+    // from linux
     // Parameters
     localparam T = 10;
     // Ports

@@ -1,0 +1,31 @@
+*******************************************************************
+*      Copyright (c) 2004 - 2020 Mentor Graphics Corporation      *
+*                       All Rights Reserved                       *
+*                                                                 *
+*                                                                 *
+*   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION   *
+*      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION       *
+*        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.        *
+*                                                                 *
+* Program : ../bin/Linux-x86_64-O/oasysGui                        *
+* Version : 19.2-p002                                             *
+* Date    : Fri Jan 10 14:27:22 PST 2020                          *
+* Build   : releases/19.2-49727.0-CentOS_6.5-O                    *
+*******************************************************************
+ config sdc-v1.7-cpd cli cmd explore mxdb
+loading: oasys fp rta dft RTTessent-d ctl verify edit bt upf-c aos conc vcd prot int
+checked out licenses: psyncore psynfloorplan psyndft psynpower
+
+         date     : Sun Oct 16 17:07:30 EET 2022
+         ppid/pid : 7176/7186
+         hostname : localhost.localdomain
+         arch/os  : x86_64/Linux-3.10.0-1062.12.1.el7.x86_64 
+         install  : /home/vlsi/Installation/Oasys/Oasys-RTL-2019.2.R1
+         currdir  : /home/vlsi/Desktop/Lab3_2022
+         logfile  : /home/vlsi/Desktop/Lab3_2022/oasys.log.00
+         tmpdir   : /tmp/oasys.7176/
+> source /home/vlsi/Installation/Oasys/Oasys-RTL-2019.2.R1/tcl/library/history.tcl
+> source ./scripts/0_adder_init_design.tcl
+couldn't read file "./scripts/0_adder_init_design.tcl": no such file or directory
+    while executing
+"tcl_source ./scripts/0_adder_init_design.tcl"

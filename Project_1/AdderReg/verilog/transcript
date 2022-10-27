@@ -1,0 +1,1464 @@
+# OpenFile demo_AdderReg.syn.v
+# Loading project test
+# Compile of demo_AdderReg.syn.v was successful.
+vsim work.AdderReg
+# vsim work.AdderReg 
+# Start time: 15:18:19 on Oct 27,2022
+# Loading work.AdderReg
+# Loading work.ripple_adder
+# Loading work.full_adder__0_69
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(15): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_0_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(16): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_0_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_73
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(29): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_1_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(30): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_1_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(31): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_1_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(32): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_1_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_77
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(45): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_2_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(46): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_2_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(47): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_2_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(48): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_2_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_81
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(61): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_3_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(62): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_3_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(63): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_3_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(64): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_3_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_85
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(77): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_4_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(78): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_4_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(79): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_4_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(80): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_4_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_89
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(93): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_5_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(94): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_5_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(95): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_5_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(96): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_5_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_93
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(109): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_6_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(110): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_6_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(111): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_6_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(112): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_6_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_97
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(125): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_7_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(126): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_7_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(127): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_7_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(128): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_7_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_101
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(141): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_8_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(142): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_8_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(143): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_8_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(144): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_8_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_105
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(157): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_9_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(158): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_9_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(159): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_9_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(160): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_9_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_109
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(173): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_10_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(174): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_10_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(175): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_10_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(176): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_10_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_113
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(189): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_11_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(190): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_11_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(191): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_11_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(192): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_11_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_117
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(205): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_12_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(206): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_12_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(207): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_12_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(208): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_12_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_121
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(221): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_13_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(222): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_13_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(223): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_13_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(224): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_13_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_125
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(237): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_14_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(238): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_14_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(239): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_14_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(240): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_14_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_129
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(253): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_15_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(254): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_15_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(255): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_15_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(256): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_15_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_133
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(269): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_16_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(270): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_16_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(271): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_16_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(272): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_16_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_137
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(285): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_17_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(286): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_17_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(287): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_17_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(288): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_17_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_141
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(301): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_18_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(302): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_18_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(303): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_18_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(304): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_18_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_145
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(317): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_19_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(318): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_19_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(319): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_19_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(320): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_19_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_149
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(333): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_20_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(334): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_20_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(335): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_20_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(336): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_20_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_153
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(349): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_21_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(350): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_21_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(351): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_21_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(352): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_21_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_157
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(365): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_22_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(366): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_22_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(367): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_22_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(368): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_22_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_161
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(381): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_23_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(382): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_23_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(383): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_23_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(384): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_23_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_165
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(397): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_24_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(398): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_24_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(399): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_24_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(400): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_24_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_169
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(413): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_25_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(414): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_25_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(415): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_25_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(416): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_25_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_173
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(429): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_26_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(430): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_26_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(431): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_26_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(432): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_26_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_177
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(445): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_27_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(446): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_27_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(447): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_27_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(448): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_27_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_181
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(461): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_28_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(462): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_28_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(463): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_28_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(464): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_28_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_185
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(477): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_29_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(478): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_29_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(479): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_29_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(480): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_29_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_189
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(493): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_30_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(494): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_30_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(495): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_30_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(496): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_30_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_193
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(509): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_31_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(510): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_31_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(511): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_31_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(512): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_31_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_197
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(525): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_32_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(526): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_32_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(527): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_32_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(528): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_32_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_201
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(541): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_33_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(542): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_33_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(543): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_33_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(544): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_33_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_205
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(557): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_34_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(558): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_34_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(559): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_34_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(560): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_34_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_209
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(573): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_35_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(574): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_35_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(575): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_35_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(576): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_35_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_213
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(589): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_36_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(590): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_36_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(591): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_36_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(592): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_36_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_217
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(605): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_37_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(606): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_37_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(607): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_37_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(608): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_37_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_221
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(621): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_38_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(622): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_38_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(623): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_38_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(624): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_38_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_225
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(637): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_39_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(638): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_39_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(639): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_39_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(640): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_39_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_229
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(653): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_40_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(654): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_40_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(655): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_40_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(656): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_40_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_233
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(669): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_41_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(670): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_41_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(671): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_41_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(672): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_41_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_237
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(685): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_42_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(686): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_42_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(687): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_42_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(688): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_42_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_241
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(701): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_43_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(702): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_43_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(703): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_43_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(704): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_43_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_245
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(717): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_44_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(718): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_44_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(719): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_44_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(720): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_44_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_249
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(733): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_45_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(734): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_45_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(735): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_45_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(736): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_45_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_253
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(749): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_46_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(750): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_46_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(751): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_46_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(752): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_46_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_257
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(765): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_47_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(766): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_47_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(767): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_47_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(768): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_47_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_261
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(781): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_48_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(782): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_48_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(783): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_48_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(784): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_48_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_265
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(797): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_49_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(798): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_49_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(799): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_49_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(800): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_49_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_269
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(813): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_50_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(814): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_50_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(815): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_50_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(816): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_50_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_273
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(829): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_51_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(830): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_51_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(831): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_51_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(832): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_51_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_277
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(845): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_52_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(846): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_52_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(847): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_52_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(848): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_52_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_281
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(861): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_53_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(862): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_53_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(863): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_53_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(864): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_53_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_285
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(877): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_54_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(878): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_54_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(879): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_54_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(880): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_54_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_289
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(893): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_55_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(894): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_55_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(895): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_55_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(896): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_55_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_293
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(909): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_56_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(910): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_56_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(911): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_56_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(912): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_56_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_297
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(925): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_57_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(926): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_57_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(927): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_57_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(928): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_57_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_301
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(941): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_58_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(942): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_58_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(943): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_58_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(944): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_58_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_305
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(957): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_59_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(958): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_59_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(959): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_59_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(960): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_59_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_309
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(973): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_60_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(974): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_60_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(975): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_60_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(976): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_60_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_313
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(989): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_61_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(990): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_61_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(991): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_61_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(992): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_61_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder__0_317
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1005): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_62_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1006): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_62_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1007): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_62_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1008): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_62_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.full_adder
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1021): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_63_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1022): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_63_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1023): Instantiation of 'AOI22_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_63_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1024): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/adder/genblk1_63_full_adder_inst File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Loading work.Register
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1169): Instantiation of 'CLKGATETST_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1171): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1173): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1174): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1176): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1178): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1180): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1182): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1184): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1186): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1188): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1190): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1192): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1194): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1196): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1198): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1200): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1202): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1204): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1206): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1208): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1210): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1212): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1214): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1216): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1218): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1220): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1222): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1224): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1226): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1228): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1230): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1232): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1234): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1236): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1238): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1240): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1242): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1244): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1246): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1248): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1250): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1252): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1254): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1256): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1258): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1260): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1262): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1264): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1266): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1268): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1270): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1272): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1274): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1276): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1278): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1280): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1282): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1284): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1286): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1288): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1290): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1292): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1294): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1296): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1298): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# ** Error: (vsim-3033) /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v(1300): Instantiation of 'DFFR_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /AdderReg/RReg File: /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/demo_AdderReg.syn.v
+#         Searched libraries:
+#             /home/vlsi/Desktop/Lab3_2022/AdderReg/verilog/work
+# Error loading design
+# End time: 15:18:20 on Oct 27,2022, Elapsed time: 0:00:01
+# Errors: 321, Warnings: 0
+# Compile of demo_AdderReg.syn.v was successful.
+# Compile of NangateOpenCellLibrary.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.AdderReg
+# vsim work.AdderReg 
+# Start time: 15:19:06 on Oct 27,2022
+# Loading work.AdderReg
+# Loading work.ripple_adder
+# Loading work.full_adder__0_69
+# Loading work.XOR2_X1
+# Loading work.AND2_X1
+# Loading work.full_adder__0_73
+# Loading work.AOI22_X1
+# Loading work.INV_X1
+# Loading work.full_adder__0_77
+# Loading work.full_adder__0_81
+# Loading work.full_adder__0_85
+# Loading work.full_adder__0_89
+# Loading work.full_adder__0_93
+# Loading work.full_adder__0_97
+# Loading work.full_adder__0_101
+# Loading work.full_adder__0_105
+# Loading work.full_adder__0_109
+# Loading work.full_adder__0_113
+# Loading work.full_adder__0_117
+# Loading work.full_adder__0_121
+# Loading work.full_adder__0_125
+# Loading work.full_adder__0_129
+# Loading work.full_adder__0_133
+# Loading work.full_adder__0_137
+# Loading work.full_adder__0_141
+# Loading work.full_adder__0_145
+# Loading work.full_adder__0_149
+# Loading work.full_adder__0_153
+# Loading work.full_adder__0_157
+# Loading work.full_adder__0_161
+# Loading work.full_adder__0_165
+# Loading work.full_adder__0_169
+# Loading work.full_adder__0_173
+# Loading work.full_adder__0_177
+# Loading work.full_adder__0_181
+# Loading work.full_adder__0_185
+# Loading work.full_adder__0_189
+# Loading work.full_adder__0_193
+# Loading work.full_adder__0_197
+# Loading work.full_adder__0_201
+# Loading work.full_adder__0_205
+# Loading work.full_adder__0_209
+# Loading work.full_adder__0_213
+# Loading work.full_adder__0_217
+# Loading work.full_adder__0_221
+# Loading work.full_adder__0_225
+# Loading work.full_adder__0_229
+# Loading work.full_adder__0_233
+# Loading work.full_adder__0_237
+# Loading work.full_adder__0_241
+# Loading work.full_adder__0_245
+# Loading work.full_adder__0_249
+# Loading work.full_adder__0_253
+# Loading work.full_adder__0_257
+# Loading work.full_adder__0_261
+# Loading work.full_adder__0_265
+# Loading work.full_adder__0_269
+# Loading work.full_adder__0_273
+# Loading work.full_adder__0_277
+# Loading work.full_adder__0_281
+# Loading work.full_adder__0_285
+# Loading work.full_adder__0_289
+# Loading work.full_adder__0_293
+# Loading work.full_adder__0_297
+# Loading work.full_adder__0_301
+# Loading work.full_adder__0_305
+# Loading work.full_adder__0_309
+# Loading work.full_adder__0_313
+# Loading work.full_adder__0_317
+# Loading work.full_adder
+# Loading work.Register
+# Loading work.CLKGATETST_X1
+# Loading work.DFFR_X1
+# Loading work.seq_CLKGATETST_X1
+# Loading work.seq_DFFR_X1
+# Loading work.ng_xbuf
+add wave -position insertpoint  \
+sim:/AdderReg/i_Add1 \
+sim:/AdderReg/i_Add2 \
+sim:/AdderReg/result \
+sim:/AdderReg/write_enable \
+sim:/AdderReg/clk \
+sim:/AdderReg/rst \
+sim:/AdderReg/Temp
+force -freeze sim:/AdderReg/i_Add1 23 0
+# Invalid binary digit: 2.
+# ** Error: (vsim-4011) Invalid force value: 23 0.
+# 
+force -freeze sim:/AdderReg/i_Add2 3 0
+# Invalid binary digit: 3.
+# ** Error: (vsim-4011) Invalid force value: 3 0.
+# 
+run
+force -freeze sim:/AdderReg/i_Add2 01010
+force -freeze sim:/AdderReg/i_Add1 11101 0
+run
+# End time: 15:22:00 on Oct 27,2022, Elapsed time: 0:02:54
+# Errors: 2, Warnings: 0

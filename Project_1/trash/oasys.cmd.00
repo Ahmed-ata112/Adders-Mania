@@ -1,0 +1,16 @@
+#--------------------------------------------------------------------
+#         date     : Sun Oct 16 17:07:30 EET 2022
+#         ppid/pid : 7176/7186
+#         hostname : localhost.localdomain
+#         arch/os  : x86_64/Linux-3.10.0-1062.12.1.el7.x86_64 
+#         install  : /home/vlsi/Installation/Oasys/Oasys-RTL-2019.2.R1
+#         currdir  : /home/vlsi/Desktop/Lab3_2022
+#         logfile  : /home/vlsi/Desktop/Lab3_2022/oasys.log.00
+#         tmpdir   : /tmp/oasys.7176/
+#--------------------------------------------------------------------
+# Starting Interactive Session
+source ./scripts/0_adder_init_design.tcl
+exit
+#--------------------------------------------------------------------
+# End Session at Sun Oct 16 17:07:45 EET 2022                      
+#--------------------------------------------------------------------
