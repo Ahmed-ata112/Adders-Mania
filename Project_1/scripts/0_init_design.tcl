@@ -9,18 +9,20 @@ set ekit_dir      "$env(PWD)"
 set demo_rtl_dir  "${ekit_dir}/rtl/"
 set script_dir    "${ekit_dir}/scripts"
 set library_path  "${ekit_dir}/lib_data"
-set search_path    "${demo_rtl_dir}/ ${library_path} "
+# NOTE: ADDED: @ATTA
+set all_rtl_sub_directories [glob -directory $demo_rtl_dir -type d *]
+set search_path    "${demo_rtl_dir}/** ${library_path} ${all_rtl_sub_directories}"
 
 
 #Set Oasys-RTL script and output path variables
 ###########################TODO Update top Module parameters#####################
 set parameters 0
 set param_values { {N 8} }
-set top_module "AdderReg"
+set top_module "fp_adder"
 set output_dir "${ekit_dir}/${top_module}"
 
 ###########################TODO RTL and Constraints paths ######################
-set rtl_list { "AdderReg.v" "regFile.v" "ripple_adder.v" }
+set rtl_list { "fp_adder.v" "count_leading_zeros.v" "simpleAdder.v" }
 set demo_adder_sdc_files "${ekit_dir}/constraints/demo_adder_func.sdc"
 ################################# RTL and Libraries ###########################################
 

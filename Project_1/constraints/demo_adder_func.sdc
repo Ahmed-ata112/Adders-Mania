@@ -9,15 +9,15 @@
 #
 
 
-set pad_load            3.40046  
+set pad_load            10 
 set transition          0.707325
 set io_clock_period     5
 #set pad_delay           0.01
 
 
-create_clock -name vsysclk -period ${io_clock_period} [ get_ports clk ]
+create_clock -name vsysclk -period ${io_clock_period} 
 
-set_false_path   -from [ get_ports rst ]
+# set_false_path   -from [ get_ports rst ]
 
 set_load                ${pad_load}   [ all_outputs ]
 set_input_transition    ${transition} [ all_inputs ]

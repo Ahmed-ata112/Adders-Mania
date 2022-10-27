@@ -1,0 +1,43 @@
+#--------------------------------------------------------------------
+#         date     : Thu Oct 27 15:24:26 EET 2022
+#         ppid/pid : 8853/8863
+#         hostname : localhost.localdomain
+#         arch/os  : x86_64/Linux-3.10.0-1062.12.1.el7.x86_64 
+#         install  : /home/vlsi/Installation/Oasys/Oasys-RTL-2019.2.R1
+#         currdir  : /mnt/hgfs/shared/reposheree/VLSI-Projects/Project_1
+#         logfile  : /mnt/hgfs/shared/reposheree/VLSI-Projects/Project_1/oasys.log.00
+#         tmpdir   : /tmp/oasys.8853/
+#--------------------------------------------------------------------
+# Starting Interactive Session
+source ./scripts/2_synthesize_optimize.tcl
+#    source scripts/0_init_design.tcl
+#    source scripts/1_read_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/2_synthesize_optimize.tcl
+source ./scripts/3_export_design.tcl
+source ./scripts/4_clear_designs.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/4_clear_designs.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+glob -directory $demo_rtl_dir -type d *
+source ./scripts/4_clear_designs.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/4_clear_designs.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/2_synthesize_optimize.tcl
+source ./scripts/4_clear_designs.tcl
+source ./scripts/0_init_design.tcl
+source ./scripts/1_read_design.tcl
+source ./scripts/2_synthesize_optimize.tcl
