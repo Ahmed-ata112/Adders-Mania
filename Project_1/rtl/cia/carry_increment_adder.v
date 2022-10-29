@@ -1,5 +1,3 @@
-// `include "cia_block.v"
-// `include "ripple_carry_adder_4_bit.v"
 module carry_increment_adder #(
     parameter N = 32
 ) (
