@@ -25,6 +25,14 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -56,32 +64,32 @@ n@_opt1
 R4
 R1
 T_opt2
-!s110 1667036037
-V_=Pb4YVPWo^ZdUSDlQ<Ro1
+!s110 1667038375
+VPY34Q0IZ[ZSUA5ZRj0ak40
 R5
-=12-020cf0a1cd70-635cf385-294-7a80
+=21-020cf0a1cd70-635cfca7-158-7a80
 R6
 o-quiet -auto_acc_if_foreign -work work +acc
 R3
 n@_opt2
 R4
 vcount_leading_zeros
-Z7 !s110 1667036033
+Z7 !s110 1667038371
 !i10b 1
-!s100 IG_aHV?h2NGKj7m`5o69[2
-I1NRQRPH90>>3DFLMQ0TfA2
+!s100 =CZ>5Afn[6<f;K>070LXi3
+I<`LKX`^^J8fGoEF?a0E2G2
 R1
-w1667031481
+w1667038163
 8count_leading_zeros.v
 Fcount_leading_zeros.v
-!i122 35
+!i122 44
 L0 1 26
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z10 !s108 1667036033.000000
+Z10 !s108 1667038371.000000
 Z11 !s107 simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|
 Z12 !s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|
 !i113 0
@@ -90,14 +98,14 @@ R3
 vfp_adder
 R7
 !i10b 1
-!s100 kOoU92Cena;c_Wm[Eo[`W2
-IXB6]TgB4ia]?zSK;Mi=EA0
+!s100 O0HXC@09YF@dTC1DM5ab`2
+Ija`<m3KK7X27G;3jY8ZA02
 R1
-w1667036018
+w1667038204
 8fp_adder.v
 Ffp_adder.v
-!i122 35
-L0 1 111
+!i122 44
+L0 1 110
 R8
 R9
 r1
@@ -112,14 +120,14 @@ R3
 vfp_adder_tb
 R7
 !i10b 1
-!s100 W^V>2IC81:6bQWggGl2GU2
-I30KmR77YkzEoHKSF5EG9b2
+!s100 U>K=a_k<C89G]bNSOZ[V42
+I>B;DJ_:QeEa>GZ<1IMKB40
 R1
-w1667034405
+w1667038370
 8fp_adder_tb.v
 Ffp_adder_tb.v
-!i122 35
-L0 1 70
+!i122 44
+L0 1 76
 R8
 R9
 r1
@@ -140,7 +148,7 @@ R1
 w1666867643
 8simpleAdder.v
 FsimpleAdder.v
-!i122 35
+!i122 44
 L0 2 12
 R8
 R9

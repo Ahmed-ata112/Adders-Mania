@@ -227,3 +227,149 @@ run
 # ** Note: $stop    : fp_adder_tb.v(65)
 #    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
 # Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=4 || Failure Cases=0 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 3e800000 and be000000 and Output 3e000000 and overflow status N
+# TestCase# 4 : success
+# Total Tests: 5 || Success Cases=4 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(71)
+#    Time: 50 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 71
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# TestCase# 4 : success
+# Total Tests: 5 || Success Cases=5 || Failure Cases=0 
+# ** Note: $stop    : fp_adder_tb.v(71)
+#    Time: 50 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 71
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# TestCase# 4 : success
+# Total Tests: 5 || Success Cases=5 || Failure Cases=0 
+# ** Note: $stop    : fp_adder_tb.v(71)
+#    Time: 50 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 71

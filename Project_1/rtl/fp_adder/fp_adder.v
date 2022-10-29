@@ -53,27 +53,27 @@ module fp_adder(
 
     // NOTE: i was sending the Mant_sum here which made a loop in the synthesis
     count_leading_zeros count_leading_zeros_instance(
-        .valueIn(sum_signal[23:0]),
+        .valueIn(sum_signal[22:0]),
         .result(num_leading_zeros)
     );
 
     always @(*) begin
         // append 1 to the mantissa
-        mant_A[31:9] =  {A[22:0], 9'b0};
-        mant_B[31:9] =  {B[22:0], 9'b0};
+        mant_A =  A[22:0];
+        mant_B =  B[22:0];
         // give default values to the sum
         Mant_sum = sum_signal;
 
 
         // allignment of  the exponents 
-        if(exp_A >= exp_B) begin
-            mant_B =   B[22:0] >> (exp_A - exp_B);
+        if(exp_A > exp_B) begin
+            mant_B = {1'b1 ,  B[22:0]} >> (exp_A - exp_B);
             exp_Sum = exp_A;
             // sign is the larger number sign
             sign_Sum = sign_A;
         end
         else begin
-            mant_A= { A[22:0]} >> (exp_B - exp_A);
+            mant_A= {1'b1 ,A[22:0]} >> (exp_B - exp_A);
             exp_Sum = exp_B;
             sign_Sum = sign_B;
         end
@@ -83,12 +83,11 @@ module fp_adder(
         // addition or subtraction with normalization
         if(diff_signs == 1)
             begin
-                mant_B = -mant_B; // if different signs then we sub the mantissa
+                mant_A = -mant_A; // if different signs then we sub the mantissa
                 // normlization for sub
                 // shift all the leading zeros and the 1 to the right (if there is a one)
                 if(num_leading_zeros <= 23)
                 begin
-                    //
                     Mant_sum = sum_signal << num_leading_zeros +1;
                     exp_Sum = exp_Sum - (num_leading_zeros+1);
                 end
