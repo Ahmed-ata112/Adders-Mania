@@ -1,0 +1,229 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile ./fp_adder_tb.v
+vsim work.fp_adder_tb
+# vsim work.fp_adder_tb 
+# Start time: 09:48:26 on Oct 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fp_adder_tb(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 80000001 and Output 70000000 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break at fp_adder_tb.v line 62
+vsim work.fp_adder_tb -voptargs=+acc
+# End time: 09:49:00 on Oct 29,2022, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim work.fp_adder_tb -voptargs="+acc" 
+# Start time: 09:49:00 on Oct 29,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+add wave -position insertpoint  \
+sim:/fp_adder_tb/A \
+sim:/fp_adder_tb/B \
+sim:/fp_adder_tb/FailureCounter \
+sim:/fp_adder_tb/SuccessCounter \
+sim:/fp_adder_tb/Sum \
+sim:/fp_adder_tb/T \
+sim:/fp_adder_tb/TestsCounter
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 80000001 and Output 70000000 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+run
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/Mant_sum
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/sum_signal
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 80000001 and Output 70000000 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/count_leading_zeros_instance/result
+run
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/count_leading_zeros_instance/valueIn
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/count_leading_zeros_instance/value
+run
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 80000001 and Output 73800000 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+run
+run
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 80000001 and Output 73800000 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+run
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=4 || Failure Cases=0 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+run
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# Time                   40: TestCase# 3 : failed with input 00000001 and 00000001 and Output 00800001 and overflow status N
+# Total Tests: 4 || Success Cases=3 || Failure Cases=1 
+# ** Note: $stop    : fp_adder_tb.v(62)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 62
+run
+add wave -position end  sim:/fp_adder_tb/fp_adder_dut/exp_Sum
+run
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# Time                   10: TestCase# 0 : failed with input 3f800000 and 3f000000 and Output 3f800000 and overflow status N
+# Time                   20: TestCase# 1 : failed with input 3e800000 and 3e000000 and Output 3e800000 and overflow status N
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3f800000 and overflow status N
+# Time                   40: TestCase# 3 : failed with input 00000001 and 00000001 and Output 00000002 and overflow status N
+# Total Tests: 4 || Success Cases=0 || Failure Cases=4 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.count_leading_zeros(fast)
+# Loading work.simpleAdder(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# Time                   40: TestCase# 3 : failed with input 00000001 and 00000001 and Output 00000002 and overflow status N
+# Total Tests: 4 || Success Cases=2 || Failure Cases=2 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+# Causality operation skipped due to absence of debug database file
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=4 || Failure Cases=0 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# Time                   10: TestCase# 0 : failed with input 3f800000 and 3f000000 and Output 40600000 and overflow status N
+# Time                   20: TestCase# 1 : failed with input 3e800000 and 3e000000 and Output 3f600000 and overflow status N
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3e800000 and overflow status N
+# Time                   40: TestCase# 3 : failed with input 00000001 and 00000001 and Output 00c00001 and overflow status N
+# Total Tests: 4 || Success Cases=0 || Failure Cases=4 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+# Loading work.fp_adder(fast)
+# Loading work.simpleAdder(fast)
+# Loading work.count_leading_zeros(fast)
+run
+# Time                   10: TestCase# 0 : failed with input 3f800000 and 3f000000 and Output 3f800000 and overflow status N
+# Time                   20: TestCase# 1 : failed with input 3e800000 and 3e000000 and Output 3e800000 and overflow status N
+# Time                   30: TestCase# 2 : failed with input 3f800000 and bf000000 and Output 3f800000 and overflow status N
+# TestCase# 3 : success
+# Total Tests: 4 || Success Cases=1 || Failure Cases=3 
+# ** Note: $stop    : fp_adder_tb.v(65)
+#    Time: 40 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at fp_adder_tb.v line 65

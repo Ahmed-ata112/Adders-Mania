@@ -4,7 +4,7 @@ module count_leading_zeros(
 );
     wire [31:0] value;
     assign value[31:8] = valueIn;
-    assign value[7:0] = 8'b1;
+    assign value[7:0] = 8'b11111111;
     reg [15:0] val16;
     reg [7:0] val8;
     reg [3:0] val4;
