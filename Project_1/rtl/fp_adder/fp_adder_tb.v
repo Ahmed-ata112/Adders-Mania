@@ -18,6 +18,9 @@ module fp_adder_tb;
     reg [31:0] A;
     reg [31:0] B;
     wire [31:0] Sum;
+    wire overflow;
+    wire underflow;
+
     integer TestsCounter = 0;
     integer  SuccessCounter = 0;
     integer  FailureCounter = 0;
@@ -25,7 +28,9 @@ module fp_adder_tb;
     fp_adder_dut (
         .A (A ),
         .B (B ),
-        .Sum  ( Sum)
+        .Sum  ( Sum),
+        .overflow (overflow),
+        .underflow (underflow)
     );
 
     initial begin

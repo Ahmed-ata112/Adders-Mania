@@ -1,7 +1,10 @@
 module fp_adder(
     input[31:0] A,
     input[31:0] B,
-    output[31:0] Sum
+    output[31:0] Sum,
+    output reg overflow,
+    output reg underflow
+
 );
 
     // a floating point adder 
@@ -36,7 +39,6 @@ module fp_adder(
 
     // to know whether to add or sub
     assign diff_signs = sign_A ^ sign_B;
-
     assign Sum = {sign_Sum, exp_Sum, Mant_sum[22:0]};
 
     simpleAdder
@@ -58,6 +60,8 @@ module fp_adder(
     );
 
     always @(*) begin
+        overflow = 0;
+        underflow = 0;
         // append 1 to the mantissa
         mant_A =  A[22:0];
         mant_B =  B[22:0];
@@ -90,6 +94,7 @@ module fp_adder(
                 begin
                     Mant_sum = sum_signal << num_leading_zeros +1;
                     exp_Sum = exp_Sum - (num_leading_zeros+1);
+                    underflow = exp_Sum > 127;
                 end
             end
         else
@@ -102,6 +107,7 @@ module fp_adder(
                     // shift the mantissa and increment the exponent
                     Mant_sum = sum_signal >> 1;
                     exp_Sum = exp_Sum + 1;
+                    overflow = exp_Sum == 255; // overflowed (exp is all ones Nan or inf)
                 end
             end
 
@@ -135,3 +141,7 @@ endmodule
 // 0 01101110 00000000000000000000000 = 0.00000762939453125
 // 0 01101101 00000000000000000000000 = 0.000003814697265625
 // 0 01101100 00000000000000000000000 = 0.0000019073486328125
+
+
+
+// exponent is an 8-bit unsigned integer (0-255) with 127 added to it to make it signed
