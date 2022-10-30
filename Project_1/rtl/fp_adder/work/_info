@@ -34,6 +34,15 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -43,39 +52,39 @@ R0
 cModel Technology
 Z1 dD:/academic_material/third_year/VLSI/repos/VLSI-Projects/Project_1/rtl/fp_adder
 T_opt
-!s110 1666905906
-VJ;zT9haD_IDVa`T`aN2TG1
-04 4 4 work test fast 0
-=14-020cf0a1cd70-635af731-3a2-715c
-!s124 OEM10U1 
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 tCvgOpt 0
+!s110 1667129031
+VZTNioRdN9R[kUPnlbU2^U2
+Z2 04 11 4 work fp_adder_tb fast 0
+=9-48e7dabd9c37-635e5ec7-1d4-4458
+Z3 !s124 OEM10U4 
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-Z4 OL;O;2021.2;73
-R1
+Z6 OL;O;2021.2;73
 T_opt1
 !s110 1667082260
 VYEC^SnMU931OAI:E55_T;0
-Z5 04 11 4 work fp_adder_tb fast 0
-=1-020cf0a1cd70-635da814-20a-6924
-Z6 !s124 OEM10U4 
 R2
+=1-020cf0a1cd70-635da814-20a-6924
 R3
+o-quiet -auto_acc_if_foreign -work work
+R5
 n@_opt1
-R4
+R6
+R1
 T_opt2
 !s110 1667038375
 VPY34Q0IZ[ZSUA5ZRj0ak40
-R5
+R2
 =21-020cf0a1cd70-635cfca7-158-7a80
-R6
-o-quiet -auto_acc_if_foreign -work work +acc
 R3
-n@_opt2
 R4
+R5
+n@_opt2
+R6
 R1
 vcount_leading_zeros
-Z7 !s110 1667082239
+Z7 !s110 1667129025
 !i10b 1
 !s100 =CZ>5Afn[6<f;K>070LXi3
 I<`LKX`^^J8fGoEF?a0E2G2
@@ -83,30 +92,30 @@ R1
 w1667038163
 8count_leading_zeros.v
 Fcount_leading_zeros.v
-!i122 45
+!i122 56
 L0 1 26
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z10 !s108 1667082239.000000
+Z10 !s108 1667129025.000000
 Z11 !s107 simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|
 Z12 !s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|
 !i113 0
 Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R3
+R5
 vfp_adder
 R7
 !i10b 1
-!s100 BC?46R;zf0dZ3oQ^3S[WP3
-IM_Ob8D]<E0IV]h=G6Y>H=3
+!s100 BnlK@f:JnXFJW4zSa7QzY2
+IKmana_^gTOV^Ti?lz5R;33
 R1
-w1667082232
+w1667128818
 8fp_adder.v
 Ffp_adder.v
-!i122 45
-L0 1 116
+!i122 56
+L0 1 125
 R8
 R9
 r1
@@ -117,18 +126,18 @@ R11
 R12
 !i113 0
 R13
-R3
+R5
 vfp_adder_tb
 R7
 !i10b 1
-!s100 M8^LlQ;e[k;=e49K3M5Wz2
-IMLf?5X<6gk=4?U@@5cCN@1
+!s100 5mV6?<9kSf`DY@7AS8Bo41
+I47eEo@Aii^2zT9=F]P1VO2
 R1
-w1667082237
+w1667129025
 8fp_adder_tb.v
 Ffp_adder_tb.v
-!i122 45
-L0 1 81
+!i122 56
+L0 1 104
 R8
 R9
 r1
@@ -139,7 +148,7 @@ R11
 R12
 !i113 0
 R13
-R3
+R5
 vsimpleAdder
 R7
 !i10b 1
@@ -149,7 +158,7 @@ R1
 w1666867643
 8simpleAdder.v
 FsimpleAdder.v
-!i122 45
+!i122 56
 L0 2 12
 R8
 R9
@@ -161,7 +170,7 @@ R11
 R12
 !i113 0
 R13
-R3
+R5
 nsimple@adder
 vtest
 !s110 1666905902
@@ -184,4 +193,4 @@ r1
 !s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|test.v|
 !i113 0
 R13
-R3
+R5

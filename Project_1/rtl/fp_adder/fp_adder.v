@@ -94,7 +94,6 @@ module fp_adder(
                 begin
                     Mant_sum = sum_signal << num_leading_zeros +1;
                     exp_Sum = exp_Sum - (num_leading_zeros+1);
-                    underflow = exp_Sum > 127;
                 end
             end
         else
@@ -107,7 +106,17 @@ module fp_adder(
                     // shift the mantissa and increment the exponent
                     Mant_sum = sum_signal >> 1;
                     exp_Sum = exp_Sum + 1;
-                    overflow = exp_Sum == 255; // overflowed (exp is all ones Nan or inf)
+
+                    // overflowed or underflowed (exp is all ones Nan or inf)
+                    if(exp_Sum == 255) begin
+                        if(sign_A == 0) begin
+                            overflow = 1;
+                        end
+                        else begin
+                            underflow = 1;
+                        end
+                    end
+
                 end
             end
 
