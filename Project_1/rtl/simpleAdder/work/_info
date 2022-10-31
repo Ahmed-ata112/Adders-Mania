@@ -1,0 +1,82 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/academic_material/third_year/VLSI/repos/VLSI-Projects/Project_1/rtl/simpleAdder
+T_opt
+!s110 1667131442
+VD2427O40cJ>nnH<3YR`^13
+Z2 04 14 4 work simpleAdder_tb fast 0
+=2-48e7dabd9c37-635e6832-21f-1bcc
+Z3 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1667131568
+VB`INJknmM_k<O37RKOHUW0
+R2
+=2-48e7dabd9c37-635e68b0-200-10d8
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vsimpleAdder
+Z6 !s110 1667131562
+!i10b 1
+!s100 J_5GURI@a>VC?3k>5IjzD2
+I<Zn_PZ>O1ce1Am_jcFZNE3
+R1
+w1667130974
+8simpleAdder.v
+FsimpleAdder.v
+!i122 3
+L0 2 17
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z9 !s108 1667131562.000000
+Z10 !s107 simpleAdder_tb.v|simpleAdder.v|
+Z11 !s90 simpleAdder.v|simpleAdder_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+nsimple@adder
+vsimpleAdder_tb
+R6
+!i10b 1
+!s100 BgYE^AcO4BSmCQ@jmgg:L3
+IMHJon<<SUAH4GKV@llC5f2
+R1
+w1667131561
+8simpleAdder_tb.v
+FsimpleAdder_tb.v
+!i122 3
+L0 1 62
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R4
+nsimple@adder_tb
