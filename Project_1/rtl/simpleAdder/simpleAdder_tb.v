@@ -12,8 +12,6 @@ if (Sum !== value ) begin \
     end\
     TestsCounter = TestsCounter+1;
 
-
-
     // Parameters
     localparam  N = 32;
     localparam  T = 10;
@@ -47,7 +45,6 @@ if (Sum !== value ) begin \
 
     initial begin
         begin
-
             // Test Case 1
             a = 'hAFFFFFFF;
             b = 'hAFFFFFFF;
