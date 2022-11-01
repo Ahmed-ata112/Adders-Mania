@@ -1,4 +1,4 @@
-module ripple_carry_adder #(parameter N = 4)
+module ripple_carry_adder_4_bit #(parameter N = 4)
 (
     in1, in2,cin,
     cout,sum

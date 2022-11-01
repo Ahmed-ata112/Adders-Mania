@@ -1,0 +1,86 @@
+vsim -gui work.carrybypassAdder
+# vsim -gui work.carrybypassAdder 
+# Start time: 11:02:10 on Nov 01,2022
+# Loading work.carrybypassAdder
+# Loading work.ripple_carry_adder
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 14
+# ** Error (suppressible): (vsim-3054) Port connection object port 'in1' must be 8 or 24-bit wide. The actual provided is 28-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 15
+# ** Error (suppressible): (vsim-3054) Port connection object port 'in2' must be 8 or 24-bit wide. The actual provided is 28-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 15
+# ** Error (suppressible): (vsim-3054) Port connection object port 'sum' must be 8 or 24-bit wide. The actual provided is 28-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 17
+# ** Error (suppressible): (vsim-3054) Port connection object port 'a' must be 8 or 16-bit wide. The actual provided is 20-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/skip[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 18
+# ** Error (suppressible): (vsim-3054) Port connection object port 'b' must be 8 or 16-bit wide. The actual provided is 20-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/skip[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 18
+# Error loading design
+# End time: 11:02:11 on Nov 01,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 3
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of byPasslogic.v was successful.
+# Compile of mux21.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.carrybypassAdder
+# vsim -gui work.carrybypassAdder 
+# Start time: 11:06:40 on Nov 01,2022
+# Loading work.carrybypassAdder
+# Loading work.ripple_carry_adder
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 19
+# WARNING: No extended dataflow license exists
+add wave sim:/carrybypassAdder/*
+force -freeze sim:/carrybypassAdder/cin 0 0
+force -freeze sim:/carrybypassAdder/a 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 0
+force -freeze sim:/carrybypassAdder/b 1 0
+run
+force -freeze sim:/carrybypassAdder/a 11 0
+force -freeze sim:/carrybypassAdder/b 11 0
+run
+force -freeze sim:/carrybypassAdder/b 1111 0
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_bypass_adder.v failed with 4 errors.
+# Compile of byPasslogic.v was successful.
+# Compile of mux21.v was successful.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of byPasslogic.v was successful.
+# Compile of mux21.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.carrybypassAdder
+# End time: 11:12:59 on Nov 01,2022, Elapsed time: 0:06:19
+# Errors: 0, Warnings: 6
+# vsim -gui work.carrybypassAdder 
+# Start time: 11:13:00 on Nov 01,2022
+# Loading work.carrybypassAdder
+# Loading work.ripple_carry_adder
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrybypassAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v Line: 19
+# WARNING: No extended dataflow license exists
+add wave sim:/carrybypassAdder/*
+force -freeze sim:/carrybypassAdder/cin 0 0
+force -freeze sim:/carrybypassAdder/a 11111111111111111111111111111111111111111111111111111111111111111111111111111 0
+force -freeze sim:/carrybypassAdder/b 1 0
+run

@@ -1,0 +1,22 @@
+C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v {1 {vlog -work work -stats=none C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fa
+
+Top level modules:
+	fa
+
+} {} {}} C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/byPasslogic.v {1 {vlog -work work -stats=none C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module skipLogic
+
+Top level modules:
+	skipLogic
+
+} {} {}} C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v {1 {vlog -work work -stats=none C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux21
+
+Top level modules:
+	mux21
+
+} {} {}}

@@ -5,11 +5,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	fa
 
-} {} {}} C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v {1 {vlog -work work -stats=none C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v
+} {} {}} C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v {1 {vlog -work work -stats=none C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module ripple_carry_adder_4_bit
+-- Compiling module carrySkipAdder
+-- Compiling module skipLogic
+-- Compiling module mux21
 
 Top level modules:
-	ripple_carry_adder_4_bit
+	carrySkipAdder
 
 } {} {}}
