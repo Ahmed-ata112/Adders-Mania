@@ -1,0 +1,149 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: in1[1]
+    (Clocked by vsysclk R)
+Endpoint: sum[32]
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 2582.1
+Slack: 16917.9
+Logic depth: 64
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+in1[1]                   {set_input_delay}        f   1000.0   1000.0   1000.0                        2.5     14.7      3     0,   40                       
+genblk1_1_Full_Adder/i_0_3/B->ZN
+                         XNOR2_X2                ff   1034.5     34.3     34.3      0.0      0.0      0.3      4.0      1    43,   41  /PD_TOP        (1.10)
+genblk1_1_Full_Adder/i_0_2/B->ZN
+                         XNOR2_X2                ff   1076.4     41.9     41.9      0.0     11.0      0.5      6.1      2    43,   41  /PD_TOP        (1.10)
+FA1/i_0_1/A2->ZN         AND2_X4                 ff   1110.5     34.1     34.1      0.0     12.8      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_1_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1136.4     25.9     25.9      0.0      7.4      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_1_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1156.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_2_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1183.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_2_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1203.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_3_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1230.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_3_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1251.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_4_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1278.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_4_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1298.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_5_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1325.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_5_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1345.5     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_6_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1372.4     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_6_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1392.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_7_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1419.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_7_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1439.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_8_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1466.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_8_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1487.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_9_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1514.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_9_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1534.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_10_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1561.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_10_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1581.5     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_11_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1608.4     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_11_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1628.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_12_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1655.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_12_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1675.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_13_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1702.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_13_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1723.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_14_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1750.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_14_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1770.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_15_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1797.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_15_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1817.5     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_16_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1844.4     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_16_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1864.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_17_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1891.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_17_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1911.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_18_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1938.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_18_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   1959.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_19_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   1986.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_19_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2006.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_20_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2033.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_20_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2053.5     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_21_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2080.4     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_21_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2100.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_22_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2127.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_22_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2147.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_23_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2174.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_23_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2195.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_24_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2222.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_24_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2242.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_25_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2269.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_25_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2289.5     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_26_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2316.4     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_26_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2336.7     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_27_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2363.6     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_27_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2383.9     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_28_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2410.8     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_28_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2431.1     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_29_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2458.0     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_29_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2478.3     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   41  /PD_TOP        (1.10)
+genblk2_30_Full_Adder/i_0_1/B1->ZN
+                         OAI21_X4                fr   2505.2     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   41  /PD_TOP        (1.10)
+genblk2_30_Full_Adder/i_0_0/A2->ZN
+                         NAND2_X4                rf   2522.1     16.9     16.9      0.0     18.3      0.5      6.1      2    43,   41  /PD_TOP        (1.10)
+FA2/i_0_0/A->Z           XOR2_X2                 ff   2581.8     59.7     59.7      0.0      7.7      2.6     12.6      1    43,   41  /PD_TOP        (1.10)
+sum[32]                                           f   2582.1      0.3               0.3     16.9                              0,   38                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O
