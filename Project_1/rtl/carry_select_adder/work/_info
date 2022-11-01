@@ -1,0 +1,127 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/arch
+vcarry_select_adder
+Z0 !s110 1667289522
+!i10b 1
+!s100 B[QV@57;P6TfP5>EAkZM^2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib6kL^jIoE8<4F[<VhfkKi3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder
+w1667289460
+Z4 8D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v
+Z5 FD:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v
+!i122 5
+Z6 L0 1 44
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1667289522.000000
+Z9 !s107 D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcarry_select_adder_block
+R0
+!i10b 1
+!s100 3f5^Pok^l4e3KVh1neS[P1
+R1
+IClYL1^nQ8fDTP3oHR[J6V3
+R2
+R3
+w1667237572
+8D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v
+FD:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v
+!i122 6
+L0 1 40
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v|
+!i113 1
+R11
+R12
+vfa
+R0
+!i10b 1
+!s100 OQz9BJ@^FD3`T?K_IUK?E3
+R1
+Icf<hWiLFdb4jam<;?2HUj3
+R2
+R3
+w1667067691
+8D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v
+FD:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v
+!i122 8
+L0 1 10
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v|
+!i113 1
+R11
+R12
+vmoduleName
+!s110 1667289436
+!i10b 1
+!s100 GH[iY5Cj;D^?ECMNS?;CE2
+R1
+IN:MjU8OW0PJ4<hMHIE1H02
+R2
+R3
+w1667289219
+R4
+R5
+!i122 0
+R6
+R7
+r1
+!s85 0
+31
+!s108 1667289436.000000
+R9
+R10
+!i113 1
+R11
+R12
+nmodule@name
+vripple_carry_adder
+R0
+!i10b 1
+!s100 h`:`l[5N[R?MT=C6Fi1Na3
+R1
+I66ldJgmO?]maKRJ>]S^S83
+R2
+R3
+w1667234719
+8D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v
+FD:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v
+!i122 7
+L0 1 29
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v|
+!i113 1
+R11
+R12

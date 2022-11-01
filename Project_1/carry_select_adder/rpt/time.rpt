@@ -1,0 +1,46 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: in1[4]
+    (Clocked by vsysclk R)
+Endpoint: of
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 1813.2
+Slack: 17686.8
+Logic depth: 16
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+in1[4]                   {set_input_delay}        f   1000.0   1000.0   1000.0                        2.4     14.6      4    85,   43                       
+genblk1_1_csa/rca1/genblk1_0_fa/i_0_1/A2->ZN
+                         OR2_X4                  ff   1046.1     45.9     45.9      0.0      0.0      0.8     11.7      3    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_1_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1073.1     27.0     27.0      0.0     10.3      0.3      4.2      1    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_1_fa/i_0_0/A2->ZN
+                         NAND2_X4                rf   1093.4     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_2_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1120.3     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_2_fa/i_0_0/A2->ZN
+                         NAND2_X4                rf   1140.6     20.3     20.3      0.0     18.3      0.8     11.7      3    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_3_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1167.5     26.9     26.9      0.0      9.9      0.3      4.2      1    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/rca1/genblk1_3_fa/i_0_0/A2->ZN
+                         NAND2_X2                rf   1181.0     13.5     13.5      0.0     18.3      0.3      1.6      1    43,   43  /PD_TOP        (1.10)
+genblk1_1_csa/i_0_4/B->Z MUX2_X2                 ff   1246.9     65.9     65.9      0.0      5.8      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_2_csa/i_0_4/S->Z MUX2_X2                 fr   1322.2     75.5     75.3      0.2     15.6      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_3_csa/i_0_4/S->Z MUX2_X2                 rf   1409.4     87.2     87.2      0.0     19.6      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_4_csa/i_0_4/S->Z MUX2_X2                 fr   1484.7     75.3     75.3      0.0     15.6      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_5_csa/i_0_4/S->Z MUX2_X2                 rf   1571.9     87.2     87.2      0.0     19.6      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_6_csa/i_0_4/S->Z MUX2_X2                 fr   1647.2     75.3     75.3      0.0     15.6      1.6     12.9      5    43,   43  /PD_TOP        (1.10)
+genblk1_7_csa/i_0_3/S->Z MUX2_X2*                rf   1754.5    107.3    107.3      0.0     19.6      0.7     40.4      3    43,   43  /PD_TOP        (1.10)
+i_0_0_2/A->ZN            INV_X8                  fr   1766.0     11.5     11.5      0.0     15.3      0.3      1.9      1    43,   43  /PD_TOP        (1.10)
+i_0_0_0/B2->ZN           OAI33_X1                rf   1813.0     47.0     47.0      0.0      4.7      2.5     12.5      1    43,   43  /PD_TOP        (1.10)
+of                                                f   1813.2      0.2               0.2     34.0                             85,   42                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O

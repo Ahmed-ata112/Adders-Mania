@@ -1,0 +1,29 @@
+{D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v} {1 {vlog -work work -stats=none {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder_block.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry_select_adder_block
+
+Top level modules:
+	carry_select_adder_block
+
+} {} {}} {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v} {1 {vlog -work work -stats=none {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fa
+
+Top level modules:
+	fa
+
+} {} {}} {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v} {1 {vlog -work work -stats=none {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/ripple_carry_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder
+
+Top level modules:
+	ripple_carry_adder
+
+} {} {}} {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v} {1 {vlog -work work -stats=none {D:/CMP #3/VLSI/VLSI-Projects/Project_1/rtl/carry_select_adder/carry_select_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry_select_adder
+
+Top level modules:
+	carry_select_adder
+
+} {} {}}

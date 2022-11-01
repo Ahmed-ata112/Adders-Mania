@@ -1,0 +1,1389 @@
+# Project file /mnt/hgfs/VLSI-Projects/Project_1/carry_increment_adder/verilog/cia_syn.mpf was not found.
+# Unable to open project.
+# Loading project syb
+# Compile of demo_carry_select_adder.syn.v was successful.
+vsim work.carry_select_adder
+# vsim work.carry_select_adder 
+# Start time: 10:05:45 on Nov 01,2022
+# Loading work.carry_select_adder
+# Loading work.carry_select_adder_block__0_54
+# Loading work.ripple_carry_adder__0_40
+# Loading work.fa__0_39
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(15): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(16): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_36
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(30): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(31): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(32): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(33): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(34): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_33
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(48): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(49): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(50): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(51): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(52): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_30
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(66): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(67): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(68): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(69): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(70): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/csa_0/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_83
+# Loading work.ripple_carry_adder__0_82
+# Loading work.fa__0_81
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(110): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(111): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_78
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(125): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(126): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(127): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(128): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(129): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_75
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(143): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(144): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(145): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(146): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(147): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_72
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(161): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(162): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(163): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(164): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(165): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_69
+# Loading work.fa__0_68
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(194): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(195): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_65
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(209): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(210): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(211): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(212): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(213): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_62
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(227): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(228): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(229): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(230): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(231): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_59
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(245): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(246): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(247): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(248): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(249): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(286): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(288): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(290): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(292): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(294): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_1_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_112
+# Loading work.ripple_carry_adder__0_111
+# Loading work.fa__0_110
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(304): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(305): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_107
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(319): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(320): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(321): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(322): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(323): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_104
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(337): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(338): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(339): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(340): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(341): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_101
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(355): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(356): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(357): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(358): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(359): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_98
+# Loading work.fa__0_97
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(388): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(389): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_94
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(403): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(404): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(405): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(406): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(407): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_91
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(421): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(422): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(423): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(424): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(425): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_88
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(439): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(440): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(441): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(442): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(443): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(480): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(482): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(484): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(486): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(488): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_2_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_141
+# Loading work.ripple_carry_adder__0_140
+# Loading work.fa__0_139
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(498): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(499): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_136
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(513): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(514): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(515): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(516): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(517): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_133
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(531): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(532): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(533): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(534): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(535): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_130
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(549): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(550): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(551): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(552): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(553): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_127
+# Loading work.fa__0_126
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(582): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(583): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_123
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(597): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(598): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(599): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(600): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(601): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_120
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(615): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(616): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(617): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(618): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(619): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_117
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(633): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(634): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(635): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(636): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(637): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(674): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(676): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(678): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(680): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(682): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_3_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_170
+# Loading work.ripple_carry_adder__0_169
+# Loading work.fa__0_168
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(692): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(693): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_165
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(707): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(708): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(709): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(710): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(711): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_162
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(725): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(726): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(727): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(728): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(729): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_159
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(743): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(744): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(745): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(746): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(747): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_156
+# Loading work.fa__0_155
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(776): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(777): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_152
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(791): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(792): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(793): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(794): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(795): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_149
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(809): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(810): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(811): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(812): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(813): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_146
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(827): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(828): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(829): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(830): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(831): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(868): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(870): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(872): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(874): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(876): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_4_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_199
+# Loading work.ripple_carry_adder__0_198
+# Loading work.fa__0_197
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(886): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(887): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_194
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(901): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(902): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(903): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(904): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(905): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_191
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(919): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(920): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(921): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(922): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(923): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_188
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(937): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(938): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(939): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(940): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(941): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_185
+# Loading work.fa__0_184
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(970): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(971): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_181
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(985): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(986): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(987): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(988): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(989): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_178
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1003): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1004): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1005): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1006): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1007): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_175
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1021): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1022): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1023): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1024): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1025): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1062): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1064): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1066): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1068): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1070): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_5_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block__0_228
+# Loading work.ripple_carry_adder__0_227
+# Loading work.fa__0_226
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1080): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1081): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_223
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1095): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1096): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1097): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1098): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1099): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_220
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1113): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1114): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1115): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1116): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1117): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_217
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1131): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1132): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1133): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1134): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1135): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder__0_214
+# Loading work.fa__0_213
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1164): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1165): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_210
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1179): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1180): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1181): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1182): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1183): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_207
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1197): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1198): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1199): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1200): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1201): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_204
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1215): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1216): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1217): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1218): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1219): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1256): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1258): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1260): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1262): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1264): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_6_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.carry_select_adder_block
+# Loading work.ripple_carry_adder__0_25
+# Loading work.fa__0_24
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1274): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1275): Instantiation of 'OR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_21
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1289): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1290): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1291): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1292): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1293): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_18
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1307): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1308): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1309): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1310): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1311): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_15
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1325): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1326): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1327): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1328): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1329): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca1/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.ripple_carry_adder
+# Loading work.fa__0_6
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1358): Instantiation of 'XOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1359): Instantiation of 'AND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_0_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_9
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1373): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1374): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1375): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1376): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1377): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_1_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa__0_12
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1391): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1392): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1393): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1394): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1395): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_2_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Loading work.fa
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1409): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1410): Instantiation of 'OAI21_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1411): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1412): Instantiation of 'XNOR2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1413): Instantiation of 'NAND2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa/rca0/genblk1_3_fa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1450): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1452): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1454): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1456): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1458): Instantiation of 'MUX2_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder/genblk1_7_csa File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1503): Instantiation of 'OAI33_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1505): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1506): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# ** Error: (vsim-3033) /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v(1507): Instantiation of 'INV_X1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /carry_select_adder File: /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/demo_carry_select_adder.syn.v
+#         Searched libraries:
+#             /mnt/hgfs/VLSI-Projects/Project_1/carry_select_adder/verilog/work
+# Error loading design
+# End time: 10:05:46 on Nov 01,2022, Elapsed time: 0:00:01
+# Errors: 294, Warnings: 0
+# Compile of demo_carry_select_adder.syn.v was successful.
+# Compile of NangateOpenCellLibrary.v was successful.
+# 2 compiles, 0 failed with no errors.
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+# Compile of NangateOpenCellLibrary.v was successful.
+vsim work.carry_select_adder
+# vsim work.carry_select_adder 
+# Start time: 10:06:47 on Nov 01,2022
+# Loading work.carry_select_adder
+# Loading work.carry_select_adder_block__0_54
+# Loading work.ripple_carry_adder__0_40
+# Loading work.fa__0_39
+# Loading work.XOR2_X1
+# Loading work.AND2_X1
+# Loading work.fa__0_36
+# Loading work.NAND2_X1
+# Loading work.OAI21_X1
+# Loading work.XNOR2_X1
+# Loading work.fa__0_33
+# Loading work.fa__0_30
+# Loading work.carry_select_adder_block__0_83
+# Loading work.ripple_carry_adder__0_82
+# Loading work.fa__0_81
+# Loading work.OR2_X1
+# Loading work.fa__0_78
+# Loading work.fa__0_75
+# Loading work.fa__0_72
+# Loading work.ripple_carry_adder__0_69
+# Loading work.fa__0_68
+# Loading work.fa__0_65
+# Loading work.fa__0_62
+# Loading work.fa__0_59
+# Loading work.MUX2_X1
+# Loading work.carry_select_adder_block__0_112
+# Loading work.ripple_carry_adder__0_111
+# Loading work.fa__0_110
+# Loading work.fa__0_107
+# Loading work.fa__0_104
+# Loading work.fa__0_101
+# Loading work.ripple_carry_adder__0_98
+# Loading work.fa__0_97
+# Loading work.fa__0_94
+# Loading work.fa__0_91
+# Loading work.fa__0_88
+# Loading work.carry_select_adder_block__0_141
+# Loading work.ripple_carry_adder__0_140
+# Loading work.fa__0_139
+# Loading work.fa__0_136
+# Loading work.fa__0_133
+# Loading work.fa__0_130
+# Loading work.ripple_carry_adder__0_127
+# Loading work.fa__0_126
+# Loading work.fa__0_123
+# Loading work.fa__0_120
+# Loading work.fa__0_117
+# Loading work.carry_select_adder_block__0_170
+# Loading work.ripple_carry_adder__0_169
+# Loading work.fa__0_168
+# Loading work.fa__0_165
+# Loading work.fa__0_162
+# Loading work.fa__0_159
+# Loading work.ripple_carry_adder__0_156
+# Loading work.fa__0_155
+# Loading work.fa__0_152
+# Loading work.fa__0_149
+# Loading work.fa__0_146
+# Loading work.carry_select_adder_block__0_199
+# Loading work.ripple_carry_adder__0_198
+# Loading work.fa__0_197
+# Loading work.fa__0_194
+# Loading work.fa__0_191
+# Loading work.fa__0_188
+# Loading work.ripple_carry_adder__0_185
+# Loading work.fa__0_184
+# Loading work.fa__0_181
+# Loading work.fa__0_178
+# Loading work.fa__0_175
+# Loading work.carry_select_adder_block__0_228
+# Loading work.ripple_carry_adder__0_227
+# Loading work.fa__0_226
+# Loading work.fa__0_223
+# Loading work.fa__0_220
+# Loading work.fa__0_217
+# Loading work.ripple_carry_adder__0_214
+# Loading work.fa__0_213
+# Loading work.fa__0_210
+# Loading work.fa__0_207
+# Loading work.fa__0_204
+# Loading work.carry_select_adder_block
+# Loading work.ripple_carry_adder__0_25
+# Loading work.fa__0_24
+# Loading work.fa__0_21
+# Loading work.fa__0_18
+# Loading work.fa__0_15
+# Loading work.ripple_carry_adder
+# Loading work.fa__0_6
+# Loading work.fa__0_9
+# Loading work.fa__0_12
+# Loading work.fa
+# Loading work.OAI33_X1
+# Loading work.INV_X1
+add wave -position insertpoint  \
+sim:/carry_select_adder/in1 \
+sim:/carry_select_adder/in2 \
+sim:/carry_select_adder/sum \
+sim:/carry_select_adder/cout \
+sim:/carry_select_adder/of
+force -freeze sim:/carry_select_adder/in1 1 0
+force -freeze sim:/carry_select_adder/in1 10010100101010001
+force -freeze sim:/carry_select_adder/in2 111010100101010001
+run
+force -freeze sim:/carry_select_adder/in2 1000_0000_0000_0000_0000_0000_0000_0000
+force -freeze sim:/carry_select_adder/in1 1000_0000_0000_0000_0000_0000_0000_0000
+run
+# End time: 10:08:40 on Nov 01,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0
