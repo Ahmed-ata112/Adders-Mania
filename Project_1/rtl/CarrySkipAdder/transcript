@@ -1,0 +1,354 @@
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 14 errors.
+# 3 compiles, 1 failed with 14 errors.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:30:31 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip1/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip2/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip3/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip4/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip5/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip6/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip7/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 120 0
+# Invalid binary digit: 2.
+# ** UI-Msg: (vsim-4011) Invalid force value: 120 0.
+# 
+force -freeze sim:/carrySkipAdder/b 50 0
+# Invalid binary digit: 5.
+# ** UI-Msg: (vsim-4011) Invalid force value: 50 0.
+# 
+vsim -gui work.carrySkipAdder
+# End time: 09:32:31 on Nov 01,2022, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 13
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:32:31 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip1/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip2/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip3/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip4/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip5/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip6/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(65).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip7/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 61
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 120 0
+# Invalid binary digit: 2.
+# ** UI-Msg: (vsim-4011) Invalid force value: 120 0.
+# 
+force -freeze sim:/carrySkipAdder/b 50 0
+# Invalid binary digit: 5.
+# ** UI-Msg: (vsim-4011) Invalid force value: 50 0.
+# 
+run
+force -freeze sim:/carrySkipAdder/a 11 0
+force -freeze sim:/carrySkipAdder/b 1111 0
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 09:37:25 on Nov 01,2022, Elapsed time: 0:04:54
+# Errors: 0, Warnings: 13
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:37:25 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[1]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[2]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[3]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[4]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[5]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[6]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(66).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip7/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 62
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 1111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 09:45:09 on Nov 01,2022, Elapsed time: 0:07:44
+# Errors: 0, Warnings: 12
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:45:09 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[1]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[2]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[3]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[4]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[5]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[6]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip7/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 1 0
+force -freeze sim:/carrySkipAdder/b 11 0
+run
+force -freeze sim:/carrySkipAdder/a 11 0
+force -freeze sim:/carrySkipAdder/b 1111 0
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 09:48:57 on Nov 01,2022, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 12
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:48:57 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[1]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[2]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[3]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[4]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[5]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip[6]/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'selector'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(68).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip7/skipMux File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 64
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 11 0
+force -freeze sim:/carrySkipAdder/b 1111 0
+run
+force -freeze sim:/carrySkipAdder/a 11111111111111111111111111111111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 09:53:47 on Nov 01,2022, Elapsed time: 0:04:50
+# Errors: 0, Warnings: 13
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:53:47 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 11111111111111111111111111111111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+add wave -r sim:/carrySkipAdder/*
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 09:59:16 on Nov 01,2022, Elapsed time: 0:05:29
+# Errors: 0, Warnings: 4
+# vsim -gui work.carrySkipAdder 
+# Start time: 09:59:16 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 1111111111111111111111111111111111111111111111111111111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+add wave -r sim:/carrySkipAdder/*
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 2 errors.
+# 3 compiles, 1 failed with 2 errors.
+# Load canceled
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 10:22:04 on Nov 01,2022, Elapsed time: 0:22:48
+# Errors: 0, Warnings: 9
+# vsim -gui work.carrySkipAdder 
+# Start time: 10:22:04 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# WARNING: No extended dataflow license exists
+add wave sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 111111111111111111111111111111111111111111111111111111111111111111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+add wave sim:/carrySkipAdder/*
+add wave -r sim:/carrySkipAdder/*
+run
+# Compile of fa.v was successful.
+# Compile of ripple_carry_adder_4_bit.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.carrySkipAdder
+# End time: 10:26:20 on Nov 01,2022, Elapsed time: 0:04:16
+# Errors: 0, Warnings: 4
+# vsim -gui work.carrySkipAdder 
+# Start time: 10:26:20 on Nov 01,2022
+# Loading work.carrySkipAdder
+# Loading work.ripple_carry_adder_4_bit
+# Loading work.skipLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/ripple_carry_adder_4_bit.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/rc1 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v(48).
+#    Time: 0 ps  Iteration: 0  Instance: /carrySkipAdder/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder/carry_skip_adder.v Line: 41
+# WARNING: No extended dataflow license exists
+add wave -r sim:/carrySkipAdder/*
+force -freeze sim:/carrySkipAdder/cin 0 0
+force -freeze sim:/carrySkipAdder/a 1111111111111111111111111111111111111111111111111111111111111111 0
+force -freeze sim:/carrySkipAdder/b 1 0
+run
+force -freeze sim:/carrySkipAdder/a 111 0
+force -freeze sim:/carrySkipAdder/b 111 0
+run

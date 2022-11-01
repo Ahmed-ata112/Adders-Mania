@@ -1,0 +1,73 @@
+module carrySkipAdder #(parameter N = 32)
+(
+		a,b,cin,
+		sum,cout
+);
+	input cin;
+    	input [N-1:0] a,b;
+    	output cout;
+    	output [N-1:0] sum;
+
+	wire [7:0] couts;
+	wire [6:0] temp;
+
+	ripple_carry_adder_4_bit rc1(a[3:0],b[3:0],0,couts[0],sum[3:0]);
+/*
+	skipLogic skip0(a[3:0],b[3:0],0,couts[0],temp[0]);
+
+	ripple_carry_adder_4_bit rc2(a[7:4],b[7:4],temp[0],couts[1],sum[7:4]);
+	skipLogic skip1(a[7:4],b[7:4],temp[0],couts[1],temp[1]);
+
+	ripple_carry_adder_4_bit rc3(a[11:8],b[11:8],temp[1],couts[2],sum[11:8]);
+	skipLogic skip2(a[11:8],b[11:8],temp[1],couts[2],temp[2]);
+
+	ripple_carry_adder_4_bit rc4(a[15:12],b[15:12],temp[2],couts[3],sum[15:12]);
+	skipLogic skip3(a[15:12],b[15:12],temp[2],couts[3],temp[3]);
+
+	ripple_carry_adder_4_bit rc5(a[19:16],b[19:16],temp[3],couts[4],sum[19:16]);
+	skipLogic skip4(a[19:16],b[19:16],temp[3],couts[4],temp[4]);
+
+	ripple_carry_adder_4_bit rc6(a[23:20],b[23:20],temp[4],couts[5],sum[23:20]);
+	skipLogic skip5(a[23:20],b[23:20],temp[4],couts[5],temp[5]);
+
+	ripple_carry_adder_4_bit rc7(a[27:24],b[27:24],temp[5],couts[6],sum[27:24]);
+	skipLogic skip6(a[27:24],b[27:24],temp[5],couts[6],temp[6]);
+
+	ripple_carry_adder_4_bit rc8(a[31:28],b[31:28],temp[6],couts[7],sum[31:28]);
+	skipLogic skip7(a[31:28],b[31:28],temp[6],couts[7],cout);
+*/
+	ripple_carry_adder_4_bit rc[7:1](a[31:4],b[31:4],temp[6:0],couts[7:1],sum[31:4]);
+
+	skipLogic skip0(a[3:0],b[3:0],0,couts[0],temp[0]);
+	skipLogic skip[6:1](a[27:4],b[27:4],temp[5:0],couts[6:1],temp[6:1]);
+	skipLogic skip7(a[31:28],b[31:28],temp[6],couts[7],cout);
+endmodule
+
+module skipLogic #(parameter N=4)
+(
+		a,b,cin,cout,
+		out
+);
+	input [N-1:0] a,b;
+	input cin,cout;
+	output out;
+
+	wire [N-1:0] p;
+	wire finalP;
+	
+	genvar i;
+	for(i=0; i<N; i=i+1) begin
+		assign p[i]= a[i]^b[i];
+	end
+	assign finalP=&p;
+
+	mux21 skipMux(cout,cin,finalP,out);
+endmodule
+
+
+module mux21 (in1,in2,selector,out);
+	input in1,in2,selector;
+	output out;
+
+	assign out = selector?in2 :in1;
+endmodule
