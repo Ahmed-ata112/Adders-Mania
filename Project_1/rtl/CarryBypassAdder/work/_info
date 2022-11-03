@@ -10,119 +10,143 @@ z2
 cModel Technology
 dC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarrySkipAdder
 vcarrybypassAdder
-Z0 !s110 1667293905
+Z0 !s110 1667465100
 !i10b 1
-!s100 bW[I6PMe`P=REALk3F_zd2
+!s100 XeF8<SgNPBa0<kngVI0H?3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IkRoEoEVhY80C<0bDP>Mnh1
+I8kIDIhK^Q^CHK8gf5_;Ae2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder
-w1667293893
-8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v
-FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v
-!i122 18
-L0 1 23
-Z4 OV;L;2020.1;71
+Z4 w1667465096
+Z5 8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v
+Z6 FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v
+!i122 62
+L0 1 29
+Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1667293905.000000
+Z8 !s108 1667465100.000000
 !s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z10 o-work work
+Z11 tCvgOpt 0
 ncarrybypass@adder
-vfa
-Z8 !s110 1667293904
+vCSA
+!s110 1667463680
 !i10b 1
-!s100 OQz9BJ@^FD3`T?K_IUK?E3
+!s100 ZPABo358gg7R32HaFD;fg1
 R1
-ISk?:Gh@oXF0nD]?z<_8P]1
+IkezUjz6ieAEghBDcMH>fD0
 R2
 R3
-w1667231103
-8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v
-FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v
-!i122 16
-L0 1 10
-R4
+w1667462846
+8C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\CarrySkipAdder\carry_skip_adder.v
+FC:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\CarrySkipAdder\carry_skip_adder.v
+!i122 56
+L0 1 20
+R7
 r1
 !s85 0
 31
-Z9 !s108 1667293904.000000
-!s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/ripple_adder/fa.v|
+!s108 1667463680.000000
+!s107 C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\CarrySkipAdder\carry_skip_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\CarrySkipAdder\carry_skip_adder.v|
 !i113 1
+R10
+R11
+n@c@s@a
+vfa
+R0
+!i10b 1
+!s100 jYRGD:f5C^=@Al4eg4AGL0
+R1
+IkEdmKOQ=L@1<WoW9iUk]=1
+R2
+R3
+R4
+R5
 R6
+!i122 62
+L0 61 10
 R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/carry_bypass_adder.v|
+R9
+!i113 1
+R10
+R11
 vmux21
 R0
 !i10b 1
-!s100 k^ieA:Me7Q7kX;RX2d4A53
+!s100 l7ZHQVn4Ml`QdROMI1D9`2
 R1
-ITQ15c`7I=cF5C3MhWnb>E1
+IG`ZkR<A8BA6l6?KDAEFSS2
 R2
 R3
-w1667292901
-8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v
-FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v
-!i122 20
-L0 1 6
 R4
-r1
-!s85 0
-31
 R5
-!s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/mux21.v|
-!i113 1
 R6
+!i122 62
+L0 93 6
 R7
-vripple_carry_adder
-R8
-!i10b 1
-!s100 h`:`l[5N[R?MT=C6Fi1Na3
-R1
-I@GVE]`i0l<YFGa=;o24iN1
-R2
-R3
-w1667293834
-8C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\ripple_adder\ripple_carry_adder_4_bit.v
-FC:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\ripple_adder\ripple_carry_adder_4_bit.v
-!i122 17
-L0 1 29
-R4
 r1
 !s85 0
 31
+R8
+R12
 R9
-!s107 C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\ripple_adder\ripple_carry_adder_4_bit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ASUS\OneDrive\Desktop\VLSI-Projects\Project_1\rtl\ripple_adder\ripple_carry_adder_4_bit.v|
 !i113 1
+R10
+R11
+vripple_carry_adder
+R0
+!i10b 1
+!s100 zRX^V;Lb>bKZDRDTX2F@>2
+R1
+IkWe6iezJUgDXz;7l7?h^?3
+R2
+R3
+R4
+R5
 R6
+!i122 62
+L0 31 29
 R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
 vskipLogic
 R0
 !i10b 1
-!s100 8YIcRX;V=HDh=3RF4jMan1
+!s100 B0REi>U<Cikj`Y8KZ=bE]0
 R1
-I4[N_LB:9j]oE^mY>Y?<f82
+IgoI7bkiGgKgKa`=hb8jIP1
 R2
 R3
-w1667292881
-8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v
-FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v
-!i122 19
-L0 1 20
 R4
+R5
+R6
+!i122 62
+L0 72 20
+R7
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/CarryBypassAdder/bypasslogic.v|
+R8
+R12
+R9
 !i113 1
-R6
-R7
+R10
+R11
 nskip@logic

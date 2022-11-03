@@ -1,4 +1,4 @@
-module CPA #(parameter N = 32)
+module carrybypassAdder #(parameter N = 32)
 (
 		a,b,cin,
 		sum,cout
@@ -24,7 +24,7 @@ module CPA #(parameter N = 32)
 	skipLogic skip1(a[15:8],b[15:8],temp[0],couts[1],temp[1]);
 	skipLogic skip2(a[23:16],b[23:16],temp[1],couts[2],temp[2]);
 */
-	skipLogic skip[N/8-2:1](a[N-9:8],b[N-9:8],temp[N/8-3:0],couts[N/8-2:1],temp[N/8-2:1]);
+	skipLogic skip[N/8-2:1](a[N-9:8],b[N-9:8],temp[N/8-3:0],couts[N/8-2:1],temp[N/4-2:1]);
 	skipLogic skip3(a[N-1:N-8],b[N-1:N-8],temp[N/8-2],couts[N/8-1],cout);
 endmodule
 
