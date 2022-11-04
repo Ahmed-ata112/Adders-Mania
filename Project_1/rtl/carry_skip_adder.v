@@ -45,8 +45,8 @@ module skipLogic #(parameter N=4)
 	end
 	assign finalP= &p;
 
-	assign e= finalP & cin;
-	assign out= e | cout;
+	assign e= finalP && cin;
+	assign out= e || cout;
 endmodule
 
 module ripple_carry_adder #(parameter N = 4)
