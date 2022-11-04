@@ -3,16 +3,16 @@ Report Physical info:
                         |             |Area (squm)|Leakage (uW)
 ------------------------+-------------+-----------+------------
 Design Name             |fp_adder     |           |            
-  Total Instances       |          710|        944|      20.797
+  Total Instances       |          781|        957|      21.657
     Macros              |            0|          0|       0.000
     Pads                |            0|          0|       0.000
     Phys                |            0|          0|       0.000
     Blackboxes          |            0|          0|       0.000
-    Cells               |          710|        944|      20.797
+    Cells               |          781|        957|      21.657
       Buffers           |            0|          0|       0.000
-      Inverters         |           68|         36|       0.976
+      Inverters         |           78|         41|       1.120
       Clock-Gates       |            0|          0|       0.000
-      Combinational     |          642|        908|      19.821
+      Combinational     |          703|        916|      20.537
       Latches           |            0|          0|       0.000
       FlipFlops         |            0|          0|       0.000
        Single-Bit FF    |            0|          0|       0.000
@@ -23,14 +23,14 @@ Design Name             |fp_adder     |           |
          Clock-Gated    |            0|           |            
   Tristate Pin Count    |            0|           |            
 Physical Info           |Placed       |           |            
-  Chip Size (mm x mm)   |0.100 x 0.100|       9932|            
+  Chip Size (mm x mm)   |0.100 x 0.100|       9987|            
   Fixed Cell Area       |             |          0|            
     Phys Only           |            0|          0|            
-  Placeable Area        |             |       1549|            
-  Movable Cell Area     |             |        944|            
-  Utilization (%)       |           60|           |            
-  Chip Utilization (%)  |           60|           |            
-  Total Wire Length (mm)|        5.041|           |            
+  Placeable Area        |             |       1564|            
+  Movable Cell Area     |             |        957|            
+  Utilization (%)       |           61|           |            
+  Chip Utilization (%)  |           61|           |            
+  Total Wire Length (mm)|        5.052|           |            
   Longest Wire (mm)     |        0.053|           |            
-  Average Wire (mm)     |        0.051|           |            
+  Average Wire (mm)     |        0.052|           |            
 ------------------------+-------------+-----------+------------

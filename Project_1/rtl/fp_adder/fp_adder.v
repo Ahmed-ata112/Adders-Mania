@@ -41,17 +41,23 @@ module fp_adder(
     assign diff_signs = sign_A ^ sign_B;
     assign Sum = {sign_Sum, exp_Sum, Mant_sum[22:0]};
 
-    simpleAdder
+
+    wire of_adder;
+    wire cin_0;
+    assign cin_0 = 0;
+
+    CLA
     #(
-    .N (
-    32 )
-    )
-    simpleAdder_dut (
-        .a (mant_A ),
-        .b (mant_B ),
-        .S (sum_signal ),
-        .carry(carry_Sum)
+    .N (32))
+    CLA_dut (
+        .in1 (mant_A ),
+        .in2 (mant_B ),
+        .cin (cin_0),
+        .sum (sum_signal ),
+        .cout (carry_Sum ),
+        .of  ( of_adder)
     );
+
 
     // NOTE: i was sending the Mant_sum here which made a loop in the synthesis
     count_leading_zeros count_leading_zeros_instance(
@@ -82,8 +88,6 @@ module fp_adder(
             sign_Sum = sign_B;
         end
 
-
-
         // addition or subtraction with normalization
         if(diff_signs == 1)
             begin
@@ -103,6 +107,7 @@ module fp_adder(
                 Mant_sum = sum_signal;
                 // it they overflows we need to shift right and add the exp
                 if(sum_signal[24] == 1) begin
+                    // 1.0101
                     // shift the mantissa and increment the exponent
                     Mant_sum = sum_signal >> 1;
                     exp_Sum = exp_Sum + 1;

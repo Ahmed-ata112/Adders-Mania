@@ -46,6 +46,10 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -55,26 +59,26 @@ R0
 cModel Technology
 Z1 dD:/academic_material/third_year/VLSI/repos/VLSI-Projects/Project_1/rtl/fp_adder
 T_opt
-!s110 1667549176
-VV]9E?_i]UHLYU[H4>lD3Y1
+!s110 1667550958
+VbOSb?Gkijij<Q7?8in6YL0
 Z2 04 11 4 work fp_adder_tb fast 0
-=2-020cf0a1cd70-6364c7f8-18a-5524
+=3-020cf0a1cd70-6364ceee-d3-5524
 Z3 !s124 OEM10U4 
 Z4 o-quiet -auto_acc_if_foreign -work work +acc
 Z5 tCvgOpt 0
 n@_opt
 Z6 OL;O;2021.2;73
+R1
 T_opt1
-!s110 1667549035
-V5D;Qn;Ci@MME^K?FkEM`z2
+!s110 1667566558
+Vn5]ZU1KE6lghYmSI6b3cb3
 R2
-=1-020cf0a1cd70-6364c76a-22c-4144
-R3
-o-quiet -auto_acc_if_foreign -work work
+=2-020cf0a1cd70-63650bde-176-726c
+!s124 OEM10U12 
+R4
 R5
 n@_opt1
 R6
-R1
 T_opt2
 !s110 1667038375
 VPY34Q0IZ[ZSUA5ZRj0ak40
@@ -86,8 +90,54 @@ R5
 n@_opt2
 R6
 R1
+vCLA
+Z7 !s110 1667566554
+!i10b 1
+!s100 V2MbdbiA^JjhNA1f<n[cd0
+IXQk06IZ=AUTFNkVkfKi;O0
+R1
+Z8 w1667550832
+Z9 8CarryLookAheadAdder.v
+Z10 FCarryLookAheadAdder.v
+!i122 61
+L0 28 30
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z13 !s108 1667566554.000000
+Z14 !s107 simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|CarryLookAheadAdder.v|
+Z15 !s90 CarryLookAheadAdder.v|count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@c@l@a
+vCLA_4bit
+R7
+!i10b 1
+!s100 Eai;N7eb@LL]1F340;PCL0
+I^W^i:0^UTaz?z1c9DJEOY2
+R1
+R8
+R9
+R10
+!i122 61
+Z17 L0 1 26
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R5
+n@c@l@a_4bit
 vcount_leading_zeros
-Z7 !s110 1667549171
+R7
 !i10b 1
 !s100 =CZ>5Afn[6<f;K>070LXi3
 I<`LKX`^^J8fGoEF?a0E2G2
@@ -95,62 +145,62 @@ R1
 w1667038163
 8count_leading_zeros.v
 Fcount_leading_zeros.v
-!i122 58
-L0 1 26
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2021.2;73
+!i122 61
+R17
+R11
+R12
 r1
 !s85 0
 31
-Z10 !s108 1667549171.000000
-Z11 !s107 simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|
-Z12 !s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|
+R13
+R14
+R15
 !i113 0
-Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R16
 R5
 vfp_adder
 R7
 !i10b 1
-!s100 BnlK@f:JnXFJW4zSa7QzY2
-IKmana_^gTOV^Ti?lz5R;33
+!s100 i]0GG;cF5BD@nRahgdbck0
+IR0V@>UOJI4z]9ISGgIR?f2
 R1
-w1667128818
+w1667566546
 8fp_adder.v
 Ffp_adder.v
-!i122 58
-L0 1 125
-R8
-R9
+!i122 61
+L0 1 131
+R11
+R12
 r1
 !s85 0
 31
-R10
-R11
-R12
-!i113 0
 R13
+R14
+R15
+!i113 0
+R16
 R5
 vfp_adder_tb
 R7
 !i10b 1
-!s100 lH69QF]28ZPDIM45zNm930
-IH8DV;0X^g^3@iYf<kgCWJ2
+!s100 ZN78IB]izKYLI0H^<XBeY1
+IEVA=66kzRC<OL^^2l]C0>3
 R1
-w1667549152
+w1667551851
 8fp_adder_tb.v
 Ffp_adder_tb.v
-!i122 58
-L0 1 113
-R8
-R9
+!i122 61
+L0 1 132
+R11
+R12
 r1
 !s85 0
 31
-R10
-R11
-R12
-!i113 0
 R13
+R14
+R15
+!i113 0
+R16
 R5
 vsimpleAdder
 R7
@@ -161,18 +211,18 @@ R1
 w1667493173
 8simpleAdder.v
 FsimpleAdder.v
-!i122 58
+!i122 61
 L0 2 12
-R8
-R9
+R11
+R12
 r1
 !s85 0
 31
-R10
-R11
-R12
-!i113 0
 R13
+R14
+R15
+!i113 0
+R16
 R5
 nsimple@adder
 vtest
@@ -186,8 +236,8 @@ w1666905901
 Ftest.v
 !i122 22
 L0 1 18
-R8
-R9
+R11
+R12
 r1
 !s85 0
 31
@@ -195,5 +245,5 @@ r1
 !s107 test.v|simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|
 !s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|test.v|
 !i113 0
-R13
+R16
 R5

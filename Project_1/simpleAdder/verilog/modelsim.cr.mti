@@ -1,24 +1,4 @@
-/mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/demo_fp_adder.syn.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/demo_fp_adder.syn.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module datapath
--- Compiling module simpleAdder
--- Compiling module count_leading_zeros
--- Compiling module datapath__0_19
--- Compiling module datapath__0_21
--- Compiling module datapath__0_28
--- Compiling module fp_adder
-
-Top level modules:
-	fp_adder
-
-} {} {}} /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module fp_adder_tb
-
-Top level modules:
-	fp_adder_tb
-
-} {} {}} /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/NangateOpenCellLibrary.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/NangateOpenCellLibrary.v
+/mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/NangateOpenCellLibrary.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/NangateOpenCellLibrary.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module AND2_X1
 -- Compiling module AND2_X2
@@ -320,5 +300,12 @@ Top level modules:
 	XNOR2_X2
 	XOR2_X1
 	XOR2_X2
+
+} {} {}} /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fp_adder_tb
+
+Top level modules:
+	fp_adder_tb
 
 } {} {}}

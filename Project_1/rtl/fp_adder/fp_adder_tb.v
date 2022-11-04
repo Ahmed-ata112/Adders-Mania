@@ -8,7 +8,7 @@ module fp_adder_tb;
         else begin\
         $display("TestCase# %0d : success",TestsCounter); \
         SuccessCounter = SuccessCounter +1; \
-        end\
+        end \
         TestsCounter = TestsCounter+1;
 
 
@@ -64,9 +64,6 @@ module fp_adder_tb;
             // 
             `assert(A,B,Sum,32'b1_01111100_00000000000000000000000,TestsCounter)
 
-
-
-
             // addition of large numbers to genreate overflow
             A = 32'b0_11111110_10111111111111111111110;
             B = 32'b0_11111110_10111111111111111111111;
@@ -95,19 +92,45 @@ module fp_adder_tb;
             `assert(A,B,Sum,32'b0_00000000_00101000000000000000010,TestsCounter)
 
             // random cases
+            // 1.00100110011001100110011 * 2 ^ 12
+            // .0100100110011001100110011 * 2 ^ 12
 
             A = 32'b1_10000001_00100110011001100110011; // -4.6
             B = 32'b0_10000001_01110011001100110011010; // 5.8
             #T;
-            // 1.2
-            `assert(A,B,Sum,32'b00111111100110011001100110011100,TestsCounter)
-
-
+            `assert(A,B,Sum,32'b0_01111111_00110011001100110011100,TestsCounter)
 
             $display("Total Tests: %0d || Success Cases=%0d || Failure Cases=%0d ",TestsCounter,SuccessCounter,FailureCounter);
             $stop;
         end
     end
+
+
+    // 1.5 * 10^20 
+    // 1.5 
+    // sign M*2^E
+    // M 1.10101010101 * 2^8
+
+    // 1.2
+    // 1_10000001_00100110011001100110011
+    // 0_10000001_01110011001100110011010
+    // insert one
+    // 1_10000001_100100110011001100110011
+    // 0_10000001_101110011001100110011010
+
+    // 2's complemet the first 
+    // A Mant: 011011001100110011001101
+    // B Mant: 101110011001100110011010
+    // add Them 
+    // 10.01001100110011001100111
+    // neglect the carries after the floating point
+    // Mant of Result without normlization: 01.001100110011001100111
+    // 1.0010000100
+    // Normalize: .00110011001100110011100  and don't forget to subtract 2 from the exponent (Exp becomes 01111111)
+    // drop the 1 
+    // Mant of Result after normalization : 00110011001100110011100 
+    // correct answer: b0_01111111_00110011001100110011100
+
 
 
 endmodule

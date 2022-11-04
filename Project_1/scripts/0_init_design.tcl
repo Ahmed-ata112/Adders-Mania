@@ -18,12 +18,12 @@ set search_path    "${demo_rtl_dir}/** ${library_path} ${all_rtl_sub_directories
 ###########################TODO Update top Module parameters#####################
 set parameters 0
 set param_values { {N 8} }
-set top_module "CSA"
+set top_module "fp_adder"
 set output_dir "${ekit_dir}/${top_module}"
 
 ###########################TODO RTL and Constraints paths ######################
-set rtl_list { "carry_skip_adder.v"  }
-# set rtl_list { "ripple_carry_adder.v" "fa.v" "ha.v" }
+# set rtl_list { "carry_skip_adder.v"  }
+set rtl_list { "fp_adder.v" "CarryLookAheadAdder.v" "count_leading_zeros.v" }
 # set rtl_list { "simpleAdder.v"}
 set demo_adder_sdc_files "${ekit_dir}/constraints/demo_adder_func.sdc"
 ################################# RTL and Libraries ###########################################
