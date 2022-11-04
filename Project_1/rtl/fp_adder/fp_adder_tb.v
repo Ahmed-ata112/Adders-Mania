@@ -13,7 +13,6 @@ module fp_adder_tb;
 
 
    
-            // from linux
     // Parameters
     localparam T = 10;
     // Ports
