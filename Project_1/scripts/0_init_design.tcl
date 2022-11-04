@@ -23,7 +23,7 @@ set output_dir "${ekit_dir}/${top_module}"
 
 ###########################TODO RTL and Constraints paths ######################
 # set rtl_list { "carry_skip_adder.v"  }
-set rtl_list { "fp_adder.v" "CarryLookAheadAdder.v" "count_leading_zeros.v" }
+set rtl_list { "fp_adder.v" "CLA.v" "count_leading_zeros.v" }
 # set rtl_list { "simpleAdder.v"}
 set demo_adder_sdc_files "${ekit_dir}/constraints/demo_adder_func.sdc"
 ################################# RTL and Libraries ###########################################

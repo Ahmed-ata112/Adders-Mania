@@ -67,29 +67,33 @@ module fp_adder_tb;
             A = 32'b0_11111110_10111111111111111111110;
             B = 32'b0_11111110_10111111111111111111111;
             #T;
-            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter)
+            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter) // + INF
 
-            // addition of small numbers to genreate underflow
+            // addition of large numbers to genreate overflow
             A = 32'b1_11111110_10111111111111111111110;
             B = 32'b1_11111110_10111111111111111111111;
             #T;
-            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter)
+            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter) // - INF
 
 
-            // 0_01111101_00000000000000000000000
-            // addition of the smallest numbers alive
-            A = 32'b0_00000000_00000000000000000000001;
-            B = 32'b0_00000000_00000000000000000000001;
+
+            //  small numbers to genreate underflow
+            A = 32'b1_00000001_00000000000000000000000;
+            B = 32'b0_00000010_10000000000000000000001;
             #T;
-            `assert(A,B,Sum,32'b0_00000000_00000000000000000000010,TestsCounter)
+            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter) // +0
 
 
-            // addition of the smallest numbers alive
-            A = 32'b0_00000000_0001000000000000000001;
-            B = 32'b0_00000000_00100000000000000000001;
+            //  small numbers to genreate underflow
+            A = 32'b0_00000001_00000000000000000000000;
+            B = 32'b1_00000010_10000000000000000000001;
             #T;
-            `assert(A,B,Sum,32'b0_00000000_00101000000000000000010,TestsCounter)
+            `assert(A,B,Sum,32'b0_01111110_00000000000000000000000,TestsCounter) // -0
 
+
+       
+            // 1.00000000000000000000001
+            
             // random cases
             // 1.00100110011001100110011 * 2 ^ 12
             // .0100100110011001100110011 * 2 ^ 12
@@ -97,7 +101,21 @@ module fp_adder_tb;
             A = 32'b1_10000001_00100110011001100110011; // -4.6
             B = 32'b0_10000001_01110011001100110011010; // 5.8
             #T;
-            `assert(A,B,Sum,32'b0_01111111_00110011001100110011100,TestsCounter)
+            `assert(A,B,Sum,32'b00111111100110011001100110011100,TestsCounter)
+
+
+            A = 32'b1_10000001_00100110011001100110011; // -4.6
+            B = 32'b0_10000001_00100110011001100110011; // +4.6
+            #T;
+            `assert(A,B,Sum,0,TestsCounter)
+
+
+
+
+
+
+
+
 
             $display("Total Tests: %0d || Success Cases=%0d || Failure Cases=%0d ",TestsCounter,SuccessCounter,FailureCounter);
             $stop;

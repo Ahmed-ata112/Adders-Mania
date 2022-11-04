@@ -69,35 +69,57 @@ module fp_adder(
         overflow = 0;
         underflow = 0;
         // append 1 to the mantissa
-        mant_A =  A[22:0];
-        mant_B =  B[22:0];
+        mant_A =  {1'b1 ,A[22:0]};
+        mant_B = {1'b1 ,  B[22:0]};
         // give default values to the sum
         Mant_sum = sum_signal;
 
 
         // allignment of  the exponents 
         if(exp_A > exp_B) begin
-            mant_B = {1'b1 ,  B[22:0]} >> (exp_A - exp_B);
+            mant_B = mant_B >> (exp_A - exp_B);
             exp_Sum = exp_A;
             // sign is the larger number sign
             sign_Sum = sign_A;
         end
-        else begin
-            mant_A= {1'b1 ,A[22:0]} >> (exp_B - exp_A);
+        else if(exp_A < exp_B )begin
+            mant_A=  mant_A >> (exp_B - exp_A);
             exp_Sum = exp_B;
             sign_Sum = sign_B;
+        end
+        else begin
+            exp_Sum = exp_A;
+            if(mant_A > mant_B) begin
+                sign_Sum = sign_A;
+            end
+            else begin
+                sign_Sum = sign_B;
+            end
         end
 
         // addition or subtraction with normalization
         if(diff_signs == 1)
             begin
-                mant_A = -mant_A; // if different signs then we sub the mantissa
-                // normlization for sub
-                // shift all the leading zeros and the 1 to the right (if there is a one)
-                if(num_leading_zeros <= 23)
-                begin
-                    Mant_sum = sum_signal << num_leading_zeros +1;
-                    exp_Sum = exp_Sum - (num_leading_zeros+1);
+                if(mant_A == mant_B)
+                    begin
+                        Mant_sum = 0;
+                        exp_Sum = 0;
+                    end
+                else begin
+                    mant_A = -mant_A; // if different signs then we sub the mantissa
+                    // normlization for sub
+                    // shift all the leading zeros and the 1 to the right (if there is a one)
+                    if(num_leading_zeros <= 23)
+                    begin
+                        Mant_sum = sum_signal << num_leading_zeros +1;
+
+                        if(exp_Sum < (num_leading_zeros+1))
+                            begin
+                                underflow = 1;
+                                exp_Sum = 0;
+                            end else
+                            exp_Sum = exp_Sum - (num_leading_zeros+1);
+                    end
                 end
             end
         else
@@ -114,12 +136,8 @@ module fp_adder(
 
                     // overflowed or underflowed (exp is all ones Nan or inf)
                     if(exp_Sum == 255) begin
-                        if(sign_A == 0) begin
-                            overflow = 1;
-                        end
-                        else begin
-                            underflow = 1;
-                        end
+                        overflow = 1;
+                        Mant_sum = 0;
                     end
 
                 end

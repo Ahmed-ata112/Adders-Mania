@@ -2,14 +2,7 @@ Report Instance Areas:
 -----+------------------------------+-------------------+-----+---------
      |Instance                      |Module             |Cells|Cell Area
 -----+------------------------------+-------------------+-----+---------
-1    |top                           |                   |  781|      957
-2    |  CLA_dut                     |CLA                |   96|      118
-3    |    cla1                      |CLA_4bit__0_47     |   17|       20
-4    |    genblk1_4_cla             |CLA_4bit__0_63     |   15|       19
-5    |    genblk1_8_cla             |CLA_4bit__0_71     |   15|       19
-6    |    genblk1_12_cla            |CLA_4bit__0_79     |   15|       19
-7    |    genblk1_16_cla            |CLA_4bit__0_87     |   15|       19
-8    |    genblk1_20_cla            |CLA_4bit__0_95     |   18|       20
-9    |    genblk1_24_cla            |CLA_4bit           |    1|        2
-10   |  count_leading_zeros_instance|count_leading_zeros|   46|       43
+1    |top                           |                   |  837|      944
+2    |  CLA_dut                     |CLA                |    0|        0
+3    |  count_leading_zeros_instance|count_leading_zeros|   46|       42
 -----+------------------------------+-------------------+-----+---------
