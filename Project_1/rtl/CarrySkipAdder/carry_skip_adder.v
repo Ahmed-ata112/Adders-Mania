@@ -1,9 +1,8 @@
 module CSA #(parameter N = 32)
 (
-		a,b,cin,
+		a,b,
 		sum,cout,overflow
 );
-	input cin;
     	input [N-1:0] a,b;
     	output cout,overflow;
     	output [N-1:0] sum;

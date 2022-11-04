@@ -134,7 +134,7 @@ initial begin
 	#10 
 	a = 32'b11001001001001001001001001001001;
 	b = 32'b10000000000000000000000000001111;
-	assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b01001001001001001001001001011000,TestsCounter);
+	assert(a,b,,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b01001001001001001001001001011000,TestsCounter);
 
         $display("Total Tests: %0d || Success Cases=%0d || Failure Cases=%0d ",TestsCounter,SuccessCounter,FailureCounter);
         $stop;
