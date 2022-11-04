@@ -1,9 +1,9 @@
 /*
  * Created by 
-   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Thu Nov  3 18:33:18 2022
+   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Fri Nov  4 19:16:19 2022
  * (C) Mentor Graphics Corporation
  */
-/* CheckSum: 2320341698 */
+/* CheckSum: 839398603 */
 
 module datapath(b, a, sum);
    input [31:0]b;
@@ -44,14 +44,24 @@ module datapath(b, a, sum);
    FA_X1 i_31 (.A(b[31]), .B(a[31]), .CI(n_30), .CO(sum[32]), .S(sum[31]));
 endmodule
 
-module simpleAdder(a, b, S, carry);
+module simpleAdder(a, b, S, carry, overflow);
    input [31:0]a;
    input [31:0]b;
    output [31:0]S;
    output carry;
+   output overflow;
+
+   wire n_0_1_0;
+   wire n_0_1_1;
+   wire n_0_1_2;
 
    datapath i_0_0 (.b(b), .a(a), .sum({carry, S[31], S[30], S[29], S[28], S[27], 
       S[26], S[25], S[24], S[23], S[22], S[21], S[20], S[19], S[18], S[17], 
       S[16], S[15], S[14], S[13], S[12], S[11], S[10], S[9], S[8], S[7], S[6], 
       S[5], S[4], S[3], S[2], S[1], S[0]}));
+   OAI22_X1 i_0_1_0 (.A1(b[31]), .A2(n_0_1_1), .B1(n_0_1_0), .B2(S[31]), 
+      .ZN(overflow));
+   NAND2_X1 i_0_1_1 (.A1(a[31]), .A2(b[31]), .ZN(n_0_1_0));
+   NAND2_X1 i_0_1_2 (.A1(n_0_1_2), .A2(S[31]), .ZN(n_0_1_1));
+   INV_X1 i_0_1_3 (.A(a[31]), .ZN(n_0_1_2));
 endmodule

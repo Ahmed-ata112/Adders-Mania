@@ -1,0 +1,106 @@
+Report for group default
+Report for group I2R
+Report for group I2O
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Startpoint: in1[0]
+    (Clocked by vsysclk R)
+Endpoint: of
+    (Clocked by vsysclk R)
+Path Group: I2O
+Data required time: 19500.0
+    (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
+Data arrival time: 2338.4
+Slack: 17161.6
+Logic depth: 42
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                     Arrival               Arc      Net               Net    Total   fan-                                   
+Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
+                                                        (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+in1[0]                   {set_input_delay}        f   1000.0   1000.0   1000.0                        2.3      8.1      2     0,   40                       
+rca/genblk1_0_fa/i_0_1/A2->ZN
+                         AND2_X4                 ff   1028.1     27.9     27.9      0.0      0.0      0.8     11.7      3    40,   40  /PD_TOP        (1.10)
+rca/genblk1_1_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1054.0     26.1     25.9      0.2      7.4      0.3      4.2      1    40,   40  /PD_TOP        (1.10)
+rca/genblk1_1_fa/i_0_0/A2->ZN
+                         NAND2_X4                rf   1074.3     20.3     20.3      0.0     18.3      0.8     11.7      3    40,   40  /PD_TOP        (1.10)
+rca/genblk1_2_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1101.2     26.9     26.9      0.0      9.9      0.3      4.2      1    40,   40  /PD_TOP        (1.10)
+rca/genblk1_2_fa/i_0_0/A2->ZN
+                         NAND2_X4                rf   1121.5     20.3     20.3      0.0     18.3      0.8     11.7      3    40,   40  /PD_TOP        (1.10)
+rca/genblk1_3_fa/i_0_1/B1->ZN
+                         OAI21_X4                fr   1148.4     26.9     26.9      0.0      9.9      0.3      4.2      1    40,   40  /PD_TOP        (1.10)
+rca/genblk1_3_fa/i_0_0/A2->ZN
+                         NAND2_X4                rf   1165.4     17.0     17.0      0.0     18.3      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_1_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1194.4     29.0     29.0      0.0      7.7      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_1_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1222.6     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_1_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1250.8     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_1_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1276.8     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_1_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   1321.7     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_2_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1351.3     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_2_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1379.5     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_2_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1407.7     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_2_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1433.7     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_2_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   1478.6     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_3_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1508.2     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_3_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1536.4     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_3_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1564.6     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_3_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1590.6     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_3_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   1635.5     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_4_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1665.1     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_4_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1693.3     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_4_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1721.5     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_4_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1747.5     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_4_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   1792.4     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_5_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1822.0     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_5_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1850.2     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_5_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1878.4     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_5_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   1904.4     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_5_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   1949.3     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_6_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   1978.9     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_6_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   2007.1     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_6_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   2035.3     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_6_cia/genblk1_3_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   2061.3     26.0     26.0      0.0      6.1      0.3      2.5      1    40,   40  /PD_TOP        (1.10)
+genblk1_6_cia/i_0_0/A2->ZN
+                         OR2_X4                  ff   2106.2     44.9     44.9      0.0      5.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_7_cia/h0/i_0_0/A2->ZN
+                         AND2_X4                 ff   2135.8     29.6     29.6      0.0      8.8      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_7_cia/genblk1_1_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   2164.0     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_7_cia/genblk1_2_h/i_0_0/A2->ZN
+                         AND2_X4                 ff   2192.2     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
+genblk1_7_cia/genblk1_3_h/i_0_1/B->Z
+                         XOR2_X2                 fr   2257.6     65.4     65.4      0.0      6.1      0.3     16.2      2    40,   40  /PD_TOP        (1.10)
+i_0_0_0/B->Z             XOR2_X2                 rr   2338.2     80.6     80.6      0.0     54.1      2.4     12.4      1    40,   40  /PD_TOP        (1.10)
+of                                                r   2338.4      0.2               0.2     45.3                              0,   38                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Report for group R2O

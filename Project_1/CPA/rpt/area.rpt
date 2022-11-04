@@ -13,13 +13,13 @@ Report Instance Areas:
 9    |    genblk1_6_fa|fa__0_32          |    5|        6
 10   |    genblk1_7_fa|fa__0_29          |    5|        6
 11   |  byPass0       |byPassLogic__0_108|   13|       18
-12   |    skipMux     |mux21__0_107      |    2|        1
+12   |    byPassMux   |mux21__0_107      |    2|        1
 13   |  byPassFinal   |byPassLogic__0_113|   12|       18
-14   |    skipMux     |mux21__0_112      |    1|        2
+14   |    byPassMux   |mux21__0_112      |    1|        2
 15   |  byPass2       |byPassLogic__0_118|   12|       18
-16   |    skipMux     |mux21__0_117      |    1|        2
+16   |    byPassMux   |mux21__0_117      |    1|        2
 17   |  byPass1       |byPassLogic       |   12|       18
-18   |    skipMux     |mux21             |    1|        2
+18   |    byPassMux   |mux21             |    1|        2
 19   |  rc3           |RCA__0_77         |   41|       48
 20   |    genblk1_0_fa|fa__0_76          |    5|        6
 21   |    genblk1_1_fa|fa__0_73          |    5|        6

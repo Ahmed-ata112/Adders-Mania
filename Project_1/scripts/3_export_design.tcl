@@ -26,7 +26,7 @@ if {![info exists top_module]} {
 report_units
 report_timing           > ${rpt_dir}/time.rpt
 report_path_groups      > ${rpt_dir}/path.rpt
-report_endpoints        > ${rpt_dir}/endpoints.rpt
+report_endpoints -count -1    > ${rpt_dir}/endpoints.rpt
 report_power            > ${rpt_dir}/power.rpt
 report_design_metrics   > ${rpt_dir}/design.rpt
 report_area   		> ${rpt_dir}/area.rpt

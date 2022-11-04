@@ -1,6 +1,6 @@
 /*
  * Created by 
-   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Fri Nov  4 11:28:23 2022
+   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Fri Nov  4 19:21:15 2022
  * (C) Mentor Graphics Corporation
  */
 /* CheckSum: 2064374644 */
@@ -199,7 +199,7 @@ module byPassLogic__0_108(a, b, cin, cout, out);
    wire n_0_1;
    wire finalP;
 
-   mux21__0_107 skipMux (.in1(cout), .in2(), .selector(finalP), .out(out));
+   mux21__0_107 byPassMux (.in1(cout), .in2(), .selector(finalP), .out(out));
    XOR2_X1 i_0_0 (.A(a[0]), .B(b[0]), .Z(n_0_2));
    XOR2_X1 i_0_1 (.A(a[1]), .B(b[1]), .Z(n_0_3));
    XOR2_X1 i_0_2 (.A(a[2]), .B(b[2]), .Z(n_0_4));
@@ -241,7 +241,7 @@ module byPassLogic__0_113(a, b, cin, cout, out);
    wire n_0_1;
    wire finalP;
 
-   mux21__0_112 skipMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
+   mux21__0_112 byPassMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
    XOR2_X1 i_0_0 (.A(a[0]), .B(b[0]), .Z(n_0_2));
    XOR2_X1 i_0_1 (.A(a[1]), .B(b[1]), .Z(n_0_3));
    XOR2_X1 i_0_2 (.A(a[2]), .B(b[2]), .Z(n_0_4));
@@ -283,7 +283,7 @@ module byPassLogic__0_118(a, b, cin, cout, out);
    wire n_0_1;
    wire finalP;
 
-   mux21__0_117 skipMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
+   mux21__0_117 byPassMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
    XOR2_X1 i_0_0 (.A(a[0]), .B(b[0]), .Z(n_0_2));
    XOR2_X1 i_0_1 (.A(a[1]), .B(b[1]), .Z(n_0_3));
    XOR2_X1 i_0_2 (.A(a[2]), .B(b[2]), .Z(n_0_4));
@@ -325,7 +325,7 @@ module byPassLogic(a, b, cin, cout, out);
    wire n_0_1;
    wire finalP;
 
-   mux21 skipMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
+   mux21 byPassMux (.in1(cout), .in2(cin), .selector(finalP), .out(out));
    XOR2_X1 i_0_0 (.A(a[0]), .B(b[0]), .Z(n_0_2));
    XOR2_X1 i_0_1 (.A(a[1]), .B(b[1]), .Z(n_0_3));
    XOR2_X1 i_0_2 (.A(a[2]), .B(b[2]), .Z(n_0_4));
