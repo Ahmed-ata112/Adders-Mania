@@ -2,52 +2,61 @@ Report Instance Areas:
 -----+----------------+-------------------------+-----+---------
      |Instance        |Module                   |Cells|Cell Area
 -----+----------------+-------------------------+-----+---------
-1    |top             |                         |  207|      251
-2    |  rc0           |ripple_carry_adder__0_28 |   17|       20
-3    |    genblk1_0_fa|fa__0_27                 |    2|        3
-4    |    genblk1_1_fa|fa__0_24                 |    5|        6
-5    |    genblk1_2_fa|fa__0_21                 |    5|        6
-6    |    genblk1_3_fa|fa__0_18                 |    5|        6
-7    |  skipFinal     |skipLogic__0_120         |    7|        9
-8    |  skip6         |skipLogic__0_124         |    7|        9
-9    |  skip5         |skipLogic__0_128         |    7|        9
-10   |  skip4         |skipLogic__0_132         |    7|        9
-11   |  skip3         |skipLogic__0_136         |    7|        9
-12   |  skip2         |skipLogic__0_140         |    7|        9
-13   |  skip1         |skipLogic                |    7|        9
-14   |  rc7           |ripple_carry_adder__0_42 |   21|       25
-15   |    genblk1_0_fa|fa__0_41                 |    5|        6
-16   |    genblk1_1_fa|fa__0_38                 |    5|        6
-17   |    genblk1_2_fa|fa__0_35                 |    5|        6
-18   |    genblk1_3_fa|fa__0_32                 |    5|        6
-19   |  rc6           |ripple_carry_adder__0_56 |   20|       23
-20   |    genblk1_0_fa|fa__0_55                 |    5|        6
-21   |    genblk1_1_fa|fa__0_52                 |    5|        6
-22   |    genblk1_2_fa|fa__0_49                 |    5|        6
-23   |    genblk1_3_fa|fa__0_46                 |    5|        6
-24   |  rc5           |ripple_carry_adder__0_70 |   20|       23
-25   |    genblk1_0_fa|fa__0_69                 |    5|        6
-26   |    genblk1_1_fa|fa__0_66                 |    5|        6
-27   |    genblk1_2_fa|fa__0_63                 |    5|        6
-28   |    genblk1_3_fa|fa__0_60                 |    5|        6
-29   |  rc4           |ripple_carry_adder__0_84 |   20|       23
-30   |    genblk1_0_fa|fa__0_83                 |    5|        6
-31   |    genblk1_1_fa|fa__0_80                 |    5|        6
-32   |    genblk1_2_fa|fa__0_77                 |    5|        6
-33   |    genblk1_3_fa|fa__0_74                 |    5|        6
-34   |  rc3           |ripple_carry_adder__0_98 |   20|       23
-35   |    genblk1_0_fa|fa__0_97                 |    5|        6
-36   |    genblk1_1_fa|fa__0_94                 |    5|        6
-37   |    genblk1_2_fa|fa__0_91                 |    5|        6
-38   |    genblk1_3_fa|fa__0_88                 |    5|        6
-39   |  rc2           |ripple_carry_adder__0_112|   20|       23
-40   |    genblk1_0_fa|fa__0_111                |    5|        6
-41   |    genblk1_1_fa|fa__0_108                |    5|        6
-42   |    genblk1_2_fa|fa__0_105                |    5|        6
-43   |    genblk1_3_fa|fa__0_102                |    5|        6
-44   |  rc1           |ripple_carry_adder       |   20|       23
-45   |    genblk1_0_fa|fa__0_8                  |    5|        6
-46   |    genblk1_1_fa|fa__0_11                 |    5|        6
-47   |    genblk1_2_fa|fa__0_14                 |    5|        6
-48   |    genblk1_3_fa|fa                       |    5|        6
+1    |top             |                         |  207|      262
+2    |  rc0           |ripple_carry_adder__0_27 |   17|       20
+3    |    genblk1_0_fa|fa__0_26                 |    2|        3
+4    |    genblk1_1_fa|fa__0_23                 |    5|        6
+5    |    genblk1_2_fa|fa__0_20                 |    5|        6
+6    |    genblk1_3_fa|fa__0_17                 |    5|        6
+7    |  skip0         |skipLogic__0_116         |    7|        9
+8    |    skipMux     |mux21__0_115             |    2|        1
+9    |  skipFinal     |skipLogic__0_121         |    6|       10
+10   |    skipMux     |mux21__0_120             |    1|        2
+11   |  skip6         |skipLogic__0_126         |    6|       10
+12   |    skipMux     |mux21__0_125             |    1|        2
+13   |  skip5         |skipLogic__0_131         |    6|       10
+14   |    skipMux     |mux21__0_130             |    1|        2
+15   |  skip4         |skipLogic__0_136         |    6|       10
+16   |    skipMux     |mux21__0_135             |    1|        2
+17   |  skip3         |skipLogic__0_141         |    6|       10
+18   |    skipMux     |mux21__0_140             |    1|        2
+19   |  skip2         |skipLogic__0_146         |    6|       10
+20   |    skipMux     |mux21__0_145             |    1|        2
+21   |  skip1         |skipLogic                |    6|       10
+22   |    skipMux     |mux21                    |    1|        2
+23   |  rc7           |ripple_carry_adder__0_41 |   21|       25
+24   |    genblk1_0_fa|fa__0_40                 |    5|        6
+25   |    genblk1_1_fa|fa__0_37                 |    5|        6
+26   |    genblk1_2_fa|fa__0_34                 |    5|        6
+27   |    genblk1_3_fa|fa__0_31                 |    5|        6
+28   |  rc6           |ripple_carry_adder__0_55 |   20|       23
+29   |    genblk1_0_fa|fa__0_54                 |    5|        6
+30   |    genblk1_1_fa|fa__0_51                 |    5|        6
+31   |    genblk1_2_fa|fa__0_48                 |    5|        6
+32   |    genblk1_3_fa|fa__0_45                 |    5|        6
+33   |  rc5           |ripple_carry_adder__0_69 |   20|       23
+34   |    genblk1_0_fa|fa__0_68                 |    5|        6
+35   |    genblk1_1_fa|fa__0_65                 |    5|        6
+36   |    genblk1_2_fa|fa__0_62                 |    5|        6
+37   |    genblk1_3_fa|fa__0_59                 |    5|        6
+38   |  rc4           |ripple_carry_adder__0_83 |   20|       23
+39   |    genblk1_0_fa|fa__0_82                 |    5|        6
+40   |    genblk1_1_fa|fa__0_79                 |    5|        6
+41   |    genblk1_2_fa|fa__0_76                 |    5|        6
+42   |    genblk1_3_fa|fa__0_73                 |    5|        6
+43   |  rc3           |ripple_carry_adder__0_97 |   20|       23
+44   |    genblk1_0_fa|fa__0_96                 |    5|        6
+45   |    genblk1_1_fa|fa__0_93                 |    5|        6
+46   |    genblk1_2_fa|fa__0_90                 |    5|        6
+47   |    genblk1_3_fa|fa__0_87                 |    5|        6
+48   |  rc2           |ripple_carry_adder__0_111|   20|       23
+49   |    genblk1_0_fa|fa__0_110                |    5|        6
+50   |    genblk1_1_fa|fa__0_107                |    5|        6
+51   |    genblk1_2_fa|fa__0_104                |    5|        6
+52   |    genblk1_3_fa|fa__0_101                |    5|        6
+53   |  rc1           |ripple_carry_adder       |   20|       23
+54   |    genblk1_0_fa|fa__0_7                  |    5|        6
+55   |    genblk1_1_fa|fa__0_10                 |    5|        6
+56   |    genblk1_2_fa|fa__0_13                 |    5|        6
+57   |    genblk1_3_fa|fa                       |    5|        6
 -----+----------------+-------------------------+-----+---------

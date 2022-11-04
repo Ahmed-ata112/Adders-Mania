@@ -3,16 +3,16 @@ Report Physical info:
                         |             |Area (squm)|Leakage (uW)
 ------------------------+-------------+-----------+------------
 Design Name             |CSA          |           |            
-  Total Instances       |          207|        251|       5.680
+  Total Instances       |          207|        262|       5.850
     Macros              |            0|          0|       0.000
     Pads                |            0|          0|       0.000
     Phys                |            0|          0|       0.000
     Blackboxes          |            0|          0|       0.000
-    Cells               |          207|        251|       5.680
+    Cells               |          207|        262|       5.850
       Buffers           |            0|          0|       0.000
-      Inverters         |            7|          4|       0.100
+      Inverters         |            1|          1|       0.014
       Clock-Gates       |            0|          0|       0.000
-      Combinational     |          200|        247|       5.580
+      Combinational     |          206|        261|       5.836
       Latches           |            0|          0|       0.000
       FlipFlops         |            0|          0|       0.000
        Single-Bit FF    |            0|          0|       0.000
@@ -23,14 +23,14 @@ Design Name             |CSA          |           |
          Clock-Gated    |            0|           |            
   Tristate Pin Count    |            0|           |            
 Physical Info           |Placed       |           |            
-  Chip Size (mm x mm)   |0.080 x 0.080|       6471|            
+  Chip Size (mm x mm)   |0.081 x 0.081|       6542|            
   Fixed Cell Area       |             |          0|            
     Phys Only           |            0|          0|            
-  Placeable Area        |             |        398|            
-  Movable Cell Area     |             |        251|            
-  Utilization (%)       |           62|           |            
-  Chip Utilization (%)  |           62|           |            
-  Total Wire Length (mm)|        4.106|           |            
+  Placeable Area        |             |        406|            
+  Movable Cell Area     |             |        262|            
+  Utilization (%)       |           64|           |            
+  Chip Utilization (%)  |           64|           |            
+  Total Wire Length (mm)|        4.127|           |            
   Longest Wire (mm)     |        0.044|           |            
   Average Wire (mm)     |        0.042|           |            
 ------------------------+-------------+-----------+------------
