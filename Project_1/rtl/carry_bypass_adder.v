@@ -91,7 +91,7 @@ module byPassLogic #(parameter N=8)
 	end
 	assign finalP=&p;
 
-	mux21 skipMux(cout,cin,finalP,out);
+	mux21 byPassMux(cout,cin,finalP,out);
 endmodule
 
 module mux21 (in1,in2,selector,out);

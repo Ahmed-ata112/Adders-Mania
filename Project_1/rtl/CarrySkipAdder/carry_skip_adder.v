@@ -45,8 +45,14 @@ module skipLogic #(parameter N=4)
 	end
 	assign finalP= &p;
 
-	assign e= finalP & cin;
-	assign out= e | cout;
+	mux21 skipMux(cout,cin,finalP,out);
+endmodule
+
+module mux21 (in1,in2,selector,out);
+	input in1,in2,selector;
+	output out;
+
+	assign out = selector?in2 :in1;
 endmodule
 
 module ripple_carry_adder #(parameter N = 4)
