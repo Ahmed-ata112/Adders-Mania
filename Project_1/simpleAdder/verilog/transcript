@@ -1,56 +1,68 @@
-# vsim simpleAdder_tb 
-# Start time: 18:39:25 on Nov 03,2022
-# ** Error (suppressible): (vsim-19) Failed to access library 'work' at "work".
-# No such file or directory. (errno = ENOENT)
-# Error loading design
-# End time: 18:39:25 on Nov 03,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
 # Loading project modelsim
-# Compile of demo_simpleAdder.syn.v was successful.
 # Compile of NangateOpenCellLibrary.v was successful.
-# Compile of simpleAdder_tb.v was successful.
+# Compile of demo_fp_adder.syn.v was successful.
+# Compile of fp_adder_tb.v was successful.
 # 3 compiles, 0 failed with no errors.
-vsim work.simpleAdder_tb
-# vsim work.simpleAdder_tb 
-# Start time: 18:40:22 on Nov 03,2022
-# Loading work.simpleAdder_tb
+vsim work.fp_adder_tb
+# vsim work.fp_adder_tb 
+# Start time: 10:29:00 on Nov 04,2022
+# Loading work.fp_adder_tb
+# Loading work.fp_adder
 # Loading work.simpleAdder
 # Loading work.datapath
 # Loading work.HA_X1
 # Loading work.FA_X1
-# ** Error (suppressible): (vsim-3584) /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/simpleAdder_tb.v(38): Module parameter 'N' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /simpleAdder_tb File: /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/simpleAdder_tb.v
-# Error loading design
-vsim work.simpleAdder_tb
-# End time: 18:40:22 on Nov 03,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# vsim work.simpleAdder_tb 
-# Start time: 18:40:22 on Nov 03,2022
-# Loading work.simpleAdder_tb
-# Loading work.simpleAdder
-# Loading work.datapath
-# Loading work.HA_X1
-# Loading work.FA_X1
-# ** Error (suppressible): (vsim-3584) /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/simpleAdder_tb.v(38): Module parameter 'N' not found for override.
-#    Time: 0 ps  Iteration: 0  Instance: /simpleAdder_tb File: /mnt/hgfs/shared/VLSI-Projects/Project_1/simpleAdder/verilog/simpleAdder_tb.v
-# Error loading design
-# End time: 18:40:22 on Nov 03,2022, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vsim work.simpleAdder
-# vsim work.simpleAdder 
-# Start time: 18:40:31 on Nov 03,2022
-# Loading work.simpleAdder
-# Loading work.datapath
-# Loading work.HA_X1
-# Loading work.FA_X1
+# Loading work.count_leading_zeros
+# Loading work.AOI21_X1
+# Loading work.OAI21_X1
+# Loading work.NOR3_X1
+# Loading work.AOI211_X1
+# Loading work.NOR2_X1
+# Loading work.AND2_X1
+# Loading work.NAND2_X1
+# Loading work.OR2_X1
+# Loading work.AND3_X1
+# Loading work.NAND3_X1
+# Loading work.NOR4_X1
+# Loading work.INV_X1
+# Loading work.datapath__0_19
+# Loading work.datapath__0_21
+# Loading work.XNOR2_X1
+# Loading work.datapath__0_28
+# Loading work.XOR2_X1
+# Loading work.OR3_X1
+# Loading work.MUX2_X1
+# Loading work.OAI221_X1
+# Loading work.OAI211_X1
+# Loading work.AOI222_X1
+# Loading work.AOI221_X1
+# Loading work.AOI22_X1
+# Loading work.OAI22_X1
+# Loading work.OAI222_X1
+# Loading work.NAND4_X1
 add wave -position insertpoint  \
-sim:/simpleAdder/a \
-sim:/simpleAdder/b \
-sim:/simpleAdder/S \
-sim:/simpleAdder/carry
-force -freeze sim:/simpleAdder/a 1111111111 0
-force -freeze sim:/simpleAdder/b 1 0
+sim:/fp_adder_tb/T \
+sim:/fp_adder_tb/A \
+sim:/fp_adder_tb/B \
+sim:/fp_adder_tb/Sum \
+sim:/fp_adder_tb/overflow \
+sim:/fp_adder_tb/underflow \
+sim:/fp_adder_tb/TestsCounter \
+sim:/fp_adder_tb/SuccessCounter \
+sim:/fp_adder_tb/FailureCounter
 run
-run
-# End time: 18:41:39 on Nov 03,2022, Elapsed time: 0:01:08
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f9ffffe and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff9ffffe and overflow status 0 , underflow status 1
+# TestCase# 6 : success
+# TestCase# 7 : success
+# TestCase# 8 : success
+# Total Tests: 9 || Success Cases=7 || Failure Cases=2 
+# ** Note: $stop    : /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v(108)
+#    Time: 90 ps  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v line 108
+# End time: 10:31:01 on Nov 04,2022, Elapsed time: 0:02:01
 # Errors: 0, Warnings: 0
