@@ -1,12 +1,13 @@
-module carrybypassAdder #(parameter N = 32)
+module CPA #(parameter N = 32)
 (
 		a,b,cin,
-		sum,cout
+		sum,cout,overflow
 );
 	input cin;
     	input [N-1:0] a,b;
-    	output cout;
+    	output cout,overflow;
     	output [N-1:0] sum;
+	wire [N/8-1:0]of;
 
 	wire [N/8-1:0] couts;
 	wire [N/8-2:0] temp;
@@ -16,26 +17,27 @@ module carrybypassAdder #(parameter N = 32)
 	ripple_carry_adder #(8) rc2 (a[23:16],b[23:16],temp[1],couts[2],sum[23:16]);
 	ripple_carry_adder #(8) rc3 (a[31:24],b[31:24],temp[2],couts[3],sum[31:24]);
 */
-	ripple_carry_adder rc1(a[7:0],b[7:0],0,couts[0],sum[7:0]);
-	ripple_carry_adder rc[N/8-1:1](a[N-1:8],b[N-1:8],temp[N/8-2:0],couts[N/8-1:1],sum[N-1:8]);
-
-	skipLogic skip0(a[7:0],b[7:0],0,couts[0],temp[0]);
+	RCA rc0(a[7:0],b[7:0],0,couts[0],sum[7:0],overflow[0]);
+	RCA rc[N/8-1:1](a[N-1:8],b[N-1:8],temp[N/8-2:0],couts[N/8-1:1],sum[N-1:8],overflow[N/8-1:1]);
 /*
 	skipLogic skip1(a[15:8],b[15:8],temp[0],couts[1],temp[1]);
 	skipLogic skip2(a[23:16],b[23:16],temp[1],couts[2],temp[2]);
 */
-	skipLogic skip[N/8-2:1](a[N-9:8],b[N-9:8],temp[N/8-3:0],couts[N/8-2:1],temp[N/4-2:1]);
-	skipLogic skip3(a[N-1:N-8],b[N-1:N-8],temp[N/8-2],couts[N/8-1],cout);
+	byPassLogic byPass0(a[7:0],b[7:0],0,couts[0],temp[0]);
+	byPassLogic byPass[N/8-2:1](a[N-9:8],b[N-9:8],temp[N/8-3:0],couts[N/8-2:1],temp[N/8-2:1]);
+	byPassLogic byPassFinal(a[N-1:N-8],b[N-1:N-8],temp[N/8-2],couts[N/8-1],cout);
+
+	assign overflow=of[N/8-1];
 endmodule
 
-module ripple_carry_adder #(parameter N = 8)
+module RCA #(parameter N = 8)
 (
     in1, in2,cin,
-    cout,sum
+    cout,sum,overflow
 );
     input cin;
     input [N-1:0] in1,in2;
-    output cout;
+    output cout,overflow;
     output [N-1:0] sum;
 
     wire [N:0] C;
@@ -56,6 +58,8 @@ module ripple_carry_adder #(parameter N = 8)
         end
     endgenerate
 
+    assign overflow = C[N-1] ^ C[N];
+
 endmodule
 
 module fa (
@@ -69,7 +73,7 @@ module fa (
     assign cout = (in1 & in2) | (in2 & cin) | (in1 & cin);
 endmodule
 
-module skipLogic #(parameter N=8)
+module byPassLogic #(parameter N=8)
 (
 		a,b,cin,cout,
 		out

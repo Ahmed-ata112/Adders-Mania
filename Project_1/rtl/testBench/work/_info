@@ -1,6 +1,7 @@
 m255
 K4
 z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
@@ -8,3 +9,216 @@ z2
 !i10f 100
 cModel Technology
 dC:/WINDOWS/system32
+vbyPassLogic
+Z0 !s110 1667545953
+!i10b 1
+!s100 AEj^i5f>5NP6aiaINA25V3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]R7m8NJ]:bSniak987FdF1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/testBench
+Z4 w1667545329
+Z5 8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v
+Z6 FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v
+!i122 25
+L0 76 20
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1667545952.000000
+Z9 !s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nby@pass@logic
+vCPA
+R0
+!i10b 1
+!s100 iI:>C2dj90IcbEbKPZ0Jz2
+R1
+IaZ4@L<b55oEQoW9MPfHc43
+R2
+R3
+R4
+R5
+R6
+!i122 25
+L0 1 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@c@p@a
+vCSA
+R0
+!i10b 1
+!s100 BZeXf<e9?l:dU4^8lP_771
+R1
+I]iZUa>JXkDkO5RXlBF:1N3
+R2
+R3
+Z13 w1667545947
+Z14 8C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v
+Z15 FC:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v
+!i122 26
+L0 1 25
+R7
+r1
+!s85 0
+31
+Z16 !s108 1667545953.000000
+!s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v|
+!i113 1
+R11
+R12
+n@c@s@a
+vfa
+R0
+!i10b 1
+!s100 aJ^4lWFS^>^Ej76C^J`;93
+R1
+IIA_U4POQijbG?_]XbUazH0
+R2
+R3
+R13
+R14
+R15
+!i122 26
+L0 83 10
+R7
+r1
+!s85 0
+31
+R16
+Z18 !s107 C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v|
+R17
+!i113 1
+R11
+R12
+vmux21
+R0
+!i10b 1
+!s100 mz>XQi7]1ZBcXLL`[[5UY3
+R1
+I_THcJ2eGGidcRGM65hH<c2
+R2
+R3
+R4
+R5
+R6
+!i122 25
+L0 97 6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vRCA
+R0
+!i10b 1
+!s100 m_]Rg6c[Xlf04n=C1_?c52
+R1
+IL0eFjTkH8Y<=UJe0LoYCZ2
+R2
+R3
+R4
+R5
+R6
+!i122 25
+L0 33 31
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@r@c@a
+vRegFileTb
+!s110 1667543993
+!i10b 1
+!s100 X675fjN^3HK=Z8cWOOL0Z0
+R1
+I6ljIiPQikFh>MM=hDUR;01
+R2
+R3
+w1666510419
+8C:/Users/ASUS/OneDrive/Desktop/Verilog/Lab2_yarabnkhlsssssssssssss/Regs_tb.v
+FC:/Users/ASUS/OneDrive/Desktop/Verilog/Lab2_yarabnkhlsssssssssssss/Regs_tb.v
+!i122 0
+L0 2 98
+R7
+r1
+!s85 0
+31
+!s108 1667543992.000000
+!s107 C:/Users/ASUS/OneDrive/Desktop/Verilog/Lab2_yarabnkhlsssssssssssss/Regs_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/OneDrive/Desktop/Verilog/Lab2_yarabnkhlsssssssssssss/Regs_tb.v|
+!i113 1
+R11
+R12
+n@reg@file@tb
+vripple_carry_adder
+R0
+!i10b 1
+!s100 FYFH?57NXPiJj]]TI[7Ng2
+R1
+ImG1?9g@07NYLb>_6ZXbl@0
+R2
+R3
+R13
+R14
+R15
+!i122 26
+L0 52 30
+R7
+r1
+!s85 0
+31
+R16
+R18
+R17
+!i113 1
+R11
+R12
+vskipLogic
+R0
+!i10b 1
+!s100 iC95foAWTG`D7F[GD4]gd1
+R1
+I9elE3X<ao07YFdX9<j9`m0
+R2
+R3
+R13
+R14
+R15
+!i122 26
+L0 29 22
+R7
+r1
+!s85 0
+31
+R16
+R18
+R17
+!i113 1
+R11
+R12
+nskip@logic

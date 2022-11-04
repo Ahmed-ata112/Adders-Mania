@@ -1,0 +1,243 @@
+# Compile of tb.v failed with 1 errors.
+# Compile of Regs_tb.v was successful with warnings.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# vsim -gui work.CPA 
+# Start time: 08:41:36 on Nov 04,2022
+# Loading work.CPA
+# Loading work.ripple_carry_adder
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 08:41:37 on Nov 04,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 7
+vsim -gui work.CPA
+# vsim -gui work.CPA 
+# Start time: 08:43:28 on Nov 04,2022
+# Loading work.CPA
+# Loading work.ripple_carry_adder
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Fatal: (vsim-3365) Too many port connections. Expected 5, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 08:43:29 on Nov 04,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# vsim -gui work.CPA 
+# Start time: 08:45:09 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(75).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 25
+# WARNING: No extended dataflow license exists
+vsim -gui work.CPA
+# End time: 08:46:31 on Nov 04,2022, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 4
+# vsim -gui work.CPA 
+# Start time: 08:46:31 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(75).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 25
+add wave sim:/CPA/*
+force -freeze sim:/CPA/cin 0 0
+force -freeze sim:/CPA/a 0110000000000000000000000000000000000000000000000000000000000000000000000000 0
+force -freeze sim:/CPA/b 0100000000000000000000110000000000010000010000000000000000000000000000000000000000000000000000000 0
+force -freeze sim:/CPA/a 011000000000000000000000000000000000000000 0
+run
+force -freeze sim:/CPA/a b01000011100000000001010101010101 0
+# Invalid binary digit: b.
+# ** UI-Msg: (vsim-4011) Invalid force value: b01000011100000000001010101010101 0.
+# 
+force -freeze sim:/CPA/b 01000000000111010100000010101010 0
+run
+force -freeze sim:/CPA/a 01000011100000000001010101010101 0
+run
+force -freeze sim:/CPA/a 10000000000000000000000000000000 0
+force -freeze sim:/CPA/b 11000000000000000000000000000000 0
+run
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# End time: 08:55:02 on Nov 04,2022, Elapsed time: 0:08:31
+# Errors: 0, Warnings: 4
+# vsim -gui work.CPA 
+# Start time: 08:55:02 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(33).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 20
+# ** Error (suppressible): (vsim-3054) Port connection object port 'overflow' must be 1 or 3-bit wide. The actual provided is 7-bit. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(34).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc[1] File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(76).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 26
+# Error loading design
+# End time: 08:55:03 on Nov 04,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# vsim -gui work.CPA 
+# Start time: 08:56:23 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(33).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(76).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 26
+# WARNING: No extended dataflow license exists
+add wave sim:/CPA/*
+force -freeze sim:/CPA/cin 0 0
+force -freeze sim:/CPA/a 0110000000000000000000000000000000000000000000000000000000000000000000000000 0
+force -freeze sim:/CPA/b 0100000000000000000000110000000000010000010000000000000000000000000000000000000000000000000000000 0
+force -freeze sim:/CPA/a 011000000000000000000000000000000000000000 0
+run
+force -freeze sim:/CPA/a b01000011100000000001010101010101 0
+# Invalid binary digit: b.
+# ** UI-Msg: (vsim-4011) Invalid force value: b01000011100000000001010101010101 0.
+# 
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# End time: 08:58:30 on Nov 04,2022, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 6
+# vsim -gui work.CPA 
+# Start time: 08:58:30 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(33).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(76).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 26
+# WARNING: No extended dataflow license exists
+add wave sim:/CPA/*
+force -freeze sim:/CPA/cin 0 0
+force -freeze sim:/CPA/a 10000000000000000000000000000000 0
+force -freeze sim:/CPA/b 11000000000000000000000000000000 0
+run
+# Compile of carry_bypass_adder.v failed with 2 errors.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of carry_bypass_adder.v failed with 2 errors.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CPA
+# End time: 09:02:51 on Nov 04,2022, Elapsed time: 0:04:21
+# Errors: 0, Warnings: 6
+# vsim -gui work.CPA 
+# Start time: 09:02:51 on Nov 04,2022
+# Loading work.CPA
+# Loading work.RCA
+# Loading work.byPassLogic
+# Loading work.mux21
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(35).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v(78).
+#    Time: 0 ps  Iteration: 0  Instance: /CPA/byPass0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carryBypassAdder/carry_bypass_adder.v Line: 26
+# WARNING: No extended dataflow license exists
+add wave sim:/CPA/*
+force -freeze sim:/CPA/cin 0 0
+force -freeze sim:/CPA/a 10000000000000000000000000000000 0
+force -freeze sim:/CPA/b 11000000000000000000000000000000 0
+run
+force -freeze sim:/CPA/a 01000011100000000001010101010101 0
+force -freeze sim:/CPA/b 01000000000111010100000010101010 0
+run
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CSA
+# End time: 09:09:58 on Nov 04,2022, Elapsed time: 0:07:07
+# Errors: 0, Warnings: 5
+# vsim -gui work.CSA 
+# Start time: 09:09:58 on Nov 04,2022
+# Loading work.CSA
+# Loading work.ripple_carry_adder
+# Loading work.skipLogic
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /CSA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v(29).
+#    Time: 0 ps  Iteration: 0  Instance: /CSA/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v Line: 18
+# WARNING: No extended dataflow license exists
+add wave sim:/CSA/*
+force -freeze sim:/CSA/cin 0 0
+force -freeze sim:/CSA/a 01000000000111010100000010101010 0
+force -freeze sim:/CSA/b 0100001110000000000101010101010101000011100000000001010101010101 0
+run
+run
+run
+# Compile of carry_bypass_adder.v was successful.
+# Compile of carry_skip_adder.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.CSA
+# End time: 09:12:49 on Nov 04,2022, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 4
+# vsim -gui work.CSA 
+# Start time: 09:12:49 on Nov 04,2022
+# Loading work.CSA
+# Loading work.ripple_carry_adder
+# Loading work.skipLogic
+# Loading work.fa
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v(54).
+#    Time: 0 ps  Iteration: 0  Instance: /CSA/rc0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /CSA/skip0 File: C:/Users/ASUS/OneDrive/Desktop/VLSI-Projects/Project_1/rtl/carrySkipAdder/carry_skip_adder.v Line: 19
+# WARNING: No extended dataflow license exists
+add wave sim:/CSA/*
+force -freeze sim:/CSA/cin 0 0
+force -freeze sim:/CSA/a 01000000000111010100000010101010 0
+force -freeze sim:/CSA/b 01000011100000000001010101010101 0
+run
+force -freeze sim:/CSA/a 10000000000000000000000000000000 0
+force -freeze sim:/CSA/b 11000000000000000000000000000000 0
+run
+# End time: 09:15:01 on Nov 04,2022, Elapsed time: 0:02:12
+# Errors: 0, Warnings: 3
