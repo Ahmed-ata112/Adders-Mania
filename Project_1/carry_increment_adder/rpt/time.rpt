@@ -9,15 +9,15 @@ Endpoint: of
 Path Group: I2O
 Data required time: 19500.0
     (Clock shift: 20000.0, minus Uncertainty: 0.0, plus Latency 0.0, minus Out delay: 500.0)
-Data arrival time: 2338.4
-Slack: 17161.6
-Logic depth: 42
+Data arrival time: 2458.6
+Slack: 17041.4
+Logic depth: 43
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
                                                      Arrival               Arc      Net               Net    Total   fan-                                   
 Path                     Module/Cell           Edge     Time    Delay    Delay    Delay     Slew     Load     Load    out     Location Power Domain      (V)
                                                         (ps)     (ps)     (ps)     (ps)     (ps)     (ff)     (ff)    (#)      (um,um)                      
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-in1[0]                   {set_input_delay}        f   1000.0   1000.0   1000.0                        2.3      8.1      2     0,   40                       
+in1[0]                   {set_input_delay}        f   1000.0   1000.0   1000.0                        2.3      8.1      2    80,   41                       
 rca/genblk1_0_fa/i_0_1/A2->ZN
                          AND2_X4                 ff   1028.1     27.9     27.9      0.0      0.0      0.8     11.7      3    40,   40  /PD_TOP        (1.10)
 rca/genblk1_1_fa/i_0_1/B1->ZN
@@ -99,8 +99,9 @@ genblk1_7_cia/genblk1_1_h/i_0_0/A2->ZN
 genblk1_7_cia/genblk1_2_h/i_0_0/A2->ZN
                          AND2_X4                 ff   2192.2     28.2     28.2      0.0      6.1      0.5      6.2      2    40,   40  /PD_TOP        (1.10)
 genblk1_7_cia/genblk1_3_h/i_0_1/B->Z
-                         XOR2_X2                 fr   2257.6     65.4     65.4      0.0      6.1      0.3     16.2      2    40,   40  /PD_TOP        (1.10)
-i_0_0_0/B->Z             XOR2_X2                 rr   2338.2     80.6     80.6      0.0     54.1      2.4     12.4      1    40,   40  /PD_TOP        (1.10)
-of                                                r   2338.4      0.2               0.2     45.3                              0,   38                       
+                         XOR2_X2*                fr   2292.5    100.3    100.3      0.0      6.1      0.6     40.1      3    40,   40  /PD_TOP        (1.10)
+i_0_0_2/A->ZN            INV_X8                  rf   2298.7      6.2      6.2      0.0     15.3      0.3      1.9      1    40,   40  /PD_TOP        (1.10)
+i_0_0_0/B2->ZN           OAI33_X1                fr   2458.4    159.7    159.7      0.0      3.2      2.4     12.4      1    40,   40  /PD_TOP        (1.10)
+of                                                r   2458.6      0.2               0.2    139.1                             80,   42                       
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Report for group R2O

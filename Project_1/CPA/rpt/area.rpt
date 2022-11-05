@@ -3,7 +3,7 @@ Report Instance Areas:
      |Instance        |Module            |Cells|Cell Area
 -----+----------------+------------------+-----+---------
 1    |top             |                  |  207|      257
-2    |  rc0           |RCA__0_51         |   37|       44
+2    |  rc0           |RCA1__0_51        |   37|       44
 3    |    genblk1_0_fa|fa__0_50          |    2|        3
 4    |    genblk1_1_fa|fa__0_47          |    5|        6
 5    |    genblk1_2_fa|fa__0_44          |    5|        6
@@ -20,7 +20,7 @@ Report Instance Areas:
 16   |    byPassMux   |mux21__0_117      |    1|        2
 17   |  byPass1       |byPassLogic       |   12|       18
 18   |    byPassMux   |mux21             |    1|        2
-19   |  rc3           |RCA__0_77         |   41|       48
+19   |  rc3           |RCA1__0_77        |   41|       48
 20   |    genblk1_0_fa|fa__0_76          |    5|        6
 21   |    genblk1_1_fa|fa__0_73          |    5|        6
 22   |    genblk1_2_fa|fa__0_70          |    5|        6
@@ -29,7 +29,7 @@ Report Instance Areas:
 25   |    genblk1_5_fa|fa__0_61          |    5|        6
 26   |    genblk1_6_fa|fa__0_58          |    5|        6
 27   |    genblk1_7_fa|fa__0_55          |    5|        6
-28   |  rc2           |RCA__0_103        |   40|       47
+28   |  rc2           |RCA1__0_103       |   40|       47
 29   |    genblk1_0_fa|fa__0_102         |    5|        6
 30   |    genblk1_1_fa|fa__0_99          |    5|        6
 31   |    genblk1_2_fa|fa__0_96          |    5|        6
@@ -38,7 +38,7 @@ Report Instance Areas:
 34   |    genblk1_5_fa|fa__0_87          |    5|        6
 35   |    genblk1_6_fa|fa__0_84          |    5|        6
 36   |    genblk1_7_fa|fa__0_81          |    5|        6
-37   |  rc1           |RCA               |   40|       47
+37   |  rc1           |RCA1              |   40|       47
 38   |    genblk1_0_fa|fa__0_7           |    5|        6
 39   |    genblk1_1_fa|fa__0_10          |    5|        6
 40   |    genblk1_2_fa|fa__0_13          |    5|        6

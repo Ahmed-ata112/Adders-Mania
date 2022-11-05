@@ -1,0 +1,89 @@
+Report Instance Areas: 
+-----+------------------+-------------------------------+-----+---------
+     |Instance          |Module                         |Cells|Cell Area
+-----+------------------+-------------------------------+-----+---------
+1    |top               |                               |  294|      372
+2    |  csa_0           |carry_select_adder_block__0_54 |   17|       20
+3    |    rca0          |ripple_carry_adder__0_40       |   17|       20
+4    |      genblk1_0_fa|fa__0_39                       |    2|        3
+5    |      genblk1_1_fa|fa__0_36                       |    5|        6
+6    |      genblk1_2_fa|fa__0_33                       |    5|        6
+7    |      genblk1_3_fa|fa__0_30                       |    5|        6
+8    |  genblk1_1_csa   |carry_select_adder_block__0_83 |   39|       50
+9    |    rca1          |ripple_carry_adder__0_82       |   17|       20
+10   |      genblk1_0_fa|fa__0_81                       |    2|        3
+11   |      genblk1_1_fa|fa__0_78                       |    5|        6
+12   |      genblk1_2_fa|fa__0_75                       |    5|        6
+13   |      genblk1_3_fa|fa__0_72                       |    5|        6
+14   |    rca0          |ripple_carry_adder__0_69       |   17|       20
+15   |      genblk1_0_fa|fa__0_68                       |    2|        3
+16   |      genblk1_1_fa|fa__0_65                       |    5|        6
+17   |      genblk1_2_fa|fa__0_62                       |    5|        6
+18   |      genblk1_3_fa|fa__0_59                       |    5|        6
+19   |  genblk1_2_csa   |carry_select_adder_block__0_112|   39|       50
+20   |    rca1          |ripple_carry_adder__0_111      |   17|       20
+21   |      genblk1_0_fa|fa__0_110                      |    2|        3
+22   |      genblk1_1_fa|fa__0_107                      |    5|        6
+23   |      genblk1_2_fa|fa__0_104                      |    5|        6
+24   |      genblk1_3_fa|fa__0_101                      |    5|        6
+25   |    rca0          |ripple_carry_adder__0_98       |   17|       20
+26   |      genblk1_0_fa|fa__0_97                       |    2|        3
+27   |      genblk1_1_fa|fa__0_94                       |    5|        6
+28   |      genblk1_2_fa|fa__0_91                       |    5|        6
+29   |      genblk1_3_fa|fa__0_88                       |    5|        6
+30   |  genblk1_3_csa   |carry_select_adder_block__0_141|   39|       50
+31   |    rca1          |ripple_carry_adder__0_140      |   17|       20
+32   |      genblk1_0_fa|fa__0_139                      |    2|        3
+33   |      genblk1_1_fa|fa__0_136                      |    5|        6
+34   |      genblk1_2_fa|fa__0_133                      |    5|        6
+35   |      genblk1_3_fa|fa__0_130                      |    5|        6
+36   |    rca0          |ripple_carry_adder__0_127      |   17|       20
+37   |      genblk1_0_fa|fa__0_126                      |    2|        3
+38   |      genblk1_1_fa|fa__0_123                      |    5|        6
+39   |      genblk1_2_fa|fa__0_120                      |    5|        6
+40   |      genblk1_3_fa|fa__0_117                      |    5|        6
+41   |  genblk1_4_csa   |carry_select_adder_block__0_170|   39|       50
+42   |    rca1          |ripple_carry_adder__0_169      |   17|       20
+43   |      genblk1_0_fa|fa__0_168                      |    2|        3
+44   |      genblk1_1_fa|fa__0_165                      |    5|        6
+45   |      genblk1_2_fa|fa__0_162                      |    5|        6
+46   |      genblk1_3_fa|fa__0_159                      |    5|        6
+47   |    rca0          |ripple_carry_adder__0_156      |   17|       20
+48   |      genblk1_0_fa|fa__0_155                      |    2|        3
+49   |      genblk1_1_fa|fa__0_152                      |    5|        6
+50   |      genblk1_2_fa|fa__0_149                      |    5|        6
+51   |      genblk1_3_fa|fa__0_146                      |    5|        6
+52   |  genblk1_5_csa   |carry_select_adder_block__0_199|   39|       50
+53   |    rca1          |ripple_carry_adder__0_198      |   17|       20
+54   |      genblk1_0_fa|fa__0_197                      |    2|        3
+55   |      genblk1_1_fa|fa__0_194                      |    5|        6
+56   |      genblk1_2_fa|fa__0_191                      |    5|        6
+57   |      genblk1_3_fa|fa__0_188                      |    5|        6
+58   |    rca0          |ripple_carry_adder__0_185      |   17|       20
+59   |      genblk1_0_fa|fa__0_184                      |    2|        3
+60   |      genblk1_1_fa|fa__0_181                      |    5|        6
+61   |      genblk1_2_fa|fa__0_178                      |    5|        6
+62   |      genblk1_3_fa|fa__0_175                      |    5|        6
+63   |  genblk1_6_csa   |carry_select_adder_block__0_228|   39|       50
+64   |    rca1          |ripple_carry_adder__0_227      |   17|       20
+65   |      genblk1_0_fa|fa__0_226                      |    2|        3
+66   |      genblk1_1_fa|fa__0_223                      |    5|        6
+67   |      genblk1_2_fa|fa__0_220                      |    5|        6
+68   |      genblk1_3_fa|fa__0_217                      |    5|        6
+69   |    rca0          |ripple_carry_adder__0_214      |   17|       20
+70   |      genblk1_0_fa|fa__0_213                      |    2|        3
+71   |      genblk1_1_fa|fa__0_210                      |    5|        6
+72   |      genblk1_2_fa|fa__0_207                      |    5|        6
+73   |      genblk1_3_fa|fa__0_204                      |    5|        6
+74   |  genblk1_7_csa   |carry_select_adder_block       |   39|       50
+75   |    rca1          |ripple_carry_adder__0_25       |   17|       20
+76   |      genblk1_0_fa|fa__0_24                       |    2|        3
+77   |      genblk1_1_fa|fa__0_21                       |    5|        6
+78   |      genblk1_2_fa|fa__0_18                       |    5|        6
+79   |      genblk1_3_fa|fa__0_15                       |    5|        6
+80   |    rca0          |ripple_carry_adder             |   17|       20
+81   |      genblk1_0_fa|fa__0_6                        |    2|        3
+82   |      genblk1_1_fa|fa__0_9                        |    5|        6
+83   |      genblk1_2_fa|fa__0_12                       |    5|        6
+84   |      genblk1_3_fa|fa                             |    5|        6
+-----+------------------+-------------------------------+-----+---------

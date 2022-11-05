@@ -1,0 +1,70 @@
+Report Instance Areas: 
+-----+-----------------------+---------+-----+---------
+     |Instance               |Module   |Cells|Cell Area
+-----+-----------------------+---------+-----+---------
+1    |top                    |         |  221|      268
+2    |  FA1                  |fa__0_6  |    2|        3
+3    |  FA2                  |fa__0_9  |    1|        2
+4    |  genblk1_1_Full_Adder |fa__0_12 |    2|        3
+5    |  genblk1_2_Full_Adder |fa__0_15 |    2|        3
+6    |  genblk1_3_Full_Adder |fa__0_18 |    2|        3
+7    |  genblk1_4_Full_Adder |fa__0_21 |    2|        3
+8    |  genblk1_5_Full_Adder |fa__0_24 |    2|        3
+9    |  genblk1_6_Full_Adder |fa__0_27 |    2|        3
+10   |  genblk1_7_Full_Adder |fa__0_30 |    2|        3
+11   |  genblk1_8_Full_Adder |fa__0_33 |    2|        3
+12   |  genblk1_9_Full_Adder |fa__0_36 |    2|        3
+13   |  genblk1_10_Full_Adder|fa__0_39 |    2|        3
+14   |  genblk1_11_Full_Adder|fa__0_42 |    2|        3
+15   |  genblk1_12_Full_Adder|fa__0_45 |    2|        3
+16   |  genblk1_13_Full_Adder|fa__0_48 |    2|        3
+17   |  genblk1_14_Full_Adder|fa__0_51 |    2|        3
+18   |  genblk1_15_Full_Adder|fa__0_54 |    2|        3
+19   |  genblk1_16_Full_Adder|fa__0_57 |    2|        3
+20   |  genblk1_17_Full_Adder|fa__0_60 |    2|        3
+21   |  genblk1_18_Full_Adder|fa__0_63 |    2|        3
+22   |  genblk1_19_Full_Adder|fa__0_66 |    2|        3
+23   |  genblk1_20_Full_Adder|fa__0_69 |    2|        3
+24   |  genblk1_21_Full_Adder|fa__0_72 |    2|        3
+25   |  genblk1_22_Full_Adder|fa__0_75 |    2|        3
+26   |  genblk1_23_Full_Adder|fa__0_78 |    2|        3
+27   |  genblk1_24_Full_Adder|fa__0_81 |    2|        3
+28   |  genblk1_25_Full_Adder|fa__0_84 |    2|        3
+29   |  genblk1_26_Full_Adder|fa__0_87 |    2|        3
+30   |  genblk1_27_Full_Adder|fa__0_90 |    2|        3
+31   |  genblk1_28_Full_Adder|fa__0_93 |    2|        3
+32   |  genblk1_29_Full_Adder|fa__0_96 |    2|        3
+33   |  genblk1_30_Full_Adder|fa__0_99 |    2|        3
+34   |  genblk1_31_Full_Adder|fa__0_102|    2|        3
+35   |  genblk1_0_Full_Adder |fa__0_105|    2|        3
+36   |  genblk2_1_Full_Adder |fa__0_108|    5|        6
+37   |  genblk2_2_Full_Adder |fa__0_111|    5|        6
+38   |  genblk2_3_Full_Adder |fa__0_114|    5|        6
+39   |  genblk2_4_Full_Adder |fa__0_117|    5|        6
+40   |  genblk2_5_Full_Adder |fa__0_120|    5|        6
+41   |  genblk2_6_Full_Adder |fa__0_123|    5|        6
+42   |  genblk2_7_Full_Adder |fa__0_126|    5|        6
+43   |  genblk2_8_Full_Adder |fa__0_129|    5|        6
+44   |  genblk2_9_Full_Adder |fa__0_132|    5|        6
+45   |  genblk2_10_Full_Adder|fa__0_135|    5|        6
+46   |  genblk2_11_Full_Adder|fa__0_138|    5|        6
+47   |  genblk2_12_Full_Adder|fa__0_141|    5|        6
+48   |  genblk2_13_Full_Adder|fa__0_144|    5|        6
+49   |  genblk2_14_Full_Adder|fa__0_147|    5|        6
+50   |  genblk2_15_Full_Adder|fa__0_150|    5|        6
+51   |  genblk2_16_Full_Adder|fa__0_153|    5|        6
+52   |  genblk2_17_Full_Adder|fa__0_156|    5|        6
+53   |  genblk2_18_Full_Adder|fa__0_159|    5|        6
+54   |  genblk2_19_Full_Adder|fa__0_162|    5|        6
+55   |  genblk2_20_Full_Adder|fa__0_165|    5|        6
+56   |  genblk2_21_Full_Adder|fa__0_168|    5|        6
+57   |  genblk2_22_Full_Adder|fa__0_171|    5|        6
+58   |  genblk2_23_Full_Adder|fa__0_174|    5|        6
+59   |  genblk2_24_Full_Adder|fa__0_177|    5|        6
+60   |  genblk2_25_Full_Adder|fa__0_180|    5|        6
+61   |  genblk2_26_Full_Adder|fa__0_183|    5|        6
+62   |  genblk2_27_Full_Adder|fa__0_186|    5|        6
+63   |  genblk2_28_Full_Adder|fa__0_189|    5|        6
+64   |  genblk2_29_Full_Adder|fa__0_192|    5|        6
+65   |  genblk2_30_Full_Adder|fa       |    5|        6
+-----+-----------------------+---------+-----+---------

@@ -1,9 +1,9 @@
 /*
  * Created by 
-   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Fri Nov  4 19:21:15 2022
+   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Sat Nov  5 21:27:53 2022
  * (C) Mentor Graphics Corporation
  */
-/* CheckSum: 2064374644 */
+/* CheckSum: 751876594 */
 
 module fa__0_50(in1, in2, cin, sum, cout);
    input in1;
@@ -142,7 +142,7 @@ module fa__0_29(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module RCA__0_51(in1, in2, cin, cout, sum, overflow);
+module RCA1__0_51(in1, in2, cin, cout, sum, overflow);
    input [7:0]in1;
    input [7:0]in2;
    input cin;
@@ -483,7 +483,7 @@ module fa__0_55(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module RCA__0_77(in1, in2, cin, cout, sum, overflow);
+module RCA1__0_77(in1, in2, cin, cout, sum, overflow);
    input [7:0]in1;
    input [7:0]in2;
    input cin;
@@ -654,7 +654,7 @@ module fa__0_81(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module RCA__0_103(in1, in2, cin, cout, sum, overflow);
+module RCA1__0_103(in1, in2, cin, cout, sum, overflow);
    input [7:0]in1;
    input [7:0]in2;
    input cin;
@@ -824,7 +824,7 @@ module fa(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module RCA(in1, in2, cin, cout, sum, overflow);
+module RCA1(in1, in2, cin, cout, sum, overflow);
    input [7:0]in1;
    input [7:0]in2;
    input cin;
@@ -850,10 +850,9 @@ module RCA(in1, in2, cin, cout, sum, overflow);
       .cout(cout));
 endmodule
 
-module CPA(a, b, cin, sum, cout, overflow);
+module CPA(a, b, sum, cout, overflow);
    input [31:0]a;
    input [31:0]b;
-   input cin;
    output [31:0]sum;
    output cout;
    output overflow;
@@ -864,7 +863,7 @@ module CPA(a, b, cin, sum, cout, overflow);
    wire n_0_2;
    wire n_0_1;
 
-   RCA__0_51 rc0 (.in1({a[7], a[6], a[5], a[4], a[3], a[2], a[1], a[0]}), 
+   RCA1__0_51 rc0 (.in1({a[7], a[6], a[5], a[4], a[3], a[2], a[1], a[0]}), 
       .in2({b[7], b[6], b[5], b[4], b[3], b[2], b[1], b[0]}), .cin(), .cout(
       couts), .sum({sum[7], sum[6], sum[5], sum[4], sum[3], sum[2], sum[1], 
       sum[0]}), .overflow());
@@ -880,15 +879,15 @@ module CPA(a, b, cin, sum, cout, overflow);
    byPassLogic byPass1 (.a({a[15], a[14], a[13], a[12], a[11], a[10], a[9], a[8]}), 
       .b({b[15], b[14], b[13], b[12], b[11], b[10], b[9], b[8]}), .cin(temp[0]), 
       .cout(n_0_1), .out(temp[1]));
-   RCA__0_77 rc3 (.in1({a[31], a[30], a[29], a[28], a[27], a[26], a[25], a[24]}), 
+   RCA1__0_77 rc3 (.in1({a[31], a[30], a[29], a[28], a[27], a[26], a[25], a[24]}), 
       .in2({b[31], b[30], b[29], b[28], b[27], b[26], b[25], b[24]}), .cin(
       temp[2]), .cout(n_0_0), .sum({sum[31], sum[30], sum[29], sum[28], sum[27], 
       sum[26], sum[25], sum[24]}), .overflow(overflow));
-   RCA__0_103 rc2 (.in1({a[23], a[22], a[21], a[20], a[19], a[18], a[17], a[16]}), 
+   RCA1__0_103 rc2 (.in1({a[23], a[22], a[21], a[20], a[19], a[18], a[17], a[16]}), 
       .in2({b[23], b[22], b[21], b[20], b[19], b[18], b[17], b[16]}), .cin(
       temp[1]), .cout(n_0_2), .sum({sum[23], sum[22], sum[21], sum[20], sum[19], 
       sum[18], sum[17], sum[16]}), .overflow());
-   RCA rc1 (.in1({a[15], a[14], a[13], a[12], a[11], a[10], a[9], a[8]}), 
+   RCA1 rc1 (.in1({a[15], a[14], a[13], a[12], a[11], a[10], a[9], a[8]}), 
       .in2({b[15], b[14], b[13], b[12], b[11], b[10], b[9], b[8]}), .cin(temp[0]), 
       .cout(n_0_1), .sum({sum[15], sum[14], sum[13], sum[12], sum[11], sum[10], 
       sum[9], sum[8]}), .overflow());

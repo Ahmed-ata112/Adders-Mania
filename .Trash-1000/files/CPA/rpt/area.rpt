@@ -1,0 +1,50 @@
+Report Instance Areas: 
+-----+----------------+------------------+-----+---------
+     |Instance        |Module            |Cells|Cell Area
+-----+----------------+------------------+-----+---------
+1    |top             |                  |  207|      257
+2    |  rc0           |RCA__0_51         |   37|       44
+3    |    genblk1_0_fa|fa__0_50          |    2|        3
+4    |    genblk1_1_fa|fa__0_47          |    5|        6
+5    |    genblk1_2_fa|fa__0_44          |    5|        6
+6    |    genblk1_3_fa|fa__0_41          |    5|        6
+7    |    genblk1_4_fa|fa__0_38          |    5|        6
+8    |    genblk1_5_fa|fa__0_35          |    5|        6
+9    |    genblk1_6_fa|fa__0_32          |    5|        6
+10   |    genblk1_7_fa|fa__0_29          |    5|        6
+11   |  byPass0       |byPassLogic__0_108|   13|       18
+12   |    byPassMux   |mux21__0_107      |    2|        1
+13   |  byPassFinal   |byPassLogic__0_113|   12|       18
+14   |    byPassMux   |mux21__0_112      |    1|        2
+15   |  byPass2       |byPassLogic__0_118|   12|       18
+16   |    byPassMux   |mux21__0_117      |    1|        2
+17   |  byPass1       |byPassLogic       |   12|       18
+18   |    byPassMux   |mux21             |    1|        2
+19   |  rc3           |RCA__0_77         |   41|       48
+20   |    genblk1_0_fa|fa__0_76          |    5|        6
+21   |    genblk1_1_fa|fa__0_73          |    5|        6
+22   |    genblk1_2_fa|fa__0_70          |    5|        6
+23   |    genblk1_3_fa|fa__0_67          |    5|        6
+24   |    genblk1_4_fa|fa__0_64          |    5|        6
+25   |    genblk1_5_fa|fa__0_61          |    5|        6
+26   |    genblk1_6_fa|fa__0_58          |    5|        6
+27   |    genblk1_7_fa|fa__0_55          |    5|        6
+28   |  rc2           |RCA__0_103        |   40|       47
+29   |    genblk1_0_fa|fa__0_102         |    5|        6
+30   |    genblk1_1_fa|fa__0_99          |    5|        6
+31   |    genblk1_2_fa|fa__0_96          |    5|        6
+32   |    genblk1_3_fa|fa__0_93          |    5|        6
+33   |    genblk1_4_fa|fa__0_90          |    5|        6
+34   |    genblk1_5_fa|fa__0_87          |    5|        6
+35   |    genblk1_6_fa|fa__0_84          |    5|        6
+36   |    genblk1_7_fa|fa__0_81          |    5|        6
+37   |  rc1           |RCA               |   40|       47
+38   |    genblk1_0_fa|fa__0_7           |    5|        6
+39   |    genblk1_1_fa|fa__0_10          |    5|        6
+40   |    genblk1_2_fa|fa__0_13          |    5|        6
+41   |    genblk1_3_fa|fa__0_16          |    5|        6
+42   |    genblk1_4_fa|fa__0_19          |    5|        6
+43   |    genblk1_5_fa|fa__0_22          |    5|        6
+44   |    genblk1_6_fa|fa__0_25          |    5|        6
+45   |    genblk1_7_fa|fa                |    5|        6
+-----+----------------+------------------+-----+---------
