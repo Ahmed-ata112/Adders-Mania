@@ -1,2 +1,59 @@
-# Reading pref.tcl
-# OpenFile D:/Github/VLSI-Projects/Project_1/rtl/fp_adder/fp_adder_tb.v
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim .\reg_file. 
+# Start time: 21:58:45 on Nov 05,2022
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Error loading design
+# End time: 21:58:45 on Nov 05,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.fp_adder_tb
+# vsim work.fp_adder_tb 
+# Start time: 21:58:58 on Nov 05,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fp_adder_tb(fast)
+run
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 80800000 and 01400001 and Output 00000000 and overflow status 0 , underflow status 1
+# Time                   80: TestCase# 7 : failed with input 00800000 and 81400001 and Output 80000000 and overflow status 0 , underflow status 1
+# TestCase# 8 : success
+# TestCase# 9 : success
+# Total Tests: 10 || Success Cases=6 || Failure Cases=4 
+# ** Note: $stop    : fp_adder_tb.v(121)
+#    Time: 100 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break at fp_adder_tb.v line 121
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fp_adder_tb(fast)
+run -all
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 80800000 and 01400001 and Output 00000000 and overflow status 0 , underflow status 1
+# Time                   80: TestCase# 7 : failed with input 00800000 and 81400001 and Output 80000000 and overflow status 0 , underflow status 1
+# TestCase# 8 : success
+# TestCase# 9 : success
+# Total Tests: 10 || Success Cases=6 || Failure Cases=4 
+# ** Note: $stop    : fp_adder_tb.v(121)
+#    Time: 100 ns  Iteration: 0  Instance: /fp_adder_tb
+# Break at fp_adder_tb.v line 121

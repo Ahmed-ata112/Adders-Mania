@@ -1,15 +1,11 @@
 # Loading project modelsim
-# Compile of NangateOpenCellLibrary.v was successful.
-# Compile of demo_fp_adder.syn.v was successful.
-# Compile of fp_adder_tb.v was successful.
-# 3 compiles, 0 failed with no errors.
 vsim work.fp_adder_tb
 # vsim work.fp_adder_tb 
-# Start time: 15:10:40 on Nov 04,2022
+# Start time: 22:00:33 on Nov 05,2022
 # Loading work.fp_adder_tb
 # Loading work.fp_adder
 # Loading work.CLA
-# Loading work.CLA_4bit__0_47
+# Loading work.CLA_4bit__0_50
 # Loading work.AOI21_X1
 # Loading work.XOR2_X1
 # Loading work.XNOR2_X1
@@ -17,35 +13,50 @@ vsim work.fp_adder_tb
 # Loading work.INV_X1
 # Loading work.NAND2_X1
 # Loading work.NOR2_X1
-# Loading work.CLA_4bit__0_63
+# Loading work.CLA_4bit__0_66
 # Loading work.AOI22_X1
-# Loading work.CLA_4bit__0_71
-# Loading work.CLA_4bit__0_79
-# Loading work.CLA_4bit__0_87
-# Loading work.CLA_4bit__0_95
-# Loading work.AND2_X1
+# Loading work.CLA_4bit__0_74
+# Loading work.CLA_4bit__0_82
+# Loading work.CLA_4bit__0_90
+# Loading work.CLA_4bit__0_98
 # Loading work.CLA_4bit
 # Loading work.count_leading_zeros
 # Loading work.NOR3_X1
 # Loading work.AOI211_X1
+# Loading work.AND2_X1
 # Loading work.OR2_X1
 # Loading work.AND3_X1
 # Loading work.NAND3_X1
 # Loading work.NOR4_X1
-# Loading work.datapath__0_28
-# Loading work.datapath__0_30
-# Loading work.FA_X1
-# Loading work.datapath__0_37
-# Loading work.OR3_X1
-# Loading work.HA_X1
-# Loading work.MUX2_X1
+# Loading work.datapath__0_20
 # Loading work.OAI221_X1
 # Loading work.OAI211_X1
-# Loading work.AOI222_X1
+# Loading work.datapath__0_33
+# Loading work.HA_X1
+# Loading work.datapath__0_38
+# Loading work.OR3_X1
 # Loading work.AOI221_X1
 # Loading work.OAI22_X1
-# Loading work.OAI222_X1
+# Loading work.AOI222_X1
 # Loading work.NAND4_X1
+# Loading work.OAI222_X1
+# Loading work.OAI33_X1
+# Compile of NangateOpenCellLibrary.v was successful.
+run -all
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 00000001 and 00000001 and Output 00800001 and overflow status 0 , underflow status 0
+# Time                   80: TestCase# 7 : failed with input 00040001 and 00100001 and Output 008a0001 and overflow status 0 , underflow status 0
+# TestCase# 8 : success
+# Total Tests: 9 || Success Cases=5 || Failure Cases=4 
+# ** Note: $stop    : /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v(108)
+#    Time: 90 ps  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v line 108
+# A time value could not be extracted from the current line
 add wave -position insertpoint  \
 sim:/fp_adder_tb/T \
 sim:/fp_adder_tb/A \
@@ -56,17 +67,136 @@ sim:/fp_adder_tb/underflow \
 sim:/fp_adder_tb/TestsCounter \
 sim:/fp_adder_tb/SuccessCounter \
 sim:/fp_adder_tb/FailureCounter
+restart
+# Loading work.AOI21_X1
+# Loading work.XOR2_X1
+# Loading work.XNOR2_X1
+# Loading work.OAI21_X1
+# Loading work.INV_X1
+# Loading work.NAND2_X1
+# Loading work.NOR2_X1
+# Loading work.AOI22_X1
+# Loading work.NOR3_X1
+# Loading work.AOI211_X1
+# Loading work.AND2_X1
+# Loading work.OR2_X1
+# Loading work.AND3_X1
+# Loading work.NAND3_X1
+# Loading work.NOR4_X1
+# Loading work.OAI221_X1
+# Loading work.OAI211_X1
+# Loading work.HA_X1
+# Loading work.OR3_X1
+# Loading work.AOI221_X1
+# Loading work.OAI22_X1
+# Loading work.AOI222_X1
+# Loading work.NAND4_X1
+# Loading work.OAI222_X1
+# Loading work.OAI33_X1
 run -all
 # TestCase# 0 : success
 # TestCase# 1 : success
 # TestCase# 2 : success
 # TestCase# 3 : success
-# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f9ffffe and overflow status 1 , underflow status 0
-# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff9ffffe and overflow status 0 , underflow status 1
-# TestCase# 6 : success
-# TestCase# 7 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 00000001 and 00000001 and Output 00800001 and overflow status 0 , underflow status 0
+# Time                   80: TestCase# 7 : failed with input 00040001 and 00100001 and Output 008a0001 and overflow status 0 , underflow status 0
 # TestCase# 8 : success
-# Total Tests: 9 || Success Cases=7 || Failure Cases=2 
+# Total Tests: 9 || Success Cases=5 || Failure Cases=4 
 # ** Note: $stop    : /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v(108)
 #    Time: 90 ps  Iteration: 0  Instance: /fp_adder_tb
 # Break in Module fp_adder_tb at /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v line 108
+# Compile of demo_fp_adder.syn.v was successful.
+restart
+# Loading work.fp_adder
+# Loading work.CLA
+# Loading work.CLA_4bit__0_50
+# Loading work.CLA_4bit__0_66
+# Loading work.CLA_4bit__0_74
+# Loading work.CLA_4bit__0_82
+# Loading work.CLA_4bit__0_90
+# Loading work.CLA_4bit__0_98
+# Loading work.CLA_4bit
+# Loading work.count_leading_zeros
+# Loading work.datapath__0_20
+# Loading work.FA_X1
+# Loading work.datapath__0_33
+# Loading work.datapath__0_38
+run -all
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 00000001 and 00000001 and Output 00800001 and overflow status 0 , underflow status 0
+# Time                   80: TestCase# 7 : failed with input 00040001 and 00100001 and Output 008a0001 and overflow status 0 , underflow status 0
+# TestCase# 8 : success
+# Total Tests: 9 || Success Cases=5 || Failure Cases=4 
+# ** Note: $stop    : /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v(108)
+#    Time: 90 ps  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at /mnt/hgfs/shared/VLSI-Projects/Project_1/fp_adder/verilog/fp_adder_tb.v line 108
+run
+# Compile of NangateOpenCellLibrary.v was successful.
+# Compile of demo_fp_adder.syn.v was successful.
+# Compile of fp_adder_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.fp_adder_tb
+# Loading work.fp_adder
+# Loading work.CLA
+# Loading work.CLA_4bit__0_50
+# Loading work.AOI21_X1
+# Loading work.XOR2_X1
+# Loading work.XNOR2_X1
+# Loading work.OAI21_X1
+# Loading work.INV_X1
+# Loading work.NAND2_X1
+# Loading work.NOR2_X1
+# Loading work.CLA_4bit__0_66
+# Loading work.AOI22_X1
+# Loading work.CLA_4bit__0_74
+# Loading work.CLA_4bit__0_82
+# Loading work.CLA_4bit__0_90
+# Loading work.CLA_4bit__0_98
+# Loading work.CLA_4bit
+# Loading work.count_leading_zeros
+# Loading work.NOR3_X1
+# Loading work.AOI211_X1
+# Loading work.AND2_X1
+# Loading work.OR2_X1
+# Loading work.AND3_X1
+# Loading work.NAND3_X1
+# Loading work.NOR4_X1
+# Loading work.datapath__0_20
+# Loading work.HA_X1
+# Loading work.FA_X1
+# Loading work.datapath__0_33
+# Loading work.datapath__0_38
+# Loading work.OR3_X1
+# Loading work.AOI221_X1
+# Loading work.OAI221_X1
+# Loading work.OAI211_X1
+# Loading work.OAI22_X1
+# Loading work.AOI222_X1
+# Loading work.NAND4_X1
+# Loading work.OAI222_X1
+# Loading work.OAI33_X1
+run -all
+# TestCase# 0 : success
+# TestCase# 1 : success
+# TestCase# 2 : success
+# TestCase# 3 : success
+# Time                   50: TestCase# 4 : failed with input 7f5ffffe and 7f5fffff and Output 7f800000 and overflow status 1 , underflow status 0
+# Time                   60: TestCase# 5 : failed with input ff5ffffe and ff5fffff and Output ff800000 and overflow status 1 , underflow status 0
+# Time                   70: TestCase# 6 : failed with input 80800000 and 01400001 and Output 00000000 and overflow status 0 , underflow status 1
+# Time                   80: TestCase# 7 : failed with input 00800000 and 81400001 and Output 80000000 and overflow status 0 , underflow status 1
+# TestCase# 8 : success
+# TestCase# 9 : success
+# Total Tests: 10 || Success Cases=6 || Failure Cases=4 
+# ** Note: $stop    : /mnt/hgfs/shared/VLSI-Projects/Project_1/rtl/fp_adder/fp_adder_tb.v(121)
+#    Time: 100 ps  Iteration: 0  Instance: /fp_adder_tb
+# Break in Module fp_adder_tb at /mnt/hgfs/shared/VLSI-Projects/Project_1/rtl/fp_adder/fp_adder_tb.v line 121
+# End time: 22:07:07 on Nov 05,2022, Elapsed time: 0:06:34
+# Errors: 0, Warnings: 0

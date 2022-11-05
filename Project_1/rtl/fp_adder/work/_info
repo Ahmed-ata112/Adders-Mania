@@ -75,6 +75,7 @@ R0
 R0
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -95,10 +96,10 @@ n@_opt
 Z6 OL;O;2021.2;73
 R1
 T_opt1
-!s110 1667575827
-V10?6EkcU1;dL]<o`Xm0b]0
+!s110 1667678531
+VTmYH?GMkWV_3ld>PhbU2K0
 R2
-=1-020cf0a1cd70-63653013-104-65c
+=2-020cf0a1cd70-6366c142-38e-3348
 !s124 OEM10U12 
 o-quiet -auto_acc_if_foreign -work work
 R5
@@ -116,7 +117,7 @@ n@_opt2
 R6
 R1
 vCLA
-Z7 !s110 1667575287
+Z7 !s110 1667678523
 !i10b 1
 !s100 5;304LnR<<g=7EO?7NOEE3
 IY7^Rj`Rk=1o>[<ilm6ah01
@@ -124,14 +125,14 @@ R1
 w1667569273
 8CLA.v
 FCLA.v
-!i122 90
+!i122 92
 L0 1 30
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z10 !s108 1667575287.000000
+Z10 !s108 1667678523.000000
 Z11 !s107 fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|CLA_4bit.v|CLA.v|
 Z12 !s90 CLA.v|CLA_4bit.v|count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|
 !i113 0
@@ -147,7 +148,7 @@ R1
 w1667569261
 8CLA_4bit.v
 FCLA_4bit.v
-!i122 90
+!i122 92
 Z14 L0 1 26
 R8
 R9
@@ -170,7 +171,7 @@ R1
 w1667038163
 8count_leading_zeros.v
 Fcount_leading_zeros.v
-!i122 90
+!i122 92
 R14
 R8
 R9
@@ -186,13 +187,13 @@ R5
 vfp_adder
 R7
 !i10b 1
-!s100 Wi@Ki[:Yl`iJn5o>G4gJk0
-IcC`685d>5hH^hFIR52e??3
+!s100 ?h>VoUeQ>dX^QQB`N6eDi3
+I68SP=1]lC1J<=ifB:NffM1
 R1
-w1667575266
+w1667678512
 8fp_adder.v
 Ffp_adder.v
-!i122 90
+!i122 92
 L0 1 148
 R8
 R9
@@ -214,7 +215,7 @@ R1
 w1667575287
 8fp_adder_tb.v
 Ffp_adder_tb.v
-!i122 90
+!i122 92
 L0 1 153
 R8
 R9

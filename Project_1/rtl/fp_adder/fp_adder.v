@@ -113,7 +113,7 @@ module fp_adder(
                     begin
                         Mant_sum = sum_signal << num_leading_zeros +1;
 
-                        if(exp_Sum < (num_leading_zeros+1))
+                        if(exp_Sum <= (num_leading_zeros+1))
                             begin
                                 underflow = 1;
                                 exp_Sum = 0;
