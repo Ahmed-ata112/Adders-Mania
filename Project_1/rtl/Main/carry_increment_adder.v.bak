@@ -43,6 +43,6 @@ module carry_increment_adder #(
     endgenerate
 
     assign cout = adders_cout [7];
-    assign  of = (in1[N-1] == in2 [N-1]) && (sum[N-1] != in1[N-1]);
+    assign of = cout ^ sum [31];
 
 endmodule
