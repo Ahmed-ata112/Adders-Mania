@@ -134,7 +134,7 @@ initial begin
 	a = 32'b11111100000000000000000000000000;
 	b = 32'b00011000100110001000100110000111;
 	#10;
-	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b010001010010011000100010011000011,TestsCounter,
+	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b100010100100110001000100110000111,TestsCounter,
 		adderPlus_of, RCA_of, CSaveA_of, CLA_of, CIA_of, CSA_of, CPA_of, CSelectA_of)
 
 	// Random Test case #2
