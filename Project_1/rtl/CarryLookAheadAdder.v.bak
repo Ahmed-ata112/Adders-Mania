@@ -2,6 +2,7 @@
 module CLA #(parameter N = 32) (
 	input [N-1:0] in1,
 	input [N-1:0] in2,
+	input cin,
 	output [N-1:0] sum,
 	output cout,
 	output of
@@ -12,7 +13,7 @@ module CLA #(parameter N = 32) (
 
 	genvar i;
 	generate
-		CLA_4bit cla1(.a(in1[3:0]), .b(in2[3:0]), .cin(1'b0), .sum(sum[3:0]), .cout(c[0]));
+		CLA_4bit cla1(.a(in1[3:0]), .b(in2[3:0]), .cin(cin), .sum(sum[3:0]), .cout(c[0]));
 		for(i = 4; i <= N - 8; i = i + 4) begin
 			CLA_4bit cla(
 				.a(in1[i+3:i]),

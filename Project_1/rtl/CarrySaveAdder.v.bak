@@ -12,6 +12,7 @@ endmodule
 module CSaveA #(parameter N = 32) (
     	input [N-1:0] in1, 
 	input [N-1:0] in2,
+	input cin,
 	output [N-1:0] sum,
 	output cout,
 	output of
@@ -25,7 +26,7 @@ generate
 		fa Full_Adder(
                 	.in1(in1[i]),
                 	.in2(in2[i]),
-			.cin(1'b0),
+			.cin(cin),
                 	.sum(s[i]),
                 	.cout(c1[i])
             	);
