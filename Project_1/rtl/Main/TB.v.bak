@@ -92,48 +92,56 @@ initial begin
 	#10 
 	a = 32'b01011101111110010010110100010110;
 	b = 32'b00110011110000111101000111100011;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b10010001101111001111111011111001,TestsCounter)
 
 	// Addition of 2 negative numbers
 	#10 
 	a = 32'b10010011001100000110110011101110;
 	b = 32'b10000011010011011100001100011111;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b00010110011111100011000000001101,TestsCounter)
 
 	// Addition of a positive and negative number
 	#10 
 	a = 32'b01000001111010000000000000001110;
 	b = 32'b10000000000000000000000011110001;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b11000001111010000000000011111111,TestsCounter)
 
 	// Overflow of positive numbers
 	#10 
 	a = 32'b01000011100000000001010101010101;
 	b = 32'b01000000000111010100000010101010;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b10000011100111010101010111111111,TestsCounter)
 
 	// Overflow of negative numbers
 	#10 
 	a = 32'b11000000000000000000000000000000;
 	b = 32'b10000000000000000000000000000000;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b01000000000000000000000000000000,TestsCounter)
 
 	// Random Test case #1
 	#10 
 	a = 32'b11111100000000000000000000000000;
 	b = 32'b00011000100110001000100110000111;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b00010100100110001000100110000111,TestsCounter)
 
 	// Random Test case #2
 	#10 
 	a = 32'b01110000001111111100000000011101;
 	b = 32'b00000000101000000101010101010101;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b01110000111000000001010101110010,TestsCounter)
 
 	// Random Test case #3
 	#10 
 	a = 32'b11001001001001001001001001001001;
 	b = 32'b10000000000000000000000000001111;
+	#10;
 	`assert(a,b,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,32'b01001001001001001001001001011000,TestsCounter)
 
         $display("Total Tests: %0d || Success Cases=%0d || Failure Cases=%0d ",TestsCounter,SuccessCounter,FailureCounter);

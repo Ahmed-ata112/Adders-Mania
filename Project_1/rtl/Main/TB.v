@@ -1,7 +1,7 @@
 module addersTb();
     `define assert(A ,B,adderPlus_sum,RCA_sum,CSaveA_sum,CLA_sum,CIA_sum,CSA_sum,CPA_sum,CSelectA_sum,value, numTest) \
     if ((adderPlus_sum !== value)||(RCA_sum !== value)||(CSaveA_sum !== value)||(CLA_sum !== value)||(CIA_sum !== value)||(CSA_sum !== value)||(CPA_sum !== value)||(CSelectA_sum !== value)) begin \
-        $display("Time %t: TestCase# %0d : failed with input %h and %h %h | %h" , $time,numTest, A,B, adderPlus_sum, value); \
+        $display("Time %t: TestCase# %0d : failed with input %h and %h" , $time,numTest, A,B); \
         FailureCounter = FailureCounter +1; \
         end \
         else begin\
