@@ -1,11 +1,11 @@
 /*
  * Created by 
-   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Tue Nov  1 10:25:12 2022
+   ../bin/Linux-x86_64-O/oasysGui 19.2-p002 on Sat Nov  5 21:24:50 2022
  * (C) Mentor Graphics Corporation
  */
-/* CheckSum: 2885646025 */
+/* CheckSum: 2596770084 */
 
-module fa__0_4(in1, in2, cin, sum, cout);
+module fa__0_6(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -16,378 +16,369 @@ module fa__0_4(in1, in2, cin, sum, cout);
    AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_7(in1, in2, cin, sum, cout);
+module fa__0_9(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   XOR2_X1 i_0_0 (.A(cin), .B(in2), .Z(sum));
-   AND2_X1 i_0_1 (.A1(in2), .A2(cin), .ZN(cout));
+   XOR2_X1 i_0_0 (.A(in2), .B(cin), .Z(sum));
 endmodule
 
-module fa__0_10(in1, in2, cin, sum, cout);
+module fa__0_12(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_13(in1, in2, cin, sum, cout);
+module fa__0_15(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_16(in1, in2, cin, sum, cout);
+module fa__0_18(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_19(in1, in2, cin, sum, cout);
+module fa__0_21(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_22(in1, in2, cin, sum, cout);
+module fa__0_24(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_25(in1, in2, cin, sum, cout);
+module fa__0_27(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_28(in1, in2, cin, sum, cout);
+module fa__0_30(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_31(in1, in2, cin, sum, cout);
+module fa__0_33(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_34(in1, in2, cin, sum, cout);
+module fa__0_36(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_37(in1, in2, cin, sum, cout);
+module fa__0_39(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_40(in1, in2, cin, sum, cout);
+module fa__0_42(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_43(in1, in2, cin, sum, cout);
+module fa__0_45(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_46(in1, in2, cin, sum, cout);
+module fa__0_48(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_49(in1, in2, cin, sum, cout);
+module fa__0_51(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_52(in1, in2, cin, sum, cout);
+module fa__0_54(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_55(in1, in2, cin, sum, cout);
+module fa__0_57(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_58(in1, in2, cin, sum, cout);
+module fa__0_60(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_61(in1, in2, cin, sum, cout);
+module fa__0_63(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_64(in1, in2, cin, sum, cout);
+module fa__0_66(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_67(in1, in2, cin, sum, cout);
+module fa__0_69(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
    output sum;
    output cout;
 
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
 endmodule
 
-module fa__0_70(in1, in2, cin, sum, cout);
+module fa__0_72(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_75(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_78(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_81(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_84(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_87(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_90(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_93(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_96(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_99(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_102(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_105(in1, in2, cin, sum, cout);
+   input in1;
+   input in2;
+   input cin;
+   output sum;
+   output cout;
+
+   XOR2_X1 i_0_0 (.A(in1), .B(in2), .Z(sum));
+   AND2_X1 i_0_1 (.A1(in2), .A2(in1), .ZN(cout));
+endmodule
+
+module fa__0_108(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -405,7 +396,7 @@ module fa__0_70(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_73(in1, in2, cin, sum, cout);
+module fa__0_111(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -423,7 +414,7 @@ module fa__0_73(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_76(in1, in2, cin, sum, cout);
+module fa__0_114(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -441,7 +432,7 @@ module fa__0_76(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_79(in1, in2, cin, sum, cout);
+module fa__0_117(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -459,7 +450,7 @@ module fa__0_79(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_82(in1, in2, cin, sum, cout);
+module fa__0_120(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -477,7 +468,7 @@ module fa__0_82(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_85(in1, in2, cin, sum, cout);
+module fa__0_123(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -495,7 +486,7 @@ module fa__0_85(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_88(in1, in2, cin, sum, cout);
+module fa__0_126(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -513,7 +504,7 @@ module fa__0_88(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_91(in1, in2, cin, sum, cout);
+module fa__0_129(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -531,7 +522,7 @@ module fa__0_91(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_94(in1, in2, cin, sum, cout);
+module fa__0_132(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -549,7 +540,7 @@ module fa__0_94(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_97(in1, in2, cin, sum, cout);
+module fa__0_135(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -567,7 +558,7 @@ module fa__0_97(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_100(in1, in2, cin, sum, cout);
+module fa__0_138(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -585,7 +576,7 @@ module fa__0_100(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_103(in1, in2, cin, sum, cout);
+module fa__0_141(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -603,7 +594,7 @@ module fa__0_103(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_106(in1, in2, cin, sum, cout);
+module fa__0_144(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -621,7 +612,7 @@ module fa__0_106(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_109(in1, in2, cin, sum, cout);
+module fa__0_147(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -639,7 +630,7 @@ module fa__0_109(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_112(in1, in2, cin, sum, cout);
+module fa__0_150(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -657,7 +648,7 @@ module fa__0_112(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_115(in1, in2, cin, sum, cout);
+module fa__0_153(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -675,7 +666,7 @@ module fa__0_115(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_118(in1, in2, cin, sum, cout);
+module fa__0_156(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -693,7 +684,7 @@ module fa__0_118(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_121(in1, in2, cin, sum, cout);
+module fa__0_159(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -711,7 +702,7 @@ module fa__0_121(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_124(in1, in2, cin, sum, cout);
+module fa__0_162(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -729,7 +720,7 @@ module fa__0_124(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_127(in1, in2, cin, sum, cout);
+module fa__0_165(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -747,7 +738,7 @@ module fa__0_127(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_130(in1, in2, cin, sum, cout);
+module fa__0_168(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -765,7 +756,7 @@ module fa__0_130(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_133(in1, in2, cin, sum, cout);
+module fa__0_171(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -783,7 +774,7 @@ module fa__0_133(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_136(in1, in2, cin, sum, cout);
+module fa__0_174(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -801,7 +792,7 @@ module fa__0_136(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_139(in1, in2, cin, sum, cout);
+module fa__0_177(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -819,7 +810,7 @@ module fa__0_139(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_142(in1, in2, cin, sum, cout);
+module fa__0_180(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -837,7 +828,7 @@ module fa__0_142(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_145(in1, in2, cin, sum, cout);
+module fa__0_183(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -855,7 +846,7 @@ module fa__0_145(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_148(in1, in2, cin, sum, cout);
+module fa__0_186(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -873,7 +864,7 @@ module fa__0_148(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_151(in1, in2, cin, sum, cout);
+module fa__0_189(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -891,223 +882,7 @@ module fa__0_151(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module fa__0_154(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_157(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_160(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_163(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_166(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_169(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_172(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_175(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_178(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_181(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_184(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_187(in1, in2, cin, sum, cout);
-   input in1;
-   input in2;
-   input cin;
-   output sum;
-   output cout;
-
-   wire n_0_0;
-   wire n_0_1;
-   wire n_0_2;
-
-   NAND2_X1 i_0_0 (.A1(n_0_2), .A2(n_0_0), .ZN(cout));
-   OAI21_X1 i_0_1 (.A(in2), .B1(cin), .B2(in1), .ZN(n_0_0));
-   XNOR2_X1 i_0_2 (.A(in2), .B(n_0_1), .ZN(sum));
-   XNOR2_X1 i_0_3 (.A(cin), .B(in1), .ZN(n_0_1));
-   NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
-endmodule
-
-module fa__0_190(in1, in2, cin, sum, cout);
+module fa__0_192(in1, in2, cin, sum, cout);
    input in1;
    input in2;
    input cin;
@@ -1143,141 +918,240 @@ module fa(in1, in2, cin, sum, cout);
    NAND2_X1 i_0_4 (.A1(cin), .A2(in1), .ZN(n_0_2));
 endmodule
 
-module CSA(in1, in2, cin, sum, cout);
+module CSaveA(in1, in2, sum, cout, of);
    input [31:0]in1;
    input [31:0]in2;
-   input cin;
-   output [32:0]sum;
+   output [31:0]sum;
    output cout;
+   output of;
 
-   wire [31:0]c2;
-   wire [31:0]c1;
-   wire [31:0]s;
+   wire c2;
+   wire c1;
+   wire s;
+   wire n_0_2;
+   wire n_0_3;
+   wire n_0_4;
+   wire n_0_5;
+   wire n_0_6;
+   wire n_0_7;
+   wire n_0_8;
+   wire n_0_9;
+   wire n_0_10;
+   wire n_0_11;
+   wire n_0_12;
+   wire n_0_13;
+   wire n_0_14;
+   wire n_0_15;
+   wire n_0_16;
+   wire n_0_17;
+   wire n_0_18;
+   wire n_0_19;
+   wire n_0_20;
+   wire n_0_21;
+   wire n_0_22;
+   wire n_0_23;
+   wire n_0_24;
+   wire n_0_25;
+   wire n_0_26;
+   wire n_0_27;
+   wire n_0_28;
+   wire n_0_29;
+   wire n_0_30;
+   wire n_0_31;
+   wire n_0_32;
+   wire n_0_33;
+   wire n_0_34;
+   wire n_0_35;
+   wire n_0_36;
+   wire n_0_37;
+   wire n_0_38;
+   wire n_0_39;
+   wire n_0_40;
+   wire n_0_41;
+   wire n_0_42;
+   wire n_0_43;
+   wire n_0_44;
+   wire n_0_45;
+   wire n_0_46;
+   wire n_0_47;
+   wire n_0_48;
+   wire n_0_49;
+   wire n_0_50;
+   wire n_0_51;
+   wire n_0_52;
+   wire n_0_53;
+   wire n_0_54;
+   wire n_0_55;
+   wire n_0_56;
+   wire n_0_57;
+   wire n_0_58;
+   wire n_0_59;
+   wire n_0_60;
+   wire n_0_61;
+   wire n_0_62;
+   wire n_0_63;
+   wire n_0_64;
+   wire n_0_65;
+   wire n_0_66;
+   wire n_0_67;
+   wire n_0_68;
+   wire n_0_69;
+   wire n_0_70;
+   wire n_0_71;
+   wire n_0_72;
+   wire n_0_73;
+   wire n_0_74;
+   wire n_0_75;
+   wire n_0_76;
+   wire n_0_77;
+   wire n_0_78;
+   wire n_0_79;
+   wire n_0_80;
+   wire n_0_81;
+   wire n_0_82;
+   wire n_0_83;
+   wire n_0_84;
+   wire n_0_85;
+   wire n_0_86;
+   wire n_0_87;
+   wire n_0_88;
+   wire n_0_89;
+   wire n_0_90;
+   wire n_0_0;
+   wire n_0_1;
+   wire n_0_0_0;
+   wire n_0_0_1;
+   wire n_0_0_2;
 
-   fa__0_4 FA1 (.in1(s[1]), .in2(c1[0]), .cin(), .sum(sum[1]), .cout(c2[1]));
-   fa__0_7 FA2 (.in1(), .in2(c1[31]), .cin(c2[31]), .sum(sum[32]), .cout(cout));
-   fa__0_10 genblk1_0_Full_Adder (.in1(in1[0]), .in2(in2[0]), .cin(cin), 
-      .sum(sum[0]), .cout(c1[0]));
-   fa__0_13 genblk1_1_Full_Adder (.in1(in1[1]), .in2(in2[1]), .cin(cin), 
-      .sum(s[1]), .cout(c1[1]));
-   fa__0_16 genblk1_2_Full_Adder (.in1(in1[2]), .in2(in2[2]), .cin(cin), 
-      .sum(s[2]), .cout(c1[2]));
-   fa__0_19 genblk1_3_Full_Adder (.in1(in1[3]), .in2(in2[3]), .cin(cin), 
-      .sum(s[3]), .cout(c1[3]));
-   fa__0_22 genblk1_4_Full_Adder (.in1(in1[4]), .in2(in2[4]), .cin(cin), 
-      .sum(s[4]), .cout(c1[4]));
-   fa__0_25 genblk1_5_Full_Adder (.in1(in1[5]), .in2(in2[5]), .cin(cin), 
-      .sum(s[5]), .cout(c1[5]));
-   fa__0_28 genblk1_6_Full_Adder (.in1(in1[6]), .in2(in2[6]), .cin(cin), 
-      .sum(s[6]), .cout(c1[6]));
-   fa__0_31 genblk1_7_Full_Adder (.in1(in1[7]), .in2(in2[7]), .cin(cin), 
-      .sum(s[7]), .cout(c1[7]));
-   fa__0_34 genblk1_8_Full_Adder (.in1(in1[8]), .in2(in2[8]), .cin(cin), 
-      .sum(s[8]), .cout(c1[8]));
-   fa__0_37 genblk1_9_Full_Adder (.in1(in1[9]), .in2(in2[9]), .cin(cin), 
-      .sum(s[9]), .cout(c1[9]));
-   fa__0_40 genblk1_10_Full_Adder (.in1(in1[10]), .in2(in2[10]), .cin(cin), 
-      .sum(s[10]), .cout(c1[10]));
-   fa__0_43 genblk1_11_Full_Adder (.in1(in1[11]), .in2(in2[11]), .cin(cin), 
-      .sum(s[11]), .cout(c1[11]));
-   fa__0_46 genblk1_12_Full_Adder (.in1(in1[12]), .in2(in2[12]), .cin(cin), 
-      .sum(s[12]), .cout(c1[12]));
-   fa__0_49 genblk1_13_Full_Adder (.in1(in1[13]), .in2(in2[13]), .cin(cin), 
-      .sum(s[13]), .cout(c1[13]));
-   fa__0_52 genblk1_14_Full_Adder (.in1(in1[14]), .in2(in2[14]), .cin(cin), 
-      .sum(s[14]), .cout(c1[14]));
-   fa__0_55 genblk1_15_Full_Adder (.in1(in1[15]), .in2(in2[15]), .cin(cin), 
-      .sum(s[15]), .cout(c1[15]));
-   fa__0_58 genblk1_16_Full_Adder (.in1(in1[16]), .in2(in2[16]), .cin(cin), 
-      .sum(s[16]), .cout(c1[16]));
-   fa__0_61 genblk1_17_Full_Adder (.in1(in1[17]), .in2(in2[17]), .cin(cin), 
-      .sum(s[17]), .cout(c1[17]));
-   fa__0_64 genblk1_18_Full_Adder (.in1(in1[18]), .in2(in2[18]), .cin(cin), 
-      .sum(s[18]), .cout(c1[18]));
-   fa__0_67 genblk1_19_Full_Adder (.in1(in1[19]), .in2(in2[19]), .cin(cin), 
-      .sum(s[19]), .cout(c1[19]));
-   fa__0_70 genblk1_20_Full_Adder (.in1(in1[20]), .in2(in2[20]), .cin(cin), 
-      .sum(s[20]), .cout(c1[20]));
-   fa__0_73 genblk1_21_Full_Adder (.in1(in1[21]), .in2(in2[21]), .cin(cin), 
-      .sum(s[21]), .cout(c1[21]));
-   fa__0_76 genblk1_22_Full_Adder (.in1(in1[22]), .in2(in2[22]), .cin(cin), 
-      .sum(s[22]), .cout(c1[22]));
-   fa__0_79 genblk1_23_Full_Adder (.in1(in1[23]), .in2(in2[23]), .cin(cin), 
-      .sum(s[23]), .cout(c1[23]));
-   fa__0_82 genblk1_24_Full_Adder (.in1(in1[24]), .in2(in2[24]), .cin(cin), 
-      .sum(s[24]), .cout(c1[24]));
-   fa__0_85 genblk1_25_Full_Adder (.in1(in1[25]), .in2(in2[25]), .cin(cin), 
-      .sum(s[25]), .cout(c1[25]));
-   fa__0_88 genblk1_26_Full_Adder (.in1(in1[26]), .in2(in2[26]), .cin(cin), 
-      .sum(s[26]), .cout(c1[26]));
-   fa__0_91 genblk1_27_Full_Adder (.in1(in1[27]), .in2(in2[27]), .cin(cin), 
-      .sum(s[27]), .cout(c1[27]));
-   fa__0_94 genblk1_28_Full_Adder (.in1(in1[28]), .in2(in2[28]), .cin(cin), 
-      .sum(s[28]), .cout(c1[28]));
-   fa__0_97 genblk1_29_Full_Adder (.in1(in1[29]), .in2(in2[29]), .cin(cin), 
-      .sum(s[29]), .cout(c1[29]));
-   fa__0_100 genblk1_30_Full_Adder (.in1(in1[30]), .in2(in2[30]), .cin(cin), 
-      .sum(s[30]), .cout(c1[30]));
-   fa__0_103 genblk1_31_Full_Adder (.in1(in1[31]), .in2(in2[31]), .cin(cin), 
-      .sum(s[31]), .cout(c1[31]));
-   fa__0_106 genblk2_1_Full_Adder (.in1(s[2]), .in2(c1[1]), .cin(c2[1]), 
-      .sum(sum[2]), .cout(c2[2]));
-   fa__0_109 genblk2_2_Full_Adder (.in1(s[3]), .in2(c1[2]), .cin(c2[2]), 
-      .sum(sum[3]), .cout(c2[3]));
-   fa__0_112 genblk2_3_Full_Adder (.in1(s[4]), .in2(c1[3]), .cin(c2[3]), 
-      .sum(sum[4]), .cout(c2[4]));
-   fa__0_115 genblk2_4_Full_Adder (.in1(s[5]), .in2(c1[4]), .cin(c2[4]), 
-      .sum(sum[5]), .cout(c2[5]));
-   fa__0_118 genblk2_5_Full_Adder (.in1(s[6]), .in2(c1[5]), .cin(c2[5]), 
-      .sum(sum[6]), .cout(c2[6]));
-   fa__0_121 genblk2_6_Full_Adder (.in1(s[7]), .in2(c1[6]), .cin(c2[6]), 
-      .sum(sum[7]), .cout(c2[7]));
-   fa__0_124 genblk2_7_Full_Adder (.in1(s[8]), .in2(c1[7]), .cin(c2[7]), 
-      .sum(sum[8]), .cout(c2[8]));
-   fa__0_127 genblk2_8_Full_Adder (.in1(s[9]), .in2(c1[8]), .cin(c2[8]), 
-      .sum(sum[9]), .cout(c2[9]));
-   fa__0_130 genblk2_9_Full_Adder (.in1(s[10]), .in2(c1[9]), .cin(c2[9]), 
-      .sum(sum[10]), .cout(c2[10]));
-   fa__0_133 genblk2_10_Full_Adder (.in1(s[11]), .in2(c1[10]), .cin(c2[10]), 
-      .sum(sum[11]), .cout(c2[11]));
-   fa__0_136 genblk2_11_Full_Adder (.in1(s[12]), .in2(c1[11]), .cin(c2[11]), 
-      .sum(sum[12]), .cout(c2[12]));
-   fa__0_139 genblk2_12_Full_Adder (.in1(s[13]), .in2(c1[12]), .cin(c2[12]), 
-      .sum(sum[13]), .cout(c2[13]));
-   fa__0_142 genblk2_13_Full_Adder (.in1(s[14]), .in2(c1[13]), .cin(c2[13]), 
-      .sum(sum[14]), .cout(c2[14]));
-   fa__0_145 genblk2_14_Full_Adder (.in1(s[15]), .in2(c1[14]), .cin(c2[14]), 
-      .sum(sum[15]), .cout(c2[15]));
-   fa__0_148 genblk2_15_Full_Adder (.in1(s[16]), .in2(c1[15]), .cin(c2[15]), 
-      .sum(sum[16]), .cout(c2[16]));
-   fa__0_151 genblk2_16_Full_Adder (.in1(s[17]), .in2(c1[16]), .cin(c2[16]), 
-      .sum(sum[17]), .cout(c2[17]));
-   fa__0_154 genblk2_17_Full_Adder (.in1(s[18]), .in2(c1[17]), .cin(c2[17]), 
-      .sum(sum[18]), .cout(c2[18]));
-   fa__0_157 genblk2_18_Full_Adder (.in1(s[19]), .in2(c1[18]), .cin(c2[18]), 
-      .sum(sum[19]), .cout(c2[19]));
-   fa__0_160 genblk2_19_Full_Adder (.in1(s[20]), .in2(c1[19]), .cin(c2[19]), 
-      .sum(sum[20]), .cout(c2[20]));
-   fa__0_163 genblk2_20_Full_Adder (.in1(s[21]), .in2(c1[20]), .cin(c2[20]), 
-      .sum(sum[21]), .cout(c2[21]));
-   fa__0_166 genblk2_21_Full_Adder (.in1(s[22]), .in2(c1[21]), .cin(c2[21]), 
-      .sum(sum[22]), .cout(c2[22]));
-   fa__0_169 genblk2_22_Full_Adder (.in1(s[23]), .in2(c1[22]), .cin(c2[22]), 
-      .sum(sum[23]), .cout(c2[23]));
-   fa__0_172 genblk2_23_Full_Adder (.in1(s[24]), .in2(c1[23]), .cin(c2[23]), 
-      .sum(sum[24]), .cout(c2[24]));
-   fa__0_175 genblk2_24_Full_Adder (.in1(s[25]), .in2(c1[24]), .cin(c2[24]), 
-      .sum(sum[25]), .cout(c2[25]));
-   fa__0_178 genblk2_25_Full_Adder (.in1(s[26]), .in2(c1[25]), .cin(c2[25]), 
-      .sum(sum[26]), .cout(c2[26]));
-   fa__0_181 genblk2_26_Full_Adder (.in1(s[27]), .in2(c1[26]), .cin(c2[26]), 
-      .sum(sum[27]), .cout(c2[27]));
-   fa__0_184 genblk2_27_Full_Adder (.in1(s[28]), .in2(c1[27]), .cin(c2[27]), 
-      .sum(sum[28]), .cout(c2[28]));
-   fa__0_187 genblk2_28_Full_Adder (.in1(s[29]), .in2(c1[28]), .cin(c2[28]), 
-      .sum(sum[29]), .cout(c2[29]));
-   fa__0_190 genblk2_29_Full_Adder (.in1(s[30]), .in2(c1[29]), .cin(c2[29]), 
-      .sum(sum[30]), .cout(c2[30]));
-   fa genblk2_30_Full_Adder (.in1(s[31]), .in2(c1[30]), .cin(c2[30]), .sum(
-      sum[31]), .cout(c2[31]));
+   fa__0_6 FA1 (.in1(s), .in2(n_0_62), .cin(), .sum(sum[1]), .cout(c2));
+   fa__0_9 FA2 (.in1(), .in2(n_0_60), .cin(n_0_1), .sum(cout), .cout());
+   fa__0_12 genblk1_1_Full_Adder (.in1(in1[1]), .in2(in2[1]), .cin(), .sum(s), 
+      .cout(c1));
+   fa__0_15 genblk1_2_Full_Adder (.in1(in1[2]), .in2(in2[2]), .cin(), .sum(n_0_3), 
+      .cout(n_0_2));
+   fa__0_18 genblk1_3_Full_Adder (.in1(in1[3]), .in2(in2[3]), .cin(), .sum(n_0_5), 
+      .cout(n_0_4));
+   fa__0_21 genblk1_4_Full_Adder (.in1(in1[4]), .in2(in2[4]), .cin(), .sum(n_0_7), 
+      .cout(n_0_6));
+   fa__0_24 genblk1_5_Full_Adder (.in1(in1[5]), .in2(in2[5]), .cin(), .sum(n_0_9), 
+      .cout(n_0_8));
+   fa__0_27 genblk1_6_Full_Adder (.in1(in1[6]), .in2(in2[6]), .cin(), .sum(
+      n_0_11), .cout(n_0_10));
+   fa__0_30 genblk1_7_Full_Adder (.in1(in1[7]), .in2(in2[7]), .cin(), .sum(
+      n_0_13), .cout(n_0_12));
+   fa__0_33 genblk1_8_Full_Adder (.in1(in1[8]), .in2(in2[8]), .cin(), .sum(
+      n_0_15), .cout(n_0_14));
+   fa__0_36 genblk1_9_Full_Adder (.in1(in1[9]), .in2(in2[9]), .cin(), .sum(
+      n_0_17), .cout(n_0_16));
+   fa__0_39 genblk1_10_Full_Adder (.in1(in1[10]), .in2(in2[10]), .cin(), 
+      .sum(n_0_19), .cout(n_0_18));
+   fa__0_42 genblk1_11_Full_Adder (.in1(in1[11]), .in2(in2[11]), .cin(), 
+      .sum(n_0_21), .cout(n_0_20));
+   fa__0_45 genblk1_12_Full_Adder (.in1(in1[12]), .in2(in2[12]), .cin(), 
+      .sum(n_0_23), .cout(n_0_22));
+   fa__0_48 genblk1_13_Full_Adder (.in1(in1[13]), .in2(in2[13]), .cin(), 
+      .sum(n_0_25), .cout(n_0_24));
+   fa__0_51 genblk1_14_Full_Adder (.in1(in1[14]), .in2(in2[14]), .cin(), 
+      .sum(n_0_27), .cout(n_0_26));
+   fa__0_54 genblk1_15_Full_Adder (.in1(in1[15]), .in2(in2[15]), .cin(), 
+      .sum(n_0_29), .cout(n_0_28));
+   fa__0_57 genblk1_16_Full_Adder (.in1(in1[16]), .in2(in2[16]), .cin(), 
+      .sum(n_0_31), .cout(n_0_30));
+   fa__0_60 genblk1_17_Full_Adder (.in1(in1[17]), .in2(in2[17]), .cin(), 
+      .sum(n_0_33), .cout(n_0_32));
+   fa__0_63 genblk1_18_Full_Adder (.in1(in1[18]), .in2(in2[18]), .cin(), 
+      .sum(n_0_35), .cout(n_0_34));
+   fa__0_66 genblk1_19_Full_Adder (.in1(in1[19]), .in2(in2[19]), .cin(), 
+      .sum(n_0_37), .cout(n_0_36));
+   fa__0_69 genblk1_20_Full_Adder (.in1(in1[20]), .in2(in2[20]), .cin(), 
+      .sum(n_0_39), .cout(n_0_38));
+   fa__0_72 genblk1_21_Full_Adder (.in1(in1[21]), .in2(in2[21]), .cin(), 
+      .sum(n_0_41), .cout(n_0_40));
+   fa__0_75 genblk1_22_Full_Adder (.in1(in1[22]), .in2(in2[22]), .cin(), 
+      .sum(n_0_43), .cout(n_0_42));
+   fa__0_78 genblk1_23_Full_Adder (.in1(in1[23]), .in2(in2[23]), .cin(), 
+      .sum(n_0_45), .cout(n_0_44));
+   fa__0_81 genblk1_24_Full_Adder (.in1(in1[24]), .in2(in2[24]), .cin(), 
+      .sum(n_0_47), .cout(n_0_46));
+   fa__0_84 genblk1_25_Full_Adder (.in1(in1[25]), .in2(in2[25]), .cin(), 
+      .sum(n_0_49), .cout(n_0_48));
+   fa__0_87 genblk1_26_Full_Adder (.in1(in1[26]), .in2(in2[26]), .cin(), 
+      .sum(n_0_51), .cout(n_0_50));
+   fa__0_90 genblk1_27_Full_Adder (.in1(in1[27]), .in2(in2[27]), .cin(), 
+      .sum(n_0_53), .cout(n_0_52));
+   fa__0_93 genblk1_28_Full_Adder (.in1(in1[28]), .in2(in2[28]), .cin(), 
+      .sum(n_0_55), .cout(n_0_54));
+   fa__0_96 genblk1_29_Full_Adder (.in1(in1[29]), .in2(in2[29]), .cin(), 
+      .sum(n_0_57), .cout(n_0_56));
+   fa__0_99 genblk1_30_Full_Adder (.in1(in1[30]), .in2(in2[30]), .cin(), 
+      .sum(n_0_59), .cout(n_0_58));
+   fa__0_102 genblk1_31_Full_Adder (.in1(in1[31]), .in2(in2[31]), .cin(), 
+      .sum(n_0_61), .cout(n_0_60));
+   fa__0_105 genblk1_0_Full_Adder (.in1(in1[0]), .in2(in2[0]), .cin(), .sum(
+      sum[0]), .cout(n_0_62));
+   fa__0_108 genblk2_1_Full_Adder (.in1(n_0_3), .in2(c1), .cin(c2), .sum(sum[2]), 
+      .cout(n_0_63));
+   fa__0_111 genblk2_2_Full_Adder (.in1(n_0_5), .in2(n_0_2), .cin(n_0_63), 
+      .sum(sum[3]), .cout(n_0_64));
+   fa__0_114 genblk2_3_Full_Adder (.in1(n_0_7), .in2(n_0_4), .cin(n_0_64), 
+      .sum(sum[4]), .cout(n_0_65));
+   fa__0_117 genblk2_4_Full_Adder (.in1(n_0_9), .in2(n_0_6), .cin(n_0_65), 
+      .sum(sum[5]), .cout(n_0_66));
+   fa__0_120 genblk2_5_Full_Adder (.in1(n_0_11), .in2(n_0_8), .cin(n_0_66), 
+      .sum(sum[6]), .cout(n_0_67));
+   fa__0_123 genblk2_6_Full_Adder (.in1(n_0_13), .in2(n_0_10), .cin(n_0_67), 
+      .sum(sum[7]), .cout(n_0_68));
+   fa__0_126 genblk2_7_Full_Adder (.in1(n_0_15), .in2(n_0_12), .cin(n_0_68), 
+      .sum(sum[8]), .cout(n_0_69));
+   fa__0_129 genblk2_8_Full_Adder (.in1(n_0_17), .in2(n_0_14), .cin(n_0_69), 
+      .sum(sum[9]), .cout(n_0_70));
+   fa__0_132 genblk2_9_Full_Adder (.in1(n_0_19), .in2(n_0_16), .cin(n_0_70), 
+      .sum(sum[10]), .cout(n_0_71));
+   fa__0_135 genblk2_10_Full_Adder (.in1(n_0_21), .in2(n_0_18), .cin(n_0_71), 
+      .sum(sum[11]), .cout(n_0_72));
+   fa__0_138 genblk2_11_Full_Adder (.in1(n_0_23), .in2(n_0_20), .cin(n_0_72), 
+      .sum(sum[12]), .cout(n_0_73));
+   fa__0_141 genblk2_12_Full_Adder (.in1(n_0_25), .in2(n_0_22), .cin(n_0_73), 
+      .sum(sum[13]), .cout(n_0_74));
+   fa__0_144 genblk2_13_Full_Adder (.in1(n_0_27), .in2(n_0_24), .cin(n_0_74), 
+      .sum(sum[14]), .cout(n_0_75));
+   fa__0_147 genblk2_14_Full_Adder (.in1(n_0_29), .in2(n_0_26), .cin(n_0_75), 
+      .sum(sum[15]), .cout(n_0_76));
+   fa__0_150 genblk2_15_Full_Adder (.in1(n_0_31), .in2(n_0_28), .cin(n_0_76), 
+      .sum(sum[16]), .cout(n_0_77));
+   fa__0_153 genblk2_16_Full_Adder (.in1(n_0_33), .in2(n_0_30), .cin(n_0_77), 
+      .sum(sum[17]), .cout(n_0_78));
+   fa__0_156 genblk2_17_Full_Adder (.in1(n_0_35), .in2(n_0_32), .cin(n_0_78), 
+      .sum(sum[18]), .cout(n_0_79));
+   fa__0_159 genblk2_18_Full_Adder (.in1(n_0_37), .in2(n_0_34), .cin(n_0_79), 
+      .sum(sum[19]), .cout(n_0_80));
+   fa__0_162 genblk2_19_Full_Adder (.in1(n_0_39), .in2(n_0_36), .cin(n_0_80), 
+      .sum(sum[20]), .cout(n_0_81));
+   fa__0_165 genblk2_20_Full_Adder (.in1(n_0_41), .in2(n_0_38), .cin(n_0_81), 
+      .sum(sum[21]), .cout(n_0_82));
+   fa__0_168 genblk2_21_Full_Adder (.in1(n_0_43), .in2(n_0_40), .cin(n_0_82), 
+      .sum(sum[22]), .cout(n_0_83));
+   fa__0_171 genblk2_22_Full_Adder (.in1(n_0_45), .in2(n_0_42), .cin(n_0_83), 
+      .sum(sum[23]), .cout(n_0_84));
+   fa__0_174 genblk2_23_Full_Adder (.in1(n_0_47), .in2(n_0_44), .cin(n_0_84), 
+      .sum(sum[24]), .cout(n_0_85));
+   fa__0_177 genblk2_24_Full_Adder (.in1(n_0_49), .in2(n_0_46), .cin(n_0_85), 
+      .sum(sum[25]), .cout(n_0_86));
+   fa__0_180 genblk2_25_Full_Adder (.in1(n_0_51), .in2(n_0_48), .cin(n_0_86), 
+      .sum(sum[26]), .cout(n_0_87));
+   fa__0_183 genblk2_26_Full_Adder (.in1(n_0_53), .in2(n_0_50), .cin(n_0_87), 
+      .sum(sum[27]), .cout(n_0_88));
+   fa__0_186 genblk2_27_Full_Adder (.in1(n_0_55), .in2(n_0_52), .cin(n_0_88), 
+      .sum(sum[28]), .cout(n_0_89));
+   fa__0_189 genblk2_28_Full_Adder (.in1(n_0_57), .in2(n_0_54), .cin(n_0_89), 
+      .sum(sum[29]), .cout(n_0_90));
+   fa__0_192 genblk2_29_Full_Adder (.in1(n_0_59), .in2(n_0_56), .cin(n_0_90), 
+      .sum(sum[30]), .cout(n_0_0));
+   fa genblk2_30_Full_Adder (.in1(n_0_61), .in2(n_0_58), .cin(n_0_0), .sum(
+      sum[31]), .cout(n_0_1));
+   OAI33_X1 i_0_0_0 (.A1(n_0_0_2), .A2(sum[31]), .A3(n_0_0_0), .B1(in1[31]), 
+      .B2(n_0_0_1), .B3(in2[31]), .ZN(of));
+   INV_X1 i_0_0_1 (.A(in2[31]), .ZN(n_0_0_0));
+   INV_X1 i_0_0_2 (.A(sum[31]), .ZN(n_0_0_1));
+   INV_X1 i_0_0_3 (.A(in1[31]), .ZN(n_0_0_2));
 endmodule
