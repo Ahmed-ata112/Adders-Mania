@@ -1,0 +1,36 @@
+Report Physical info: 
+------------------------+-------------+-----------+------------
+                        |             |Area (squm)|Leakage (uW)
+------------------------+-------------+-----------+------------
+Design Name             |CSaveA       |           |            
+  Total Instances       |          221|        268|       6.057
+    Macros              |            0|          0|       0.000
+    Pads                |            0|          0|       0.000
+    Phys                |            0|          0|       0.000
+    Blackboxes          |            0|          0|       0.000
+    Cells               |          221|        268|       6.057
+      Buffers           |            0|          0|       0.000
+      Inverters         |            3|          2|       0.043
+      Clock-Gates       |            0|          0|       0.000
+      Combinational     |          218|        267|       6.014
+      Latches           |            0|          0|       0.000
+      FlipFlops         |            0|          0|       0.000
+       Single-Bit FF    |            0|          0|       0.000
+       Multi-Bit FF     |            0|          0|       0.000
+       Clock-Gated      |            0|           |            
+       Bits             |            0|          0|       0.000
+         Load-Enabled   |            0|           |            
+         Clock-Gated    |            0|           |            
+  Tristate Pin Count    |            0|           |            
+Physical Info           |Placed       |           |            
+  Chip Size (mm x mm)   |0.081 x 0.081|       6585|            
+  Fixed Cell Area       |             |          0|            
+    Phys Only           |            0|          0|            
+  Placeable Area        |             |        443|            
+  Movable Cell Area     |             |        268|            
+  Utilization (%)       |           60|           |            
+  Chip Utilization (%)  |           60|           |            
+  Total Wire Length (mm)|        4.136|           |            
+  Longest Wire (mm)     |        0.044|           |            
+  Average Wire (mm)     |        0.042|           |            
+------------------------+-------------+-----------+------------
