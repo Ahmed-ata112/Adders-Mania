@@ -1,0 +1,13 @@
+#---------------------------------------------------------------------
+# start session at Sun Dec 4 15:58:18 2022
+# version 2019.1.R2 1.68700.2.290 Fri Nov 29 21:06:00 PST 2019 
+# Running on localhost.localdomain 1core 3.9GBytes 2.6GHz 64bits mode pid 22590 
+# Exec path is /home/vlsi/Installation/Nitro/nitroPack-2019.1.R2a/nitro/arch/linux/x86_64/2.12/64/bin
+#---------------------------------------------------------------------
+setup_ntr
+setup_ntf
+setup_nrf 
+./clean_nitro.sh 
+#---------------------------------------------------------------------
+# end session at Sun Dec 4 16:02:19 2022
+#---------------------------------------------------------------------

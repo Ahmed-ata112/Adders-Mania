@@ -1,0 +1,575 @@
+# Loading project testMULT
+vsim integrationMult -t ps -sdfmax ./multiplier.sdf 
+# vsim integrationMult -t ps -sdfmax "./multiplier.sdf" 
+# Start time: 17:17:19 on Dec 04,2022
+# //  ModelSim DE 2022.4 Oct 18 2022 Linux 3.10.0-1062.12.1.el7.x86_64
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.integrationMult
+# Loading work.registerNbits
+# Loading work.AND2_X1
+# Loading work.INV_X1
+# Loading work.OR2_X1
+# Loading work.DFF_X1
+# Loading work.CLKGATETST_X1
+# Loading work.registerNbits__0_9
+# Loading work.multiplyTimes
+# Loading work.datapath
+# Loading work.NAND2_X1
+# Loading work.NAND4_X1
+# Loading work.OAI21_X1
+# Loading work.AOI21_X1
+# Loading work.AOI22_X1
+# Loading work.NAND3_X1
+# Loading work.XNOR2_X1
+# Loading work.NOR2_X1
+# Loading work.XOR2_X1
+# Loading work.OAI22_X1
+# Loading work.AOI221_X1
+# Loading work.AND3_X1
+# Loading work.NOR3_X1
+# Loading work.OAI211_X1
+# Loading work.AND4_X1
+# Loading work.registerNbits__0_6
+# Loading work.registerNbits__0_3
+# Loading instances from ./multiplier.sdf
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 36
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(36): [TFMPC] - Missing connection for port 'QN'.
+# Loading work.seq_DFF_X1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 37
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(37): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 38
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(38): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 39
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(39): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 40
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(40): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 41
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(41): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 42
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 43
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(43): [TFMPC] - Missing connection for port 'QN'.
+# Loading work.seq_CLKGATETST_X1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 78
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 79
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(79): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 80
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 81
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(81): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 82
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 83
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(83): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 84
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 85
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(85): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 992
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(992): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 993
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(993): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 994
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(994): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 995
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(995): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 996
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(996): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 997
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(997): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 998
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(998): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 999
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(999): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1034
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1034): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1035
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1035): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1036
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1036): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1037
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1037): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1038
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1038): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1039
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1039): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1040
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1040): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1041
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1041): [TFMPC] - Missing connection for port 'QN'.
+# Loading timing data from ./multiplier.sdf
+# ** Warning: (vsim-8756) Instance 'integrationMult.outA.clk_gate_out_reg' - Negative timing check limits detected in simulation with cells modeled without delayed copies of data or reference signals.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v
+add wave -position end  sim:/integrationMult/clk
+add wave -position end  sim:/integrationMult/result
+add wave -position end  sim:/integrationMult/en
+add wave -position end  sim:/integrationMult/inputA
+add wave -position end  sim:/integrationMult/inputB
+add wave -position end  sim:/integrationMult/reset
+force -freeze sim:/integrationMult/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/integrationMult/en 1'h1 0
+force -freeze sim:/integrationMult/inputA 8'hA1 0
+force -freeze sim:/integrationMult/inputB 8'hA3 0
+force -freeze sim:/integrationMult/reset 1'h0 0
+run
+# ** Error: $setup( posedge E:32 ps, posedge CK:100 ps, 82 ps );
+#    Time: 100 ps  Iteration: 1  Process: /integrationMult/regB/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+run
+# ** Error: $setup( posedge E:32 ps, posedge CK:101 ps, 82 ps );
+#    Time: 101 ps  Iteration: 1  Process: /integrationMult/regA/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Error: $setup( posedge E:32 ps, posedge CK:101 ps, 82 ps );
+#    Time: 101 ps  Iteration: 1  Process: /integrationMult/outB/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Error: $setup( posedge E:40 ps, posedge CK:101 ps, 83 ps );
+#    Time: 101 ps  Iteration: 1  Process: /integrationMult/outA/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of multiplier.route.v was successful.
+# Compile of NangateOpenCellLibrary.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.integrationMult
+# Loading work.registerNbits
+# Loading work.AND2_X1
+# Loading work.INV_X1
+# Loading work.OR2_X1
+# Loading work.DFF_X1
+# Loading work.CLKGATETST_X1
+# Loading work.registerNbits__0_9
+# Loading work.multiplyTimes
+# Loading work.datapath
+# Loading work.NAND2_X1
+# Loading work.NAND4_X1
+# Loading work.OAI21_X1
+# Loading work.AOI21_X1
+# Loading work.AOI22_X1
+# Loading work.NAND3_X1
+# Loading work.XNOR2_X1
+# Loading work.NOR2_X1
+# Loading work.XOR2_X1
+# Loading work.OAI22_X1
+# Loading work.AOI221_X1
+# Loading work.AND3_X1
+# Loading work.NOR3_X1
+# Loading work.OAI211_X1
+# Loading work.AND4_X1
+# Loading work.registerNbits__0_6
+# Loading work.registerNbits__0_3
+# Loading instances from ./multiplier.sdf
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 36
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(36): [TFMPC] - Missing connection for port 'QN'.
+# Loading work.seq_DFF_X1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 37
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(37): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 38
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(38): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 39
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(39): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 40
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(40): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 41
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(41): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 42
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 43
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(43): [TFMPC] - Missing connection for port 'QN'.
+# Loading work.seq_CLKGATETST_X1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 78
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 79
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(79): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 80
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 81
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(81): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 82
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 83
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(83): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 84
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 85
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(85): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 992
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(992): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 993
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(993): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 994
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(994): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 995
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(995): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 996
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(996): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 997
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(997): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 998
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(998): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 999
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(999): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1034
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1034): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1035
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1035): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1036
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1036): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1037
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1037): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1038
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1038): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1039
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1039): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1040
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1040): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1041
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1041): [TFMPC] - Missing connection for port 'QN'.
+# Loading timing data from ./multiplier.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v
+force -freeze sim:/integrationMult/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/integrationMult/inputB 8'hA3 0
+force -freeze sim:/integrationMult/reset 1'h0 0
+force -freeze sim:/integrationMult/inputA 8'hA1 0
+run
+force -freeze sim:/integrationMult/en 1'h1 0
+run
+# ** Error: $setup( posedge E:1032 ps, posedge CK:1100 ps, 82 ps );
+#    Time: 1100 ps  Iteration: 0  Process: /integrationMult/regB/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Error: $setup( posedge E:1040 ps, posedge CK:1101 ps, 83 ps );
+#    Time: 1101 ps  Iteration: 0  Process: /integrationMult/outA/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Error: $setup( posedge E:1032 ps, posedge CK:1101 ps, 82 ps );
+#    Time: 1101 ps  Iteration: 0  Process: /integrationMult/outB/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+# ** Error: $setup( posedge E:1032 ps, posedge CK:1101 ps, 82 ps );
+#    Time: 1101 ps  Iteration: 0  Process: /integrationMult/regA/clk_gate_out_reg/#Setuphold# File: /home/vlsi/Desktop/Lab5_2022/lib_data/NangateOpenCellLibrary.v Line: 934
+force -freeze sim:/integrationMult/result 16'h3 0
+run
+noforce sim:/integrationMult/result
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/integrationMult/clk 1 0, 0 {50000 ps} -r 100000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/integrationMult/clk 1 0, 0 {500000 ps} -r 1000000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/integrationMult/clk 1 0, 0 {2500 ps} -r 5000
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading instances from ./multiplier.sdf
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 36
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(36): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 37
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(37): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 38
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(38): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 39
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(39): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 40
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(40): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 41
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(41): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 42
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(42): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 43
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(43): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 78
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(78): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 79
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(79): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 80
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(80): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 81
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(81): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 82
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(82): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 83
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(83): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 84
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(84): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/outB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 85
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(85): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 992
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(992): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 993
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(993): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 994
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(994): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 995
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(995): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 996
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(996): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 997
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(997): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 998
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(998): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regB/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 999
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(999): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[0] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[0]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1034
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1034): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[1] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[1]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1035
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1035): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[2] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[2]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1036
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1036): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[3] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[3]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1037
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1037): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[4] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[4]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1038
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1038): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[5] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[5]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1039
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1039): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[6] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[6]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1040
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1040): [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for '\out_reg[7] '.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult/regA/\out_reg[7]  File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v Line: 1041
+# ** Warning: (vsim-3722) /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v(1041): [TFMPC] - Missing connection for port 'QN'.
+# Loading timing data from ./multiplier.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /integrationMult File: /home/vlsi/Desktop/Lab5_2022/work/multiplier.route.v
+force -freeze sim:/integrationMult/clk 1 0, 0 {2500 ps} -r 5000
+force -freeze sim:/integrationMult/en 1'h1 0
+force -freeze sim:/integrationMult/inputA 8'hA1 0
+force -freeze sim:/integrationMult/inputB 8'hA2 0
+force -freeze sim:/integrationMult/reset 1'h0 0
+run
+force -freeze sim:/integrationMult/clk 1 0, 0 {5000 ps} -r 10000
+run
+run
