@@ -1,0 +1,36 @@
+Report Physical info: 
+------------------------+--------------+-----------+------------
+                        |              |Area (squm)|Leakage (uW)
+------------------------+--------------+-----------+------------
+Design Name             |seq_multiplier|           |            
+  Total Instances       |           766|       1713|      32.876
+    Macros              |             0|          0|       0.000
+    Pads                |             0|          0|       0.000
+    Phys                |             0|          0|       0.000
+    Blackboxes          |             0|          0|       0.000
+    Cells               |           766|       1713|      32.876
+      Buffers           |             0|          0|       0.000
+      Inverters         |            91|         48|       1.306
+      Clock-Gates       |             2|          8|       0.118
+      Combinational     |           506|        820|      17.515
+      Latches           |             0|          0|       0.000
+      FlipFlops         |           167|        837|      13.936
+       Single-Bit FF    |           167|        837|      13.936
+       Multi-Bit FF     |             0|          0|       0.000
+       Clock-Gated      |           129|           |            
+       Bits             |           167|        837|      13.936
+         Load-Enabled   |             0|           |            
+         Clock-Gated    |           129|           |            
+  Tristate Pin Count    |             0|           |            
+Physical Info           |Placed        |           |            
+  Chip Size (mm x mm)   |0.113 x 0.113 |      12865|            
+  Fixed Cell Area       |              |          0|            
+    Phys Only           |             0|          0|            
+  Placeable Area        |              |       2840|            
+  Movable Cell Area     |              |       1713|            
+  Utilization (%)       |            60|           |            
+  Chip Utilization (%)  |            60|           |            
+  Total Wire Length (mm)|         7.852|           |            
+  Longest Wire (mm)     |         0.066|           |            
+  Average Wire (mm)     |         0.060|           |            
+------------------------+--------------+-----------+------------

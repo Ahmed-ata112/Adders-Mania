@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2022.4 2022.10, Oct 18 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/vlsi/Desktop/Lab5_2022/work
+vbooth_algorithm
+!s110 1670953557
+!i10b 1
+!s100 8nW`0c[<26a7Q0iizd<XR1
+InjC84ZX@Jn468b6o=cSGW2
+Z0 d/mnt/hgfs/shared/Mini project 2
+w1670953469
+8/mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v
+F/mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v
+!i122 39
+L0 1 115
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 OP;L;2022.4;75
+r1
+!s85 0
+31
+Z3 !s108 1670953556.000000
+!s107 /mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vbooth_algorithm_tb
+!s110 1670953556
+!i10b 1
+!s100 _0jVhNMKMMonDY]?WQ@RZ1
+IUn_1X`EnX[>cbbR9:^Ibl1
+R0
+w1670949532
+8/mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v
+F/mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v
+!i122 38
+L0 1 42
+R1
+R2
+r1
+!s85 0
+31
+R3
+!s107 /mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v|
+!i113 1
+R4
+R5

@@ -1,0 +1,274 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/academic_material/third_year/VLSI/repos/VLSI-Projects/Project_1/rtl/fp_adder
+T_opt
+!s110 1667550958
+VbOSb?Gkijij<Q7?8in6YL0
+Z2 04 11 4 work fp_adder_tb fast 0
+=3-020cf0a1cd70-6364ceee-d3-5524
+Z3 !s124 OEM10U4 
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1667575827
+V10?6EkcU1;dL]<o`Xm0b]0
+R2
+=1-020cf0a1cd70-63653013-104-65c
+!s124 OEM10U12 
+o-quiet -auto_acc_if_foreign -work work
+R5
+n@_opt1
+R6
+T_opt2
+!s110 1667038375
+VPY34Q0IZ[ZSUA5ZRj0ak40
+R2
+=21-020cf0a1cd70-635cfca7-158-7a80
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+vCLA
+Z7 !s110 1667575287
+!i10b 1
+!s100 5;304LnR<<g=7EO?7NOEE3
+IY7^Rj`Rk=1o>[<ilm6ah01
+R1
+w1667569273
+8CLA.v
+FCLA.v
+!i122 90
+L0 1 30
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1667575287.000000
+Z11 !s107 fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|CLA_4bit.v|CLA.v|
+Z12 !s90 CLA.v|CLA_4bit.v|count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@c@l@a
+vCLA_4bit
+R7
+!i10b 1
+!s100 Eai;N7eb@LL]1F340;PCL0
+I`<8J@_dMi^AffUVLGLj4R2
+R1
+w1667569261
+8CLA_4bit.v
+FCLA_4bit.v
+!i122 90
+Z14 L0 1 26
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R5
+n@c@l@a_4bit
+vcount_leading_zeros
+R7
+!i10b 1
+!s100 =CZ>5Afn[6<f;K>070LXi3
+I<`LKX`^^J8fGoEF?a0E2G2
+R1
+w1667038163
+8count_leading_zeros.v
+Fcount_leading_zeros.v
+!i122 90
+R14
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R5
+vfp_adder
+R7
+!i10b 1
+!s100 Wi@Ki[:Yl`iJn5o>G4gJk0
+IcC`685d>5hH^hFIR52e??3
+R1
+w1667575266
+8fp_adder.v
+Ffp_adder.v
+!i122 90
+L0 1 148
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R5
+vfp_adder_tb
+R7
+!i10b 1
+!s100 Xn9CAgZN=g0@L7]Y[_`@D2
+IG5ijSVRm_IG1oW>^Y:`_V2
+R1
+w1667575287
+8fp_adder_tb.v
+Ffp_adder_tb.v
+!i122 90
+L0 1 153
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R5
+vsimpleAdder
+!s110 1667566554
+!i10b 1
+!s100 bU2o>IJ=WE^6`Q@cMbFOZ3
+IKDEL5SlN0bKQ<cIkbDU?j1
+R1
+w1667493173
+8simpleAdder.v
+FsimpleAdder.v
+!i122 61
+L0 2 12
+R8
+R9
+r1
+!s85 0
+31
+!s108 1667566554.000000
+!s107 simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|CarryLookAheadAdder.v|
+!s90 CarryLookAheadAdder.v|count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|
+!i113 0
+R13
+R5
+nsimple@adder
+vtest
+!s110 1666905902
+!i10b 1
+!s100 YEW<[4lbPeVPbWB>hXkRg1
+I8jnMV][2[NUALcc0SJS[G3
+R1
+w1666905901
+8test.v
+Ftest.v
+!i122 22
+L0 1 18
+R8
+R9
+r1
+!s85 0
+31
+!s108 1666905902.000000
+!s107 test.v|simpleAdder.v|fp_adder_tb.v|fp_adder.v|count_leading_zeros.v|
+!s90 count_leading_zeros.v|fp_adder.v|fp_adder_tb.v|simpleAdder.v|test.v|
+!i113 0
+R13
+R5

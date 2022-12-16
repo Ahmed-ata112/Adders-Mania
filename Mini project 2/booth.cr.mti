@@ -1,0 +1,15 @@
+/mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v {1 {vlog -work work -stats=none /mnt/hgfs/shared/Project_2/rtl/booth_multiplier/booth_multiplier.v
+Model Technology ModelSim DE vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module booth_algorithm
+
+Top level modules:
+	booth_algorithm
+
+} {} {}} {/mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v} {1 {vlog -work work -stats=none {/mnt/hgfs/shared/Mini project 2/booth_multiplier_tb.v}
+Model Technology ModelSim DE vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module booth_algorithm_tb
+
+Top level modules:
+	booth_algorithm_tb
+
+} {} {}}
