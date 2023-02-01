@@ -11,5 +11,5 @@ Adders implemented.
 
 And used the best of them to implement a floating-point adder (single precision) 
 - Truncation is used so there is a relatively large error  
-- overflow and underflow will cause an error signal 
+- overflow and underflow will raise an error signal 
 
